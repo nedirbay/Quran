@@ -1,0 +1,35 @@
+{
+  "id": 113,
+  "nameArabic": "الفلق",
+  "nameTranslit": "Al-Falaq",
+  "nameTurkmen": "Felak",
+  "revelation": "mekke",
+  "totalAyahs": 5,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ",
+      "turkmen": "Aýt: «Daňyň Rabbyna sygynýaryn,"
+    },
+    {
+      "number": 2,
+      "arabic": "مِن شَرِّ مَا خَلَقَ",
+      "turkmen": "Ol ýaradan zatlarynyň şerinden,"
+    },
+    {
+      "number": 3,
+      "arabic": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "turkmen": "Garaňkylygy çöken gijäniň şerinden,"
+    },
+    {
+      "number": 4,
+      "arabic": "وَمِن شَرِّ ٱلنَّفَّـٰثَٰتِ فِي ٱلۡعُقَدِ",
+      "turkmen": "Düwünlere üflüýän jadygöýleriň şerinden,"
+    },
+    {
+      "number": 5,
+      "arabic": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "turkmen": "Hasyt edende hasydyň şerinden»."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": 103,
+  "nameArabic": "العصر",
+  "nameTranslit": "Al-'Asr",
+  "nameTurkmen": "Asr",
+  "revelation": "mekke",
+  "totalAyahs": 3,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "وَٱلۡعَصۡرِ",
+      "turkmen": "Asra (zamana) ant bolsun!"
+    },
+    {
+      "number": 2,
+      "arabic": "إِنَّ ٱلۡإِنسَٰنَ لَفِي خُسۡرٍ",
+      "turkmen": "Hakykatdan-da, ynsan zyýandadyr."
+    },
+    {
+      "number": 3,
+      "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ وَتَوَاصَوۡاْ بِٱلۡحَقِّ وَتَوَاصَوۡاْ بِٱلصَّبۡرِ",
+      "turkmen": "Diňe iman getirip, salih amallar edenler, biri-birine hakykaty we sabyrly bolmagy wesýet edenler muňa girmez."
+    }
+  ]
+}

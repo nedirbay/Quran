@@ -1,0 +1,35 @@
+{
+  "id": 105,
+  "nameArabic": "الفيل",
+  "nameTranslit": "Al-Fil",
+  "nameTurkmen": "Fil",
+  "revelation": "mekke",
+  "totalAyahs": 5,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "أَلَمۡ تَرَ كَيۡفَ فَعَلَ رَبُّكَ بِأَصۡحَٰبِ ٱلۡفِيلِ",
+      "turkmen": "Rabbyňyň pil eýelerine näme edenini görmediňmi?"
+    },
+    {
+      "number": 2,
+      "arabic": "أَلَمۡ يَجۡعَلۡ كَيۡدَهُمۡ فِي تَضۡلِيلٖ",
+      "turkmen": "Olaryň hilesini puja çykarmadymy?"
+    },
+    {
+      "number": 3,
+      "arabic": "وَأَرۡسَلَ عَلَيۡهِمۡ طَيۡرًا أَبَابِيلَ",
+      "turkmen": "Olaryň üstüne topar-topar guşlary iberdi."
+    },
+    {
+      "number": 4,
+      "arabic": "تَرۡمِيهِم بِحِجَارَةٖ مِّن سِجِّيلٖ",
+      "turkmen": "Ol guşlar olara bişen palçykdan (sijjilden) daşlary atýardylar."
+    },
+    {
+      "number": 5,
+      "arabic": "فَجَعَلَهُمۡ كَعَصۡفٖ مَّأۡكُولِۭ",
+      "turkmen": "Netijede, Ol olary iýlip taşlanan ekin ýapraklary ýaly etdi."
+    }
+  ]
+}

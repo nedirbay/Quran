@@ -1,0 +1,55 @@
+{
+  "id": 104,
+  "nameArabic": "الهمزة",
+  "nameTranslit": "Al-Humazah",
+  "nameTurkmen": "Hümeze",
+  "revelation": "mekke",
+  "totalAyahs": 9,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "وَيۡلٞ لِّكُلِّ هُمَزَةٖ لُّمَزَةٍ",
+      "turkmen": "Adamlary arkasyndan gybat edip, ýüzüne kemsidýän her bir kişä wah bolsun!"
+    },
+    {
+      "number": 2,
+      "arabic": "ٱلَّذِي جَمَعَ مَالٗا وَعَدَّدَهُۥ",
+      "turkmen": "Ol mal ýygnap, ony gaýta-gaýta sanap oturýandyr."
+    },
+    {
+      "number": 3,
+      "arabic": "يَحۡسَبُ أَنَّ مَالَهُۥٓ أَخۡلَدَهُۥ",
+      "turkmen": "Ol öz malynyň özüni baky ýaşatjakdygyny pikir edýär."
+    },
+    {
+      "number": 4,
+      "arabic": "كَلَّاۖ لَيُنۢبَذَنَّ فِي ٱلۡحُطَمَةِ",
+      "turkmen": "Ýok, beýle däl! Ol hökman Hutama zyňlar."
+    },
+    {
+      "number": 5,
+      "arabic": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡحُطَمَةُ",
+      "turkmen": "Hutamanyň näme ekenini saňa näme bildirdi?"
+    },
+    {
+      "number": 6,
+      "arabic": "نَارُ ٱللَّهِ ٱلۡمُوقَدَةُ",
+      "turkmen": "Ol Allahyň tutaşdyrylan odudyr,"
+    },
+    {
+      "number": 7,
+      "arabic": "ٱلَّتِي تَطَّلِعُ عَلَى ٱلۡأَفۡـِٔدَةِ",
+      "turkmen": "Ol ýüreklere çenli ýetýändir."
+    },
+    {
+      "number": 8,
+      "arabic": "إِنَّهَا عَلَيۡهِم مُّؤۡصَدَةٞ",
+      "turkmen": "Hakykatdan-da, ol olaryň üstüni gapap alandyr,"
+    },
+    {
+      "number": 9,
+      "arabic": "فِي عَمَدٖ مُّمَدَّدَةِۭ",
+      "turkmen": "Uzyn sütünlerde (baglanan ýagdaýda)."
+    }
+  ]
+}

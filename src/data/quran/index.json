@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "nameArabic": "الفاتحة",
+    "nameTranslit": "Al-Fatihah",
+    "nameTurkmen": "Fatiha",
+    "revelation": "mekke",
+    "totalAyahs": 7
+  },
+  {
+    "id": 103,
+    "nameArabic": "العصر",
+    "nameTranslit": "Al-'Asr",
+    "nameTurkmen": "Asr",
+    "revelation": "mekke",
+    "totalAyahs": 3
+  },
+  {
+    "id": 104,
+    "nameArabic": "الهمزة",
+    "nameTranslit": "Al-Humazah",
+    "nameTurkmen": "Hümeze",
+    "revelation": "mekke",
+    "totalAyahs": 9
+  },
+  {
+    "id": 105,
+    "nameArabic": "الفيل",
+    "nameTranslit": "Al-Fil",
+    "nameTurkmen": "Fil",
+    "revelation": "mekke",
+    "totalAyahs": 5
+  },
+  {
+    "id": 106,
+    "nameArabic": "قريش",
+    "nameTranslit": "Quraysh",
+    "nameTurkmen": "Kureýş",
+    "revelation": "mekke",
+    "totalAyahs": 4
+  },
+  {
+    "id": 107,
+    "nameArabic": "الماعون",
+    "nameTranslit": "Al-Ma'un",
+    "nameTurkmen": "Maun",
+    "revelation": "mekke",
+    "totalAyahs": 7
+  },
+  {
+    "id": 108,
+    "nameArabic": "الكوثر",
+    "nameTranslit": "Al-Kawthar",
+    "nameTurkmen": "Kewser",
+    "revelation": "mekke",
+    "totalAyahs": 3
+  },
+  {
+    "id": 109,
+    "nameArabic": "الكافرون",
+    "nameTranslit": "Al-Kafirun",
+    "nameTurkmen": "Kafirun",
+    "revelation": "mekke",
+    "totalAyahs": 6
+  },
+  {
+    "id": 110,
+    "nameArabic": "النصر",
+    "nameTranslit": "An-Nasr",
+    "nameTurkmen": "Nasr",
+    "revelation": "medine",
+    "totalAyahs": 3
+  },
+  {
+    "id": 111,
+    "nameArabic": "المسد",
+    "nameTranslit": "Al-Masad",
+    "nameTurkmen": "Mesed",
+    "revelation": "mekke",
+    "totalAyahs": 5
+  },
+  {
+    "id": 112,
+    "nameArabic": "الإخلاص",
+    "nameTranslit": "Al-Ikhlas",
+    "nameTurkmen": "Yhlas",
+    "revelation": "mekke",
+    "totalAyahs": 4
+  },
+  {
+    "id": 113,
+    "nameArabic": "الفلق",
+    "nameTranslit": "Al-Falaq",
+    "nameTurkmen": "Felak",
+    "revelation": "mekke",
+    "totalAyahs": 5
+  },
+  {
+    "id": 114,
+    "nameArabic": "الناس",
+    "nameTranslit": "An-Nas",
+    "nameTurkmen": "Nas",
+    "revelation": "mekke",
+    "totalAyahs": 6
+  }
+]

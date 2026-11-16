@@ -1,0 +1,30 @@
+{
+  "id": 112,
+  "nameArabic": "الإخلاص",
+  "nameTranslit": "Al-Ikhlas",
+  "nameTurkmen": "Yhlas",
+  "revelation": "mekke",
+  "totalAyahs": 4,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "قُلۡ هُوَ ٱللَّهُ أَحَدٌ",
+      "turkmen": "Aýt: «Ol Allah ýeke-täkdir."
+    },
+    {
+      "number": 2,
+      "arabic": "ٱللَّهُ ٱلصَّمَدُ",
+      "turkmen": "Allah Samaddyr (hiç zada mätäç däl, ähli zat Oňa mätäçdir)."
+    },
+    {
+      "number": 3,
+      "arabic": "لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ",
+      "turkmen": "Ol dogurmady we dogulmady."
+    },
+    {
+      "number": 4,
+      "arabic": "وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ",
+      "turkmen": "Hiç kim Oňa deň däldir»."
+    }
+  ]
+}

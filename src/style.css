@@ -1,0 +1,163 @@
+@import 'tailwindcss';
+
+/* Gije tertibi .dark synpy arkaly */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ------------------------------------------------------------------
+ * Dizaýn tokenleri: ak / pil süňki fon, goýy ýaşyl esasy reňk, altyn çalgy.
+ * Ähli reňkler CSS üýtgeýänleri arkaly — tema çalşanda awtomatiki üýtgeýär.
+ * ------------------------------------------------------------------ */
+@theme inline {
+  --color-bg: var(--c-bg);
+  --color-surface: var(--c-surface);
+  --color-surface-2: var(--c-surface-2);
+  --color-ink: var(--c-ink);
+  --color-muted: var(--c-muted);
+  --color-line: var(--c-line);
+  --color-primary: var(--c-primary);
+  --color-primary-strong: var(--c-primary-strong);
+  --color-primary-soft: var(--c-primary-soft);
+  --color-on-primary: var(--c-on-primary);
+  --color-gold: var(--c-gold);
+  --color-gold-soft: var(--c-gold-soft);
+  --color-success: var(--c-success);
+  --color-success-soft: var(--c-success-soft);
+  --color-danger: var(--c-danger);
+  --color-danger-soft: var(--c-danger-soft);
+
+  --font-sans: 'Inter Variable', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-quran: 'Amiri Quran', 'Scheherazade New', 'Traditional Arabic', serif;
+  --font-arabic: 'Scheherazade New', 'Amiri Quran', 'Traditional Arabic', serif;
+
+  --radius-card: 1.25rem;
+}
+
+:root {
+  --c-bg: #f7f4ec;
+  --c-surface: #fffdf8;
+  --c-surface-2: #f1ece0;
+  --c-ink: #1c2a24;
+  --c-muted: #5f6b64;
+  --c-line: #e4dccb;
+  --c-primary: #0f4c3a;
+  --c-primary-strong: #0a3a2c;
+  --c-primary-soft: #e3eee8;
+  --c-on-primary: #fdfbf5;
+  --c-gold: #a67c2e;
+  --c-gold-soft: #f3e8cf;
+  --c-success: #2f7d4f;
+  --c-success-soft: #e2f1e7;
+  --c-danger: #a8432f;
+  --c-danger-soft: #f7e4df;
+  --quran-size: 40px;
+  color-scheme: light;
+}
+
+.dark {
+  --c-bg: #0f1714;
+  --c-surface: #16211d;
+  --c-surface-2: #1d2b26;
+  --c-ink: #e9e4d6;
+  --c-muted: #9aa69f;
+  --c-line: #2a3a34;
+  --c-primary: #6fbf9a;
+  --c-primary-strong: #8fd3b2;
+  --c-primary-soft: #1d332b;
+  --c-on-primary: #0d1814;
+  --c-gold: #d6b26a;
+  --c-gold-soft: #33301f;
+  --c-success: #7cc79a;
+  --c-success-soft: #1b3326;
+  --c-danger: #e39a88;
+  --c-danger-soft: #3a2420;
+  color-scheme: dark;
+}
+
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-bg text-ink font-sans antialiased;
+    min-height: 100dvh;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-gold;
+  }
+  [lang='ar'] {
+    font-family: var(--font-arabic);
+  }
+}
+
+@utility card {
+  @apply rounded-(--radius-card) border border-line bg-surface shadow-[0_1px_2px_rgb(0_0_0/0.04)];
+}
+@utility btn {
+  @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-xl px-5 text-[15px] font-semibold
+    transition-colors duration-150 select-none disabled:cursor-not-allowed disabled:opacity-50;
+}
+@utility btn-primary {
+  @apply btn bg-primary text-on-primary hover:bg-primary-strong;
+}
+@utility btn-secondary {
+  @apply btn border border-line bg-surface text-ink hover:bg-surface-2;
+}
+@utility btn-ghost {
+  @apply btn text-primary hover:bg-primary-soft;
+}
+@utility btn-gold {
+  @apply btn bg-gold text-white hover:brightness-110;
+}
+@utility btn-icon {
+  @apply inline-flex size-11 items-center justify-center rounded-full text-ink transition-colors hover:bg-surface-2;
+}
+@utility chip {
+  @apply inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-semibold;
+}
+@utility eyebrow {
+  @apply text-xs font-semibold tracking-[0.14em] text-gold uppercase;
+}
+
+@layer components {
+  /* Kuran teksti */
+  .quran-text {
+    font-family: var(--font-quran);
+    font-size: var(--quran-size);
+    line-height: 2.1;
+    word-spacing: 0.08em;
+  }
+
+  /* Altyn çyzykly bezeg — minimalist yslam nagşy */
+  .ornament-divider {
+    @apply flex items-center gap-3 text-gold;
+  }
+  .ornament-divider::before,
+  .ornament-divider::after {
+    content: '';
+    @apply h-px flex-1 bg-linear-to-r from-transparent via-gold/50 to-transparent;
+  }
+}
+
+/* Sahypa geçişi */
+.page-enter-active,
+.page-leave-active {
+  transition:
+    opacity 0.18s ease,
+    transform 0.18s ease;
+}
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(6px);
+}
+.page-leave-to {
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

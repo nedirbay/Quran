@@ -1,0 +1,40 @@
+{
+  "id": 114,
+  "nameArabic": "الناس",
+  "nameTranslit": "An-Nas",
+  "nameTurkmen": "Nas",
+  "revelation": "mekke",
+  "totalAyahs": 6,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+      "turkmen": "Aýt: «Adamlaryň Rabbyna sygynýaryn,"
+    },
+    {
+      "number": 2,
+      "arabic": "مَلِكِ ٱلنَّاسِ",
+      "turkmen": "Adamlaryň Patyşasyna,"
+    },
+    {
+      "number": 3,
+      "arabic": "إِلَٰهِ ٱلنَّاسِ",
+      "turkmen": "Adamlaryň Ilahyna,"
+    },
+    {
+      "number": 4,
+      "arabic": "مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ",
+      "turkmen": "Gizlenip-gizlenip weswese berýäniň şerinden,"
+    },
+    {
+      "number": 5,
+      "arabic": "ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ",
+      "turkmen": "Ol adamlaryň göwüslerine weswese salýandyr,"
+    },
+    {
+      "number": 6,
+      "arabic": "مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ",
+      "turkmen": "Ol jynlardan hem, adamlardan hem bolýandyr»."
+    }
+  ]
+}

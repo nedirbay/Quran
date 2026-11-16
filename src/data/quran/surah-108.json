@@ -1,0 +1,25 @@
+{
+  "id": 108,
+  "nameArabic": "الكوثر",
+  "nameTranslit": "Al-Kawthar",
+  "nameTurkmen": "Kewser",
+  "revelation": "mekke",
+  "totalAyahs": 3,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "إِنَّآ أَعۡطَيۡنَٰكَ ٱلۡكَوۡثَرَ",
+      "turkmen": "Hakykatdan-da, Biz saňa Kewseri berdik."
+    },
+    {
+      "number": 2,
+      "arabic": "فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ",
+      "turkmen": "Şonuň üçin Rabbyň üçin namaz oka we gurban çal."
+    },
+    {
+      "number": 3,
+      "arabic": "إِنَّ شَانِئَكَ هُوَ ٱلۡأَبۡتَرُ",
+      "turkmen": "Hakykatdan-da, saňa duşmançylyk edýäniň özi yzsyzdyr (nesilsizdir)."
+    }
+  ]
+}

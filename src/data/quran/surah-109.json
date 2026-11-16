@@ -1,0 +1,40 @@
+{
+  "id": 109,
+  "nameArabic": "الكافرون",
+  "nameTranslit": "Al-Kafirun",
+  "nameTurkmen": "Kafirun",
+  "revelation": "mekke",
+  "totalAyahs": 6,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "قُلۡ يَـٰٓأَيُّهَا ٱلۡكَٰفِرُونَ",
+      "turkmen": "Aýt: «Eý, kapyrlar!"
+    },
+    {
+      "number": 2,
+      "arabic": "لَآ أَعۡبُدُ مَا تَعۡبُدُونَ",
+      "turkmen": "Men siziň ybadat edýän zatlaryňyza ybadat etmerin."
+    },
+    {
+      "number": 3,
+      "arabic": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
+      "turkmen": "Siz hem meniň ybadat edýänime ybadat ediji dälsiňiz."
+    },
+    {
+      "number": 4,
+      "arabic": "وَلَآ أَنَا۠ عَابِدٞ مَّا عَبَدتُّمۡ",
+      "turkmen": "Men siziň ybadat eden zatlaryňyza ybadat ediji däldirin."
+    },
+    {
+      "number": 5,
+      "arabic": "وَلَآ أَنتُمۡ عَٰبِدُونَ مَآ أَعۡبُدُ",
+      "turkmen": "Siz hem meniň ybadat edýänime ybadat ediji dälsiňiz."
+    },
+    {
+      "number": 6,
+      "arabic": "لَكُمۡ دِينُكُمۡ وَلِيَ دِينِ",
+      "turkmen": "Size siziň diniňiz, maňa bolsa meniň dinim»."
+    }
+  ]
+}

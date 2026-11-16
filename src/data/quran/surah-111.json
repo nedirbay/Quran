@@ -1,0 +1,35 @@
+{
+  "id": 111,
+  "nameArabic": "المسد",
+  "nameTranslit": "Al-Masad",
+  "nameTurkmen": "Mesed",
+  "revelation": "mekke",
+  "totalAyahs": 5,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "تَبَّتۡ يَدَآ أَبِي لَهَبٖ وَتَبَّ",
+      "turkmen": "Ebu Lehebiň iki eli gurasyn, gurady hem!"
+    },
+    {
+      "number": 2,
+      "arabic": "مَآ أَغۡنَىٰ عَنۡهُ مَالُهُۥ وَمَا كَسَبَ",
+      "turkmen": "Oňa ne maly, ne-de gazanan zatlary peýda berdi."
+    },
+    {
+      "number": 3,
+      "arabic": "سَيَصۡلَىٰ نَارٗا ذَاتَ لَهَبٖ",
+      "turkmen": "Ol ýakyn wagtda ýalynly oda girer."
+    },
+    {
+      "number": 4,
+      "arabic": "وَٱمۡرَأَتُهُۥ حَمَّالَةَ ٱلۡحَطَبِ",
+      "turkmen": "Odun göterip ýören aýaly hem (girer)."
+    },
+    {
+      "number": 5,
+      "arabic": "فِي جِيدِهَا حَبۡلٞ مِّن مَّسَدِۭ",
+      "turkmen": "Onuň boýnunda hurma süýüminden örülen ýüp bardyr."
+    }
+  ]
+}

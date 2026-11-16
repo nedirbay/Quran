@@ -1,0 +1,30 @@
+{
+  "id": 106,
+  "nameArabic": "قريش",
+  "nameTranslit": "Quraysh",
+  "nameTurkmen": "Kureýş",
+  "revelation": "mekke",
+  "totalAyahs": 4,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "لِإِيلَٰفِ قُرَيۡشٍ",
+      "turkmen": "Kureýşiň ülfetligi (ynjalykly endigi) sebäpli,"
+    },
+    {
+      "number": 2,
+      "arabic": "إِۦلَٰفِهِمۡ رِحۡلَةَ ٱلشِّتَآءِ وَٱلصَّيۡفِ",
+      "turkmen": "Gyşky we tomusky kerwen syýahatlaryna bolan ülfetligi sebäpli,"
+    },
+    {
+      "number": 3,
+      "arabic": "فَلۡيَعۡبُدُواْ رَبَّ هَٰذَا ٱلۡبَيۡتِ",
+      "turkmen": "Goý, olar şu Öýüň (Kagbanyň) Rabbyna ybadat etsinler!"
+    },
+    {
+      "number": 4,
+      "arabic": "ٱلَّذِيٓ أَطۡعَمَهُم مِّن جُوعٖ وَءَامَنَهُم مِّنۡ خَوۡفِۭ",
+      "turkmen": "Ol olary açlykdan doýurdy we gorkudan amanda etdi."
+    }
+  ]
+}

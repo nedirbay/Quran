@@ -1,0 +1,25 @@
+{
+  "id": 110,
+  "nameArabic": "النصر",
+  "nameTranslit": "An-Nasr",
+  "nameTurkmen": "Nasr",
+  "revelation": "medine",
+  "totalAyahs": 3,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "إِذَا جَآءَ نَصۡرُ ٱللَّهِ وَٱلۡفَتۡحُ",
+      "turkmen": "Allahyň kömegi we ýeňiş gelende,"
+    },
+    {
+      "number": 2,
+      "arabic": "وَرَأَيۡتَ ٱلنَّاسَ يَدۡخُلُونَ فِي دِينِ ٱللَّهِ أَفۡوَاجٗا",
+      "turkmen": "Adamlaryň topar-topar bolup Allahyň dinine girýändiklerini göreniňde,"
+    },
+    {
+      "number": 3,
+      "arabic": "فَسَبِّحۡ بِحَمۡدِ رَبِّكَ وَٱسۡتَغۡفِرۡهُۚ إِنَّهُۥ كَانَ تَوَّابَۢا",
+      "turkmen": "Rabbyňy hamd bilen tesbih et we Ondan bagyşlanma sora. Hakykatdan-da, Ol tobalary köp kabul edijidir."
+    }
+  ]
+}

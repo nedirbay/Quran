@@ -1,0 +1,87 @@
+<script setup lang="ts">
+import { useRoute } from 'vue-router'
+import AppIcon from '@/components/ui/AppIcon.vue'
+import { useSettingsStore } from '@/stores/settings'
+import { NAV_ITEMS } from './navItems'
+
+const route = useRoute()
+const settings = useSettingsStore()
+
+const isActive = (match: string) => (match === '/' ? route.path === '/' : route.path.startsWith(match))
+
+function toggleTheme() {
+  settings.settings.theme = settings.settings.theme === 'dark' ? 'light' : 'dark'
+}
+</script>
+
+<template>
+  <div class="flex min-h-dvh flex-col">
+    <!-- Ýokarky panel -->
+    <header class="sticky top-0 z-30 border-b border-line/70 bg-bg/85 backdrop-blur-md">
+      <div class="mx-auto flex h-16 max-w-6xl items-center gap-4 px-4 sm:px-6">
+        <RouterLink to="/" class="flex items-center gap-3" aria-label="Baş sahypa">
+          <span
+            class="flex size-10 items-center justify-center rounded-xl bg-primary font-arabic text-2xl leading-none text-gold"
+            lang="ar"
+            aria-hidden="true"
+            >ق</span
+          >
+          <span class="leading-tight">
+            <span class="block text-[15px] font-bold text-ink">Kurany öwren</span>
+            <span class="block text-xs text-muted">Elipbiý · Tejwid · Okamak</span>
+          </span>
+        </RouterLink>
+
+        <nav class="ml-auto hidden items-center gap-1 md:flex" aria-label="Esasy menýu">
+          <RouterLink
+            v-for="item in NAV_ITEMS"
+            :key="item.to"
+            :to="item.to"
+            class="flex h-10 items-center gap-2 rounded-xl px-3.5 text-sm font-semibold transition-colors"
+            :class="isActive(item.match) ? 'bg-primary-soft text-primary' : 'text-muted hover:text-ink'"
+          >
+            <AppIcon :name="item.icon" :size="18" />
+            {{ item.label }}
+          </RouterLink>
+        </nav>
+
+        <button
+          type="button"
+          class="btn-icon ml-auto md:ml-0"
+          :aria-label="settings.settings.theme === 'dark' ? 'Gündiz tertibi' : 'Gije tertibi'"
+          @click="toggleTheme"
+        >
+          <AppIcon :name="settings.settings.theme === 'dark' ? 'sun' : 'moon'" />
+        </button>
+      </div>
+    </header>
+
+    <main class="mx-auto w-full max-w-6xl flex-1 px-4 pt-6 pb-28 sm:px-6 md:pb-12">
+      <slot />
+    </main>
+
+    <!-- Mobil aşaky menýu -->
+    <nav
+      class="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur-md md:hidden"
+      aria-label="Esasy menýu"
+    >
+      <div class="grid grid-cols-5">
+        <RouterLink
+          v-for="item in NAV_ITEMS"
+          :key="item.to"
+          :to="item.to"
+          class="flex h-16 flex-col items-center justify-center gap-1 text-[11px] font-semibold transition-colors"
+          :class="isActive(item.match) ? 'text-primary' : 'text-muted'"
+        >
+          <span
+            class="flex h-7 w-12 items-center justify-center rounded-full transition-colors"
+            :class="isActive(item.match) && 'bg-primary-soft'"
+          >
+            <AppIcon :name="item.icon" :size="20" />
+          </span>
+          {{ item.label }}
+        </RouterLink>
+      </div>
+    </nav>
+  </div>
+</template>

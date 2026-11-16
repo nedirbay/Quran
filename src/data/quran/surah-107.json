@@ -1,0 +1,45 @@
+{
+  "id": 107,
+  "nameArabic": "الماعون",
+  "nameTranslit": "Al-Ma'un",
+  "nameTurkmen": "Maun",
+  "revelation": "mekke",
+  "totalAyahs": 7,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "أَرَءَيۡتَ ٱلَّذِي يُكَذِّبُ بِٱلدِّينِ",
+      "turkmen": "Dini (jeza gününi) ýalan saýýan kişini gördüňmi?"
+    },
+    {
+      "number": 2,
+      "arabic": "فَذَٰلِكَ ٱلَّذِي يَدُعُّ ٱلۡيَتِيمَ",
+      "turkmen": "Ine, ol ýetimi itekläp kowýan kişidir,"
+    },
+    {
+      "number": 3,
+      "arabic": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلۡمِسۡكِينِ",
+      "turkmen": "Miskini doýurmaga hem höweslendirmeýändir."
+    },
+    {
+      "number": 4,
+      "arabic": "فَوَيۡلٞ لِّلۡمُصَلِّينَ",
+      "turkmen": "Wah bolsun şeýle namaz okaýanlara,"
+    },
+    {
+      "number": 5,
+      "arabic": "ٱلَّذِينَ هُمۡ عَن صَلَاتِهِمۡ سَاهُونَ",
+      "turkmen": "Olar namazlaryndan gaflatdadyrlar,"
+    },
+    {
+      "number": 6,
+      "arabic": "ٱلَّذِينَ هُمۡ يُرَآءُونَ",
+      "turkmen": "Olar (her işi) görkezmek üçin edýärler,"
+    },
+    {
+      "number": 7,
+      "arabic": "وَيَمۡنَعُونَ ٱلۡمَاعُونَ",
+      "turkmen": "Ownuk ýardamy (gündelik zerur zatlary) hem gaýgyrýarlar."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": 1,
+  "nameArabic": "الفاتحة",
+  "nameTranslit": "Al-Fatihah",
+  "nameTurkmen": "Fatiha",
+  "revelation": "mekke",
+  "totalAyahs": 7,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+      "turkmen": "Rahman we Rahym bolan Allahyň ady bilen."
+    },
+    {
+      "number": 2,
+      "arabic": "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ",
+      "turkmen": "Hamd (ähli öwgi) älemleriň Rabby bolan Allaha mahsusdyr."
+    },
+    {
+      "number": 3,
+      "arabic": "ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ",
+      "turkmen": "Ol Rahmandyr, Rahymdyr."
+    },
+    {
+      "number": 4,
+      "arabic": "مَٰلِكِ يَوۡمِ ٱلدِّينِ",
+      "turkmen": "Ol jeza gününiň (Kyýamat gününiň) Eýesidir."
+    },
+    {
+      "number": 5,
+      "arabic": "إِيَّاكَ نَعۡبُدُ وَإِيَّاكَ نَسۡتَعِينُ",
+      "turkmen": "Diňe Saňa ybadat edýäris we diňe Senden kömek soraýarys."
+    },
+    {
+      "number": 6,
+      "arabic": "ٱهۡدِنَا ٱلصِّرَٰطَ ٱلۡمُسۡتَقِيمَ",
+      "turkmen": "Bizi dogry ýola sala."
+    },
+    {
+      "number": 7,
+      "arabic": "صِرَٰطَ ٱلَّذِينَ أَنۡعَمۡتَ عَلَيۡهِمۡ غَيۡرِ ٱلۡمَغۡضُوبِ عَلَيۡهِمۡ وَلَا ٱلضَّآلِّينَ",
+      "turkmen": "Özüň nygmat beren adamlaryňyň ýoluna; gazabyňa duçar bolanlaryň we azaşanlaryň ýoluna däl."
+    }
+  ]
+}
