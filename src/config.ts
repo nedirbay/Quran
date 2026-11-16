@@ -34,3 +34,12 @@ export const audioUrls = {
 }
 
 export const STORAGE_PREFIX = 'kuran-owren:v1:'
+
+/**
+ * GitHub Sponsors — programmadaky “Goldaw” düwmeleri şu salgy açýar.
+ * Repozitoriýadaky “Sponsor” düwmesi üçin `.github/FUNDING.yml` faýlyna serediň.
+ */
+export const SPONSOR = {
+  githubUser: 'nedirbay',
+  url: 'https://github.com/sponsors/nedirbay',
+} as const

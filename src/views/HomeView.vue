@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import AppIcon, { type IconName } from '@/components/ui/AppIcon.vue'
 import ProgressRing from '@/components/ui/ProgressRing.vue'
+import SponsorButton from '@/components/ui/SponsorButton.vue'
 import { getSurahMeta } from '@/services/quran'
 import { useLettersStore } from '@/stores/letters'
 import { useReaderStore } from '@/stores/reader'
@@ -174,5 +175,7 @@ const lastQuiz = computed(() => letters.state.history[0])
         </p>
       </div>
     </section>
+
+    <SponsorButton variant="card" />
   </div>
 </template>

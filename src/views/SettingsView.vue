@@ -2,6 +2,7 @@
 import { ref } from 'vue'
 import AppIcon from '@/components/ui/AppIcon.vue'
 import PageHeader from '@/components/ui/PageHeader.vue'
+import SponsorButton from '@/components/ui/SponsorButton.vue'
 import { RECITERS } from '@/config'
 import { useAudio } from '@/services/audio'
 import { storage } from '@/services/storage'
@@ -190,6 +191,8 @@ function resetAll() {
           <AppIcon name="trash" /> Ähli maglumatlary poz
         </button>
       </section>
+
+      <SponsorButton variant="card" />
     </div>
   </div>
 </template>

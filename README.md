@@ -118,7 +118,15 @@ aşakda türkmençe manysy. Islendik söze basylanda şol sözüň okalyşy ýa�
 (düwme, ← → klawiša, barmak bilen süýşürmek), aýat sanawy, okalan aýatlaryň hasaby,
 soňky ýeri ýatda saklamak, şrift ölçegi, kary saýlamak.
 
-## 4. Maglumat çeşmeleri we bellikler
+## 4. Goldaw (GitHub Sponsors)
+
+- `.github/FUNDING.yml` — GitHub-da repozitoriýanyň ýokarsynda **❤ Sponsor** düwmesini görkezýär.
+- Programmanyň içinde: ýokarky panelde “Goldaw” düwmesi, baş sahypada we sazlamalarda goldaw bloky.
+  Salgy `src/config.ts` → `SPONSOR` içinde.
+- Düwmeleriň işlemegi üçin GitHub hasabyňyzda Sponsors profili açyk bolmaly:
+  <https://github.com/sponsors> → **Get sponsored**.
+
+## 5. Maglumat çeşmeleri we bellikler
 
 - Arapça tekst: Uthmani ýazgysy, [The Noble Qur'an Encyclopedia](https://quranenc.com) —
   `quran-json` npm paketi arkaly (CC BY-SA 4.0).

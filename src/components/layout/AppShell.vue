@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
 import AppIcon from '@/components/ui/AppIcon.vue'
+import SponsorButton from '@/components/ui/SponsorButton.vue'
 import { useSettingsStore } from '@/stores/settings'
 import { NAV_ITEMS } from './navItems'
 
@@ -45,9 +46,11 @@ function toggleTheme() {
           </RouterLink>
         </nav>
 
+        <SponsorButton class="ml-auto md:ml-2" />
+
         <button
           type="button"
-          class="btn-icon ml-auto md:ml-0"
+          class="btn-icon"
           :aria-label="settings.settings.theme === 'dark' ? 'Gündiz tertibi' : 'Gije tertibi'"
           @click="toggleTheme"
         >
