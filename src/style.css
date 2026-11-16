@@ -118,6 +118,18 @@
   @apply text-xs font-semibold tracking-[0.14em] text-gold uppercase;
 }
 
+/*
+ * Ýeke arap harplary üçin “howpsuz meýdan”.
+ * Scheherazade New şriftinde harplaryň aşak uzaýan bölegi (ج ع ي ق, astyn belgisi)
+ * ölçegiň ~0.75-ine, ýokarky belgiler ~1.16-syna ýetýär. Adaty setir beýikligi bilen
+ * olar aşakdaky tekstiň üstüne düşýär — şonuň üçin setir 1, aralyk bolsa padding bilen.
+ */
+@utility glyph-safe {
+  line-height: 1;
+  padding-top: 0.36em;
+  padding-bottom: 0.62em;
+}
+
 @layer components {
   /* Kuran teksti */
   .quran-text {

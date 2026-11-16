@@ -26,7 +26,7 @@ defineProps<{ letter: ArabicLetter; learned: boolean; review: boolean; showTrans
     >
       <AppIcon name="refresh" :size="11" :stroke="3" />
     </span>
-    <span lang="ar" class="font-arabic text-5xl leading-[1.5] text-primary group-hover:text-primary-strong">
+    <span lang="ar" class="glyph-safe font-arabic text-5xl text-primary group-hover:text-primary-strong">
       {{ letter.char }}
     </span>
     <span class="text-sm font-bold text-ink">{{ letter.name }}</span>

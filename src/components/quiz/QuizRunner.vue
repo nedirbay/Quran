@@ -106,7 +106,7 @@ onBeforeUnmount(() => {
         v-if="question.arabic"
         lang="ar"
         dir="rtl"
-        class="mt-4 font-arabic text-7xl leading-[1.6] text-primary sm:text-8xl"
+        class="glyph-safe mt-2 font-arabic text-7xl text-primary sm:text-8xl"
       >
         {{ question.arabic }}
       </p>
@@ -133,9 +133,9 @@ onBeforeUnmount(() => {
         @click="choose(o.id)"
       >
         <span class="absolute top-2 left-3 text-xs font-bold text-muted/70">{{ i + 1 }}</span>
-        <span v-if="o.arabic" lang="ar" dir="rtl" class="font-arabic text-4xl leading-normal">{{ o.label }}</span>
+        <span v-if="o.arabic" lang="ar" dir="rtl" class="glyph-safe font-arabic text-4xl">{{ o.label }}</span>
         <span v-else class="flex items-center gap-3 text-base">
-          <span v-if="o.glyph" lang="ar" class="font-arabic text-3xl leading-normal">{{ o.glyph }}</span>
+          <span v-if="o.glyph" lang="ar" class="glyph-safe font-arabic text-3xl">{{ o.glyph }}</span>
           <RichText :text="o.label" />
         </span>
       </button>

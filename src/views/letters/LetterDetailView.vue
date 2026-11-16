@@ -44,7 +44,7 @@ const syllables = computed(() => (letter.value ? letterSyllables(letter.value) :
       <!-- Uly harp -->
       <section class="card relative flex flex-col items-center overflow-hidden p-6 text-center sm:p-8">
         <div class="pointer-events-none absolute inset-x-0 top-0 h-1 bg-linear-to-r from-gold/0 via-gold to-gold/0" />
-        <p lang="ar" class="font-arabic text-[9rem] leading-[1.45] text-primary sm:text-[11rem]">{{ letter.char }}</p>
+        <p lang="ar" class="glyph-safe font-arabic text-[8rem] text-primary sm:text-[10rem]">{{ letter.char }}</p>
         <p class="text-2xl font-bold text-ink">{{ letter.name }}</p>
         <p class="mt-1 text-muted">
           <span lang="ar" class="font-arabic text-xl">{{ letter.arabicName }}</span> · {{ letter.translit }}
@@ -79,7 +79,7 @@ const syllables = computed(() => (letter.value ? letterSyllables(letter.value) :
           <p class="mb-4 text-sm text-muted">Her bogna basyp, sesini diňläň we gaýtalaň.</p>
           <div class="grid grid-cols-3 gap-3" dir="rtl">
             <div v-for="s in syllables" :key="s.key" class="flex flex-col items-center rounded-xl bg-surface-2 p-3">
-              <p lang="ar" class="font-arabic text-5xl leading-[1.6] text-ink">{{ s.text }}</p>
+              <p lang="ar" class="glyph-safe font-arabic text-5xl text-ink">{{ s.text }}</p>
               <p class="text-sm font-bold text-primary" dir="ltr">{{ s.translit }}</p>
               <p class="mb-2 text-xs text-muted" dir="ltr">{{ s.name }}</p>
               <AudioButton
@@ -112,7 +112,7 @@ const syllables = computed(() => (letter.value ? letterSyllables(letter.value) :
               <span class="text-muted"> — {{ letter.example.meaning }}</span>
             </p>
           </div>
-          <p lang="ar" dir="rtl" class="font-arabic text-5xl leading-[1.6] text-primary">{{ letter.example.arabic }}</p>
+          <p lang="ar" dir="rtl" class="glyph-safe font-arabic text-5xl text-primary">{{ letter.example.arabic }}</p>
           <AudioButton :audio-key="`ex-${letter.id}`" :request="{ url: audioUrls.exampleSources(`ex-${letter.id}`), ttsText: letter.example.arabic }" />
         </section>
       </div>
