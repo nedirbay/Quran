@@ -134,6 +134,27 @@ Kurandaky salgylar. “Okadym” belligi, ýalňyş analizi bilen synag. Wakalar
 esaslanýar; aýatlarda bolmadyk jikme-jiklikler “rowaýatlara görä” diýip bellenýär. Pygamberleriň
 şekilleri ulanylmaýar — diňe adlarynyň arap ýazgysy.
 
+## Offline sesler
+
+Aýatlaryň we sözleriň sesi adatça internetden çalynýar. Internetsiz ulanmak üçin bir gezek ýükläň:
+
+```bash
+npm run audio                                    # esasy kary (Husary) + sözme-söz ses
+npm run audio -- --reciter=Alafasy_128kbps       # başga kary
+npm run audio -- --reciter=Husary_128kbps,Alafasy_128kbps
+npm run audio -- --no-words                      # diňe aýatlar
+```
+
+- Ýüklenýär: 13 süräniň ähli aýatlary + “Kitaplar we pygamberler” bölümindäki esasy aýatlar
+  (102 aýat, bir kary üçin takmynan 15–25 MB) we 277 söz (birnäçe MB).
+- Faýllar `public/audio/ayahs/`, `public/audio/words/` we `public/audio/manifest.json` — git-e goşulmaýar.
+  `npm run build` olary `dist/`-e öz-özünden goşýar.
+- Programma `manifest.json`-a seredip, ilki ýerli faýly, bolmasa internetdäkini, iň soňunda TTS-i ulanýar.
+  Ýagdaýy Sazlamalar → Ses bölüminde görünýär.
+- Ýarym galsa, buýrugy gaýtadan işlediň — bar faýllar geçilýär.
+- Çeşmeler: aýatlar — [everyayah.com](https://everyayah.com), sözler — quran.com (`audio.qurancdn.com`).
+  Programmany köpçülige ýa-da söwda maksady bilen paýlamazdan öň olaryň ulanyş şertlerini barlaň.
+
 ## 4. Goldaw (GitHub Sponsors)
 
 - `.github/FUNDING.yml` — GitHub-da repozitoriýanyň ýokarsynda **❤ Sponsor** düwmesini görkezýär.

@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Offline sesler (npm run audio bilen ýüklenýär)
+public/audio/ayahs/
+public/audio/words/
+public/audio/manifest.json

@@ -5,8 +5,8 @@ import type { AudioRequest } from '@/types'
  * Ýeke-täk audio hyzmaty.
  *
  * Tertip:
- *  1. `url` berlen bolsa — faýly oýnadýar.
- *  2. Faýl ýüklenip bilinmese (404, offline) — `ttsText` brauzeriň arapça
+ *  1. `url` berlen bolsa — faýly oýnadýar (birnäçe bolsa: tertip boýunça, mysal ýerli → onlaýn).
+ *  2. Hiç bir faýl ýüklenip bilinmese (404, offline) — `ttsText` brauzeriň arapça
  *     Speech Synthesis sesi bilen okalýar.
  *
  * Bir wagtda diňe bir ses ýaňlanýar; täze ses öňküsini togtadýar.
@@ -18,8 +18,10 @@ const arabicVoice = shallowRef<SpeechSynthesisVoice | null>(null)
 /**
  * Ses çykaryp bolmadyk ýagdaýy barada UI-a habar (AudioNotice görkezýär).
  * 'no-arabic-voice' — enjamda/brauzerde arapça TTS sesi ýok.
+ * 'network' — onlaýn ses faýly ýüklenmedi (internet ýok) we TTS hem kömek etmedi.
  */
-const notice = ref<'no-arabic-voice' | null>(null)
+export type AudioNotice = 'no-arabic-voice' | 'network'
+const notice = ref<AudioNotice | null>(null)
 const ttsSupported = typeof window !== 'undefined' && 'speechSynthesis' in window
 
 const failedUrls = new Set<string>()
@@ -123,18 +125,23 @@ async function play(req: AudioRequest, key: string, rate = 1): Promise<void> {
   playingKey.value = key
 
   try {
-    if (req.url && !failedUrls.has(req.url)) {
+    const all = [req.url ?? []].flat()
+    const urls = all.filter((u) => !failedUrls.has(u))
+    for (const url of urls) {
       try {
-        await playFile(req.url, rate)
+        await playFile(url, rate)
         return
       } catch {
         if (myToken !== token) return // ulanyjy özi togtatdy
-        failedUrls.add(req.url)
+        failedUrls.add(url)
       }
     }
     if (req.ttsText) {
       const ok = await speak(req.ttsText, rate)
-      if (!ok && myToken === token) notice.value = 'no-arabic-voice'
+      if (!ok && myToken === token) {
+        // Onlaýn faýl hem şowsuz bolsa — esasy sebäp internet
+        notice.value = all.some((u) => /^https?:/.test(u)) ? 'network' : 'no-arabic-voice'
+      }
     }
   } finally {
     if (myToken === token) playingKey.value = null

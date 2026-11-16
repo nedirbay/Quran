@@ -256,7 +256,7 @@ onBeforeUnmount(() => {
         <AudioButton
           :audio-key="`ayah-${surah.id}-${current.number}`"
           :request="{
-            url: audioUrls.ayah(settings.settings.reciter, surah.id, current.number),
+            url: audioUrls.ayahSources(settings.settings.reciter, surah.id, current.number),
             ttsText: toTtsText(current.arabic),
           }"
           label="Diňle"

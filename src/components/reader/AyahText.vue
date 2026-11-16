@@ -19,7 +19,7 @@ const words = computed(() =>
   splitWords(props.ayah.arabic).map((text, i) => ({
     text,
     key: `w-${props.surahId}-${props.ayah.number}-${i + 1}`,
-    request: { url: audioUrls.word(props.surahId, props.ayah.number, i + 1), ttsText: toTtsText(text) },
+    request: { url: audioUrls.wordSources(props.surahId, props.ayah.number, i + 1), ttsText: toTtsText(text) },
   })),
 )
 

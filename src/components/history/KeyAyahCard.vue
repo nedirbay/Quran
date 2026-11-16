@@ -45,7 +45,7 @@ const label = computed(() => `${SURAH_NAMES_TK[surah.value]} süresi, ${props.ay
         v-for="v in verses"
         :key="v.n"
         :audio-key="`key-${surah}-${v.n}`"
-        :request="{ url: audioUrls.ayah(settings.settings.reciter, surah, v.n), ttsText: toTtsText(v.text) }"
+        :request="{ url: audioUrls.ayahSources(settings.settings.reciter, surah, v.n), ttsText: toTtsText(v.text) }"
         :label="verses.length > 1 ? `${v.n}-nji aýaty diňle` : 'Aýaty diňle'"
       />
     </div>

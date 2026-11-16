@@ -6,6 +6,7 @@ import PageHeader from '@/components/ui/PageHeader.vue'
 import SponsorButton from '@/components/ui/SponsorButton.vue'
 import { RECITERS } from '@/config'
 import { useAudio } from '@/services/audio'
+import { localAudio } from '@/services/localAudio'
 import { storage } from '@/services/storage'
 import { useSettingsStore } from '@/stores/settings'
 
@@ -139,8 +140,29 @@ function resetAll() {
           </button>
         </div>
 
-        <p
+        <!-- Offline sesler (npm run audio) -->
+        <div
+          v-if="localAudio.loaded"
           class="mt-5 flex items-start gap-2 rounded-xl p-3 text-sm"
+          :class="localAudio.reciters.includes(s.reciter) ? 'bg-success-soft text-success' : 'bg-surface-2 text-ink'"
+        >
+          <AppIcon :name="localAudio.reciters.includes(s.reciter) ? 'check' : 'download'" :size="18" class="mt-0.5" />
+          <span v-if="localAudio.reciters.includes(s.reciter)">
+            <b>Offline sesler bar.</b> Bu karynyň aýat sesleri<template v-if="localAudio.words"> we sözme-söz sesler</template>
+            enjamyňyzda — internetsiz işleýär.
+          </span>
+          <span v-else>
+            <b>Bu kary üçin offline ses ýok</b> — aýatlar internetden ýüklenýär.
+            <template v-if="localAudio.reciters.length">
+              Offline elýeterli: {{ RECITERS.filter((r) => localAudio.reciters.includes(r.id)).map((r) => r.name).join(', ') }}.
+            </template>
+            Programmany özüňiz gurýan bolsaňyz, sesleri ýüklemek üçin:
+            <code class="mt-1 block rounded bg-surface px-2 py-1 text-xs">npm run audio -- --reciter={{ s.reciter }}</code>
+          </span>
+        </div>
+
+        <p
+          class="mt-3 flex items-start gap-2 rounded-xl p-3 text-sm"
           :class="audio.arabicVoice.value ? 'bg-success-soft text-success' : 'bg-gold-soft text-ink'"
         >
           <AppIcon :name="audio.arabicVoice.value ? 'check' : 'alert'" :size="18" class="mt-0.5" />

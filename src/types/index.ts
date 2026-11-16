@@ -112,8 +112,8 @@ export interface QuizResult {
 /* ----------------------------- Audio ------------------------------- */
 
 export interface AudioRequest {
-  /** Esasy faýl (onlaýn ýa-da /public içinde) */
-  url?: string
+  /** Faýl(lar): birnäçe bolsa tertip boýunça synanyşylýar (ýerli → onlaýn) */
+  url?: string | string[]
   /** Faýl ýok bolsa brauzeriň TTS-i arkaly okaljak arapça tekst */
   ttsText?: string
 }
