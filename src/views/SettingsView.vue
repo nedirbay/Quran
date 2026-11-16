@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
+import { useRoute } from 'vue-router'
 import AppIcon from '@/components/ui/AppIcon.vue'
 import PageHeader from '@/components/ui/PageHeader.vue'
 import SponsorButton from '@/components/ui/SponsorButton.vue'
@@ -12,6 +13,12 @@ const store = useSettingsStore()
 const s = store.settings
 const audio = useAudio()
 const message = ref<{ text: string; ok: boolean } | null>(null)
+
+// “#ses” ýaly salgy bilen açylanda degişli bölüme geçmek (sahypa animasiýasyndan soň)
+const route = useRoute()
+onMounted(() => {
+  if (route.hash) setTimeout(() => document.querySelector(route.hash)?.scrollIntoView({ behavior: 'smooth' }), 250)
+})
 
 const toggles = [
   { key: 'showTranslation', label: 'Aýatyň manysyny görkez', hint: 'Okaýjyda aşaky ýarymda türkmençe terjime' },
@@ -103,7 +110,7 @@ function resetAll() {
       </section>
 
       <!-- Ses -->
-      <section class="card p-5 sm:p-6">
+      <section id="ses" class="card scroll-mt-24 p-5 sm:p-6">
         <h2 class="mb-4 text-lg font-bold text-ink">Ses</h2>
         <label for="reciter" class="font-semibold text-ink">Aýatlary okaýan kary</label>
         <select
@@ -142,8 +149,21 @@ function resetAll() {
             ulanylar.
           </span>
           <span v-else>
-            Enjamyňyzda arapça TTS sesi tapylmady. Aýat we söz sesleri internet arkaly ýüklenýär; harplaryň sesi üçin
-            enjamyňyzyň sazlamalaryndan arap dilini (Text-to-Speech) goşuň.
+            <b>Brauzeriňizde arapça okaýjy ses (TTS) tapylmady</b>, şonuň üçin harplaryň we mysallaryň sesi çykmaýar.
+            Aýatlaryň we sözleriň sesi bolsa internetden ýüklenýär we işlemegi dowam edýär.
+            <span class="mt-2 block font-semibold">Çözgütler:</span>
+            <ul class="mt-1 list-disc space-y-1 pl-5">
+              <li><b>Microsoft Edge</b> brauzerinde açyň — arapça sesler goşmaça gurnamazdan bar.</li>
+              <li>
+                <b>Windows:</b> Sazlamalar → Wagt we dil → Gepleşik (Speech) → Ses goş → “Arabic” saýlaň,
+                soňra brauzeri täzeden açyň.
+              </li>
+              <li><b>Android:</b> Sazlamalar → Ýöriteleşdirilen mümkinçilikler → Tekstden gepleşige → Google → arap dilini ýükläň.</li>
+              <li>
+                Ýa-da öz ýazgylaryňyzy <code class="rounded bg-surface px-1">public/audio/letters/</code> papkasyna
+                goýuň (mysal: <code class="rounded bg-surface px-1">ba.mp3</code>).
+              </li>
+            </ul>
           </span>
         </p>
       </section>

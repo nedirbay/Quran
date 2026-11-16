@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
 import AppIcon from '@/components/ui/AppIcon.vue'
+import AudioNotice from '@/components/ui/AudioNotice.vue'
 import SponsorButton from '@/components/ui/SponsorButton.vue'
 import { useSettingsStore } from '@/stores/settings'
 import { NAV_ITEMS } from './navItems'
@@ -62,6 +63,8 @@ function toggleTheme() {
     <main class="mx-auto w-full max-w-6xl flex-1 px-4 pt-6 pb-28 sm:px-6 md:pb-12">
       <slot />
     </main>
+
+    <AudioNotice />
 
     <!-- Mobil aşaky menýu -->
     <nav

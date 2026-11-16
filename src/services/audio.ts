@@ -15,6 +15,11 @@ import type { AudioRequest } from '@/types'
 /** Häzir ýaňlanýan sesiň açary (UI-da “oýnaýar” ýagdaýyny görkezmek üçin) */
 const playingKey = ref<string | null>(null)
 const arabicVoice = shallowRef<SpeechSynthesisVoice | null>(null)
+/**
+ * Ses çykaryp bolmadyk ýagdaýy barada UI-a habar (AudioNotice görkezýär).
+ * 'no-arabic-voice' — enjamda/brauzerde arapça TTS sesi ýok.
+ */
+const notice = ref<'no-arabic-voice' | null>(null)
 const ttsSupported = typeof window !== 'undefined' && 'speechSynthesis' in window
 
 const failedUrls = new Set<string>()
@@ -23,9 +28,11 @@ let token = 0
 
 function pickArabicVoice() {
   if (!ttsSupported) return
-  const voices = window.speechSynthesis.getVoices()
-  arabicVoice.value =
-    voices.find((v) => v.lang === 'ar-SA') ?? voices.find((v) => v.lang.toLowerCase().startsWith('ar')) ?? null
+  const arabic = window.speechSynthesis.getVoices().filter((v) => v.lang.toLowerCase().startsWith('ar'))
+  // Tebigy (Natural / Online) sesleri öňe çykarýarys — has düşnükli okaýarlar
+  const score = (v: SpeechSynthesisVoice) =>
+    (/natural|online|neural/i.test(v.name) ? 2 : 0) + (v.lang.toLowerCase() === 'ar-sa' ? 1 : 0)
+  arabicVoice.value = arabic.sort((a, b) => score(b) - score(a))[0] ?? null
 }
 
 if (ttsSupported) {
@@ -62,16 +69,43 @@ function playFile(url: string, rate: number): Promise<void> {
   })
 }
 
-function speak(text: string, rate: number): Promise<void> {
+/**
+ * Arapça teksti TTS bilen okaýar. Ses 2 sekundyň içinde başlamasa
+ * (arapça ses ýok ýa-da brauzer goldamaýar) — `false` gaýtarýar.
+ */
+function speak(text: string, rate: number): Promise<boolean> {
   return new Promise((resolve) => {
-    if (!ttsSupported) return resolve()
+    if (!ttsSupported) return resolve(false)
+    const synth = window.speechSynthesis
+    // Ses sanawy ýüklenen, ýöne arapça ýok — okamaga synanyşmagyň manysy ýok
+    if (!arabicVoice.value && synth.getVoices().length > 0) return resolve(false)
+
     const u = new SpeechSynthesisUtterance(text)
     u.lang = arabicVoice.value?.lang ?? 'ar-SA'
     if (arabicVoice.value) u.voice = arabicVoice.value
     u.rate = Math.max(0.5, Math.min(1.2, rate * 0.85))
-    u.onend = () => resolve()
-    u.onerror = () => resolve()
-    window.speechSynthesis.speak(u)
+
+    let started = false
+    let done = false
+    const finish = (ok: boolean) => {
+      if (done) return
+      done = true
+      clearTimeout(startTimer)
+      clearTimeout(endTimer)
+      resolve(ok)
+    }
+    u.onstart = () => (started = true)
+    u.onend = () => finish(started)
+    u.onerror = () => finish(false)
+    const startTimer = setTimeout(() => {
+      if (!started) {
+        synth.cancel()
+        finish(false)
+      }
+    }, 2000)
+    // Käbir brauzerler `onend` ibermeýär — düwme “oýnaýar” ýagdaýynda galmasyn
+    const endTimer = setTimeout(() => finish(started), Math.max(5000, text.length * 600))
+    synth.speak(u)
   })
 }
 
@@ -98,7 +132,10 @@ async function play(req: AudioRequest, key: string, rate = 1): Promise<void> {
         failedUrls.add(req.url)
       }
     }
-    if (req.ttsText) await speak(req.ttsText, rate)
+    if (req.ttsText) {
+      const ok = await speak(req.ttsText, rate)
+      if (!ok && myToken === token) notice.value = 'no-arabic-voice'
+    }
   } finally {
     if (myToken === token) playingKey.value = null
   }
@@ -111,6 +148,8 @@ export function useAudio() {
     playingKey,
     ttsSupported,
     arabicVoice,
+    notice,
+    dismissNotice: () => (notice.value = null),
     isPlaying: (key: string) => playingKey.value === key,
   }
 }
