@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 import AppIcon from '@/components/ui/AppIcon.vue'
 import AudioNotice from '@/components/ui/AudioNotice.vue'
@@ -7,6 +8,7 @@ import { useSettingsStore } from '@/stores/settings'
 import { NAV_ITEMS } from './navItems'
 
 const route = useRoute()
+const containerWidth = computed(() => (route.meta.wide ? 'max-w-[1600px]' : 'max-w-6xl'))
 const MOBILE_ITEMS = NAV_ITEMS.filter((i) => !i.desktopOnly)
 const settings = useSettingsStore()
 
@@ -21,7 +23,7 @@ function toggleTheme() {
   <div class="flex min-h-dvh flex-col">
     <!-- Ýokarky panel -->
     <header class="sticky top-0 z-30 border-b border-line/70 bg-bg/85 backdrop-blur-md">
-      <div class="mx-auto flex h-16 max-w-6xl items-center gap-4 px-4 sm:px-6">
+      <div class="mx-auto flex h-16 items-center gap-4 px-4 sm:px-6" :class="containerWidth">
         <RouterLink to="/" class="flex items-center gap-3" aria-label="Baş sahypa">
           <span
             class="flex size-10 items-center justify-center rounded-xl bg-primary font-arabic text-2xl leading-none text-gold"
@@ -70,7 +72,10 @@ function toggleTheme() {
       </div>
     </header>
 
-    <main class="mx-auto w-full max-w-6xl flex-1 px-4 pt-6 pb-28 sm:px-6 xl:pb-12">
+    <main
+      class="mx-auto w-full flex-1 px-4 pt-6 pb-[calc(5rem+env(safe-area-inset-bottom))] sm:px-6 xl:pb-8"
+      :class="containerWidth"
+    >
       <slot />
     </main>
 

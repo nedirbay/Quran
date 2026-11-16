@@ -28,7 +28,7 @@ const routes: RouteRecordRaw[] = [
     name: 'letter',
     component: () => import('@/views/letters/LetterDetailView.vue'),
     props: true,
-    meta: { title: 'Harp', resumable: true },
+    meta: { title: 'Harp', resumable: true, wide: true },
   },
 
   // 2-nji bölüm: Tejwid
@@ -119,5 +119,7 @@ declare module 'vue-router' {
   interface RouteMeta {
     title?: string
     resumable?: boolean
+    /** Giň ekranlarda sahypa tutuş giňligi ulanýar (çäk 1600px) */
+    wide?: boolean
   }
 }

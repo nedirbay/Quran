@@ -37,29 +37,48 @@ const syllables = computed(() => (letter.value ? letterSyllables(letter.value) :
         <span v-if="store.inReview(letter.id)" class="chip bg-danger-soft py-1 text-danger">
           <AppIcon name="refresh" :size="12" /> Gaýtalamaly
         </span>
+        <!-- Giň ekranda öňki/indiki ýokarda — aşak süýşürmezden görünýär -->
+        <nav class="hidden items-center gap-2 lg:flex" aria-label="Harplar boýunça geçiş">
+          <RouterLink v-if="prev" :to="{ name: 'letter', params: { id: prev.id } }" class="btn-secondary min-h-11">
+            <AppIcon name="chevron-left" /> {{ prev.name }}
+            <span lang="ar" class="font-arabic text-xl">{{ prev.char }}</span>
+          </RouterLink>
+          <RouterLink v-if="next" :to="{ name: 'letter', params: { id: next.id } }" class="btn-primary min-h-11">
+            <span lang="ar" class="font-arabic text-xl">{{ next.char }}</span> {{ next.name }}
+            <AppIcon name="chevron-right" />
+          </RouterLink>
+          <RouterLink v-else :to="{ name: 'letters-quiz' }" class="btn-gold min-h-11">
+            Synag tabşyr <AppIcon name="arrow-right" />
+          </RouterLink>
+        </nav>
       </template>
     </PageHeader>
 
-    <div class="grid gap-5 lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
-      <!-- Uly harp -->
-      <section class="card relative flex flex-col items-center overflow-hidden p-6 text-center sm:p-8">
+    <!-- Mobil: bir sütün; giň ekran: üç sütün, ähli maglumat bir ekranda -->
+    <div class="grid gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.3fr)_minmax(0,1fr)] lg:items-start">
+      <!-- 1. Uly harp -->
+      <section class="card relative flex flex-col items-center overflow-hidden p-6 text-center lg:p-5">
         <div class="pointer-events-none absolute inset-x-0 top-0 h-1 bg-linear-to-r from-gold/0 via-gold to-gold/0" />
-        <p lang="ar" class="glyph-safe font-arabic text-[8rem] text-primary sm:text-[10rem]">{{ letter.char }}</p>
+        <p
+          lang="ar"
+          class="glyph-safe font-arabic text-[8rem] text-primary sm:text-[10rem] lg:text-[clamp(5rem,15vh,9rem)]"
+        >
+          {{ letter.char }}
+        </p>
         <p class="text-2xl font-bold text-ink">{{ letter.name }}</p>
         <p class="mt-1 text-muted">
           <span lang="ar" class="font-arabic text-xl">{{ letter.arabicName }}</span> · {{ letter.translit }}
         </p>
         <AudioButton
-          class="mt-5"
+          class="mt-4"
           size="lg"
           :audio-key="`letter-${letter.id}`"
           :request="{ url: audioUrls.letter(letter.id), ttsText: letter.arabicName }"
           label="Adyny diňle"
         />
-
         <button
           type="button"
-          class="mt-6 w-full"
+          class="mt-4 w-full"
           :class="learned ? 'btn border-2 border-primary/40 bg-primary-soft text-primary' : 'btn-gold'"
           :aria-pressed="learned"
           @click="store.toggleLearned(letter.id)"
@@ -72,14 +91,14 @@ const syllables = computed(() => (letter.value ? letterSyllables(letter.value) :
         </p>
       </section>
 
-      <div class="space-y-5">
-        <!-- Hereketler bilen okalyşy -->
-        <section class="card p-5 sm:p-6">
-          <h2 class="mb-1 text-lg font-bold text-ink">Hereketler bilen okalyşy</h2>
-          <p class="mb-4 text-sm text-muted">Her bogna basyp, sesini diňläň we gaýtalaň.</p>
+      <!-- 2. Bogunlar we ýazylyş görnüşleri -->
+      <div class="space-y-4">
+        <section class="card p-5">
+          <h2 class="text-lg font-bold text-ink">Hereketler bilen okalyşy</h2>
+          <p class="mb-3 text-sm text-muted">Her bogna basyp, sesini diňläň we gaýtalaň.</p>
           <div class="grid grid-cols-3 gap-3" dir="rtl">
             <div v-for="s in syllables" :key="s.key" class="flex flex-col items-center rounded-xl bg-surface-2 p-3">
-              <p lang="ar" class="glyph-safe font-arabic text-5xl text-ink">{{ s.text }}</p>
+              <p lang="ar" class="glyph-safe font-arabic text-5xl text-ink lg:text-[clamp(2.25rem,5.5vh,3rem)]">{{ s.text }}</p>
               <p class="text-sm font-bold text-primary" dir="ltr">{{ s.translit }}</p>
               <p class="mb-2 text-xs text-muted" dir="ltr">{{ s.name }}</p>
               <AudioButton
@@ -91,35 +110,38 @@ const syllables = computed(() => (letter.value ? letterSyllables(letter.value) :
           </div>
         </section>
 
-        <!-- Ýazylyş görnüşleri -->
-        <section class="card p-5 sm:p-6">
-          <h2 class="mb-4 text-lg font-bold text-ink">Ýazylyş görnüşleri</h2>
+        <section class="card p-5">
+          <h2 class="mb-3 text-lg font-bold text-ink">Ýazylyş görnüşleri</h2>
           <LetterForms :letter="letter" />
         </section>
+      </div>
 
-        <!-- Okalyş ýeri -->
-        <section class="card p-5 sm:p-6">
+      <!-- 3. Okalyşy we mysal -->
+      <div class="space-y-4">
+        <section class="card p-5">
           <h2 class="mb-2 text-lg font-bold text-ink">Nähili aýdylýar?</h2>
           <p class="leading-relaxed text-ink/90">{{ letter.pronunciation }}</p>
         </section>
 
-        <!-- Mysal söz -->
-        <section class="card flex items-center gap-4 p-5 sm:p-6">
-          <div class="flex-1">
-            <h2 class="text-sm font-semibold text-muted">Mysal söz</h2>
-            <p class="mt-1 text-lg">
+        <section class="card p-5">
+          <h2 class="text-sm font-semibold text-muted">Mysal söz</h2>
+          <div class="mt-1 flex items-center gap-3">
+            <p class="flex-1 text-lg">
               <span class="font-bold text-ink">{{ letter.example.translit }}</span>
               <span class="text-muted"> — {{ letter.example.meaning }}</span>
             </p>
+            <p lang="ar" dir="rtl" class="glyph-safe font-arabic text-5xl text-primary">{{ letter.example.arabic }}</p>
+            <AudioButton
+              :audio-key="`ex-${letter.id}`"
+              :request="{ url: audioUrls.exampleSources(`ex-${letter.id}`), ttsText: letter.example.arabic }"
+            />
           </div>
-          <p lang="ar" dir="rtl" class="glyph-safe font-arabic text-5xl text-primary">{{ letter.example.arabic }}</p>
-          <AudioButton :audio-key="`ex-${letter.id}`" :request="{ url: audioUrls.exampleSources(`ex-${letter.id}`), ttsText: letter.example.arabic }" />
         </section>
       </div>
     </div>
 
-    <!-- Öňki / indiki -->
-    <nav class="mt-6 flex items-center justify-between gap-3" aria-label="Harplar boýunça geçiş">
+    <!-- Mobil / kiçi ekran: öňki / indiki aşakda -->
+    <nav class="mt-6 flex items-center justify-between gap-3 lg:hidden" aria-label="Harplar boýunça geçiş">
       <RouterLink v-if="prev" :to="{ name: 'letter', params: { id: prev.id } }" class="btn-secondary">
         <AppIcon name="chevron-left" /> {{ prev.name }}
         <span lang="ar" class="font-arabic text-xl">{{ prev.char }}</span>

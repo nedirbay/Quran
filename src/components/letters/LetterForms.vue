@@ -15,8 +15,8 @@ const forms = computed(() =>
   <div>
     <!-- Arap ýazgysy sagdan çepe: tertibi hem şonuň ýaly görkezýäris -->
     <div class="grid grid-cols-4 gap-2" dir="rtl">
-      <div v-for="f in forms" :key="f.key" class="rounded-xl bg-surface-2 py-3 text-center">
-        <p lang="ar" class="glyph-safe font-arabic text-4xl text-ink">{{ f.glyph }}</p>
+      <div v-for="f in forms" :key="f.key" class="rounded-xl bg-surface-2 py-3 text-center lg:py-2">
+        <p lang="ar" class="glyph-safe font-arabic text-4xl text-ink lg:text-[clamp(1.75rem,4.5vh,2.25rem)]">{{ f.glyph }}</p>
         <p class="text-xs font-semibold text-muted" dir="ltr">{{ f.label }}</p>
       </div>
     </div>
