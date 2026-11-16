@@ -1,0 +1,105 @@
+{
+  "id": 82,
+  "nameArabic": "الإنفطار",
+  "nameTranslit": "Al-Infitar",
+  "nameTurkmen": "Infitar",
+  "revelation": "mekke",
+  "totalAyahs": 19,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "إِذَا ٱلسَّمَآءُ ٱنفَطَرَتۡ",
+      "turkmen": "Asman ýarylanda,"
+    },
+    {
+      "number": 2,
+      "arabic": "وَإِذَا ٱلۡكَوَاكِبُ ٱنتَثَرَتۡ",
+      "turkmen": "Ýyldyzlar dargap dökülende,"
+    },
+    {
+      "number": 3,
+      "arabic": "وَإِذَا ٱلۡبِحَارُ فُجِّرَتۡ",
+      "turkmen": "Deňizler biri-birine goşulyp akdyrylanda,"
+    },
+    {
+      "number": 4,
+      "arabic": "وَإِذَا ٱلۡقُبُورُ بُعۡثِرَتۡ",
+      "turkmen": "Gabyrlaryň içi agdarylyp açylanda,"
+    },
+    {
+      "number": 5,
+      "arabic": "عَلِمَتۡ نَفۡسٞ مَّا قَدَّمَتۡ وَأَخَّرَتۡ",
+      "turkmen": "Her bir jan öňünden iberen we yzynda goýan işlerini biler."
+    },
+    {
+      "number": 6,
+      "arabic": "يَـٰٓأَيُّهَا ٱلۡإِنسَٰنُ مَا غَرَّكَ بِرَبِّكَ ٱلۡكَرِيمِ",
+      "turkmen": "Eý, ynsan! Keremli Rabbyňa garşy seni näme aldatdy?"
+    },
+    {
+      "number": 7,
+      "arabic": "ٱلَّذِي خَلَقَكَ فَسَوَّىٰكَ فَعَدَلَكَ",
+      "turkmen": "Ol seni ýaratdy, süňňüňi düzdi we saňa deňagramly şekil berdi."
+    },
+    {
+      "number": 8,
+      "arabic": "فِيٓ أَيِّ صُورَةٖ مَّا شَآءَ رَكَّبَكَ",
+      "turkmen": "Islän görnüşinde seni terkip etdi (birleşdirdi)."
+    },
+    {
+      "number": 9,
+      "arabic": "كَلَّا بَلۡ تُكَذِّبُونَ بِٱلدِّينِ",
+      "turkmen": "Ýok! Gaýtam, siz jeza (Kyýamat) gününi ýalan saýýarsyňyz."
+    },
+    {
+      "number": 10,
+      "arabic": "وَإِنَّ عَلَيۡكُمۡ لَحَٰفِظِينَ",
+      "turkmen": "Halbuki, siziň üstüňizde gözegçiler bardyr;"
+    },
+    {
+      "number": 11,
+      "arabic": "كِرَامٗا كَٰتِبِينَ",
+      "turkmen": "Hormatly ýazyjy (perişdeler)."
+    },
+    {
+      "number": 12,
+      "arabic": "يَعۡلَمُونَ مَا تَفۡعَلُونَ",
+      "turkmen": "Olar siziň ähli edýän işleriňizi bilýärler."
+    },
+    {
+      "number": 13,
+      "arabic": "إِنَّ ٱلۡأَبۡرَارَ لَفِي نَعِيمٖ",
+      "turkmen": "Şübhesiz, ýagşylar (ebrar) nygmat (jennet) içindedirler."
+    },
+    {
+      "number": 14,
+      "arabic": "وَإِنَّ ٱلۡفُجَّارَ لَفِي جَحِيمٖ",
+      "turkmen": "Günäkärler (füjjar) bolsa, şübhesiz, jähennemdedirler."
+    },
+    {
+      "number": 15,
+      "arabic": "يَصۡلَوۡنَهَا يَوۡمَ ٱلدِّينِ",
+      "turkmen": "Olar jeza güni oňa girerler."
+    },
+    {
+      "number": 16,
+      "arabic": "وَمَا هُمۡ عَنۡهَا بِغَآئِبِينَ",
+      "turkmen": "Olar ol ýerden hiç wagt gaýyp bolup (gutulyp) bilmezler."
+    },
+    {
+      "number": 17,
+      "arabic": "وَمَآ أَدۡرَىٰكَ مَا يَوۡمُ ٱلدِّينِ",
+      "turkmen": "Jeza gününiň nämedigini saňa näme bildirdi?"
+    },
+    {
+      "number": 18,
+      "arabic": "ثُمَّ مَآ أَدۡرَىٰكَ مَا يَوۡمُ ٱلدِّينِ",
+      "turkmen": "Ýene-de, jeza gününiň nämedigini saňa näme bildirdi?"
+    },
+    {
+      "number": 19,
+      "arabic": "يَوۡمَ لَا تَمۡلِكُ نَفۡسٞ لِّنَفۡسٖ شَيۡـٔٗاۖ وَٱلۡأَمۡرُ يَوۡمَئِذٖ لِّلَّهِ",
+      "turkmen": "Şol gün hiç bir jan başga bir jana hiç hili peýda berip bilmez. Şol gün ähli buýruk (höküm) diňe Allaha degişlidir."
+    }
+  ]
+}

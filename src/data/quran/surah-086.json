@@ -1,0 +1,95 @@
+{
+  "id": 86,
+  "nameArabic": "الطارق",
+  "nameTranslit": "At-Tariq",
+  "nameTurkmen": "Taryk",
+  "revelation": "mekke",
+  "totalAyahs": 17,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "وَٱلسَّمَآءِ وَٱلطَّارِقِ",
+      "turkmen": "Asmana we Taryka ant bolsun!"
+    },
+    {
+      "number": 2,
+      "arabic": "وَمَآ أَدۡرَىٰكَ مَا ٱلطَّارِقُ",
+      "turkmen": "Tarykyň nämedigini saňa näme bildirdi?"
+    },
+    {
+      "number": 3,
+      "arabic": "ٱلنَّجۡمُ ٱلثَّاقِبُ",
+      "turkmen": "Ol (garaňkylygy) deşip geçýän ýagty ýyldyzdyr."
+    },
+    {
+      "number": 4,
+      "arabic": "إِن كُلُّ نَفۡسٖ لَّمَّا عَلَيۡهَا حَافِظٞ",
+      "turkmen": "Üstünde gözegçi (goraýjy perişde) bolmadyk hiç bir jan ýokdur."
+    },
+    {
+      "number": 5,
+      "arabic": "فَلۡيَنظُرِ ٱلۡإِنسَٰنُ مِمَّ خُلِقَ",
+      "turkmen": "Onda ynsan nämeden ýaradylandygyna bir seretsin!"
+    },
+    {
+      "number": 6,
+      "arabic": "خُلِقَ مِن مَّآءٖ دَافِقٖ",
+      "turkmen": "Ol atylyp çykýan bir suwdan ýaradyldy."
+    },
+    {
+      "number": 7,
+      "arabic": "يَخۡرُجُ مِنۢ بَيۡنِ ٱلصُّلۡبِ وَٱلتَّرَآئِبِ",
+      "turkmen": "Ol (suw) bil we döş süňkleriniň arasyndan çykýar."
+    },
+    {
+      "number": 8,
+      "arabic": "إِنَّهُۥ عَلَىٰ رَجۡعِهِۦ لَقَادِرٞ",
+      "turkmen": "Şübhesiz, Ol (Allah) ony täzeden direltmäge hem Kadyrdyr."
+    },
+    {
+      "number": 9,
+      "arabic": "يَوۡمَ تُبۡلَى ٱلسَّرَآئِرُ",
+      "turkmen": "Syrlaryň äşgär ediljek güni,"
+    },
+    {
+      "number": 10,
+      "arabic": "فَمَا لَهُۥ مِن قُوَّةٖ وَلَا نَاصِرٖ",
+      "turkmen": "Onuň ne bir güýji bolar, ne-de bir ýardamçysy."
+    },
+    {
+      "number": 11,
+      "arabic": "وَٱلسَّمَآءِ ذَاتِ ٱلرَّجۡعِ",
+      "turkmen": "Ýagyşly asmana ant bolsun!"
+    },
+    {
+      "number": 12,
+      "arabic": "وَٱلۡأَرۡضِ ذَاتِ ٱلصَّدۡعِ",
+      "turkmen": "(Ösümlikleri bilen) ýarylýan ýere ant bolsun!"
+    },
+    {
+      "number": 13,
+      "arabic": "إِنَّهُۥ لَقَوۡلٞ فَصۡلٞ",
+      "turkmen": "Şübhesiz, ol (Gurhan) hak bilen batyly aýyl-saýyl edýän anyk sözdür."
+    },
+    {
+      "number": 14,
+      "arabic": "وَمَا هُوَ بِٱلۡهَزۡلِ",
+      "turkmen": "Ol degişme (boş söz) däldir."
+    },
+    {
+      "number": 15,
+      "arabic": "إِنَّهُمۡ يَكِيدُونَ كَيۡدٗا",
+      "turkmen": "Hakykatdan-da, olar bir hile gurýarlar."
+    },
+    {
+      "number": 16,
+      "arabic": "وَأَكِيدُ كَيۡدٗا",
+      "turkmen": "Men hem olaryň hilesini puja çykarjak meýilnama gurýaryn."
+    },
+    {
+      "number": 17,
+      "arabic": "فَمَهِّلِ ٱلۡكَٰفِرِينَ أَمۡهِلۡهُمۡ رُوَيۡدَۢا",
+      "turkmen": "Onda kapyrlara möhlet ber, olara azajyk wagt ber!"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": 97,
+  "nameArabic": "القدر",
+  "nameTranslit": "Al-Qadr",
+  "nameTurkmen": "Kadr",
+  "revelation": "mekke",
+  "totalAyahs": 5,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "إِنَّآ أَنزَلۡنَٰهُ فِي لَيۡلَةِ ٱلۡقَدۡرِ",
+      "turkmen": "Hakykatdan-da, Biz ony (Gurhany) Kadr gijesinde inderdik."
+    },
+    {
+      "number": 2,
+      "arabic": "وَمَآ أَدۡرَىٰكَ مَا لَيۡلَةُ ٱلۡقَدۡرِ",
+      "turkmen": "Kadr gijesiniň nämedigini saňa näme bildirdi?"
+    },
+    {
+      "number": 3,
+      "arabic": "لَيۡلَةُ ٱلۡقَدۡرِ خَيۡرٞ مِّنۡ أَلۡفِ شَهۡرٖ",
+      "turkmen": "Kadr gijesi müň aýdan has haýyrlydyr."
+    },
+    {
+      "number": 4,
+      "arabic": "تَنَزَّلُ ٱلۡمَلَـٰٓئِكَةُ وَٱلرُّوحُ فِيهَا بِإِذۡنِ رَبِّهِم مِّن كُلِّ أَمۡرٖ",
+      "turkmen": "Perişdeler we Ruh (Jebraýyl) ol gijede Rabblarynyň rugsady bilen her bir iş üçin inerler."
+    },
+    {
+      "number": 5,
+      "arabic": "سَلَٰمٌ هِيَ حَتَّىٰ مَطۡلَعِ ٱلۡفَجۡرِ",
+      "turkmen": "Ol gije tä daň atýança parahatçylykdyr (salamdyr)."
+    }
+  ]
+}

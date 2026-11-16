@@ -1,0 +1,50 @@
+{
+  "id": 94,
+  "nameArabic": "الشرح",
+  "nameTranslit": "Ash-Sharh",
+  "nameTurkmen": "Inşirah",
+  "revelation": "mekke",
+  "totalAyahs": 8,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "أَلَمۡ نَشۡرَحۡ لَكَ صَدۡرَكَ",
+      "turkmen": "Biz seniň göwsüňi giňeltmedikmi?"
+    },
+    {
+      "number": 2,
+      "arabic": "وَوَضَعۡنَا عَنكَ وِزۡرَكَ",
+      "turkmen": "Seniň üstüňdäki ýüküňi aýyrmadykmy?"
+    },
+    {
+      "number": 3,
+      "arabic": "ٱلَّذِيٓ أَنقَضَ ظَهۡرَكَ",
+      "turkmen": "Ol seniň biliňi büküpdi."
+    },
+    {
+      "number": 4,
+      "arabic": "وَرَفَعۡنَا لَكَ ذِكۡرَكَ",
+      "turkmen": "Seniň adyňy (abraýyňy) belende götermedikmi?"
+    },
+    {
+      "number": 5,
+      "arabic": "فَإِنَّ مَعَ ٱلۡعُسۡرِ يُسۡرًا",
+      "turkmen": "Diýmek, hakykatdan-da, her kynçylygyň ýanynda bir ýeňillik bardyr."
+    },
+    {
+      "number": 6,
+      "arabic": "إِنَّ مَعَ ٱلۡعُسۡرِ يُسۡرٗا",
+      "turkmen": "Hakykatdan-da, kynçylygyň ýanynda bir ýeňillik bardyr."
+    },
+    {
+      "number": 7,
+      "arabic": "فَإِذَا فَرَغۡتَ فَٱنصَبۡ",
+      "turkmen": "Şonuň üçin bir işden boşanyňdan soň, (başga bir haýyrly işe) yhlas bilen ýapyş!"
+    },
+    {
+      "number": 8,
+      "arabic": "وَإِلَىٰ رَبِّكَ فَٱرۡغَب",
+      "turkmen": "We diňe Rabbyňa ýüzlen!"
+    }
+  ]
+}

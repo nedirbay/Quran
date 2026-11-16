@@ -1,0 +1,50 @@
+{
+  "id": 99,
+  "nameArabic": "الزلزلة",
+  "nameTranslit": "Az-Zalzalah",
+  "nameTurkmen": "Zilzal",
+  "revelation": "medine",
+  "totalAyahs": 8,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "إِذَا زُلۡزِلَتِ ٱلۡأَرۡضُ زِلۡزَالَهَا",
+      "turkmen": "Ýer özüniň (elhenç) sarsgyny bilen sarsdyrylan wagty,"
+    },
+    {
+      "number": 2,
+      "arabic": "وَأَخۡرَجَتِ ٱلۡأَرۡضُ أَثۡقَالَهَا",
+      "turkmen": "Ýer öz içindäki agyr ýüklerini (ölüleri we hazynalary) daşyna çykaran wagty,"
+    },
+    {
+      "number": 3,
+      "arabic": "وَقَالَ ٱلۡإِنسَٰنُ مَا لَهَا",
+      "turkmen": "Ynsan: «Muňa näme boldy?» diýen wagty,"
+    },
+    {
+      "number": 4,
+      "arabic": "يَوۡمَئِذٖ تُحَدِّثُ أَخۡبَارَهَا",
+      "turkmen": "Şol gün ol (ýer) öz habarlaryny gürrüň berer."
+    },
+    {
+      "number": 5,
+      "arabic": "بِأَنَّ رَبَّكَ أَوۡحَىٰ لَهَا",
+      "turkmen": "Çünki Rabbyň oňa wahyý (buýruk) edendir."
+    },
+    {
+      "number": 6,
+      "arabic": "يَوۡمَئِذٖ يَصۡدُرُ ٱلنَّاسُ أَشۡتَاتٗا لِّيُرَوۡاْ أَعۡمَٰلَهُمۡ",
+      "turkmen": "Şol gün adamlar öz amallarynyň görkezilmegi üçin topar-topar bolup (gabyrlaryndan) çykarlar."
+    },
+    {
+      "number": 7,
+      "arabic": "فَمَن يَعۡمَلۡ مِثۡقَالَ ذَرَّةٍ خَيۡرٗا يَرَهُۥ",
+      "turkmen": "Kim zerre mysaly ýagşylyk eden bolsa, ony görer."
+    },
+    {
+      "number": 8,
+      "arabic": "وَمَن يَعۡمَلۡ مِثۡقَالَ ذَرَّةٖ شَرّٗا يَرَهُۥ",
+      "turkmen": "Kim zerre mysaly ýamanlyk eden bolsa, ony hem görer."
+    }
+  ]
+}

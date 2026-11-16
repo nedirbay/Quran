@@ -22,12 +22,21 @@ def main(dist: str) -> None:
     tk = json.loads((ROOT / "scripts" / "translations-tk.json").read_text("utf-8"))
     OUT.mkdir(parents=True, exist_ok=True)
     index = []
+    skipped = []
     for sid_str, tr in sorted(tk.items(), key=lambda kv: int(kv[0])):
         sid = int(sid_str)
         src = json.loads((dist_path / "chapters" / f"{sid}.json").read_text("utf-8"))
         verses = src["verses"]
         if len(verses) != len(tr["ayahs"]):
             raise SystemExit(f"Süre {sid}: aýat sany gabat gelmeýär ({len(verses)} != {len(tr['ayahs'])})")
+        # Doly terjime edilmedik süre programma goşulmaýar (şablondaky boş setirler)
+        empty = [i + 1 for i, t in enumerate(tr["ayahs"]) if not t.strip()]
+        if empty:
+            skipped.append((sid, tr.get("name", ""), len(empty), len(verses)))
+            stale = OUT / f"surah-{sid:03d}.json"
+            if stale.exists():
+                stale.unlink()
+            continue
         meta = {
             "id": sid,
             "nameArabic": src["name"],
@@ -49,6 +58,10 @@ def main(dist: str) -> None:
         index.append(meta)
     (OUT / "index.json").write_text(json.dumps(index, ensure_ascii=False, indent=2) + "\n", "utf-8")
     print(f"{len(index)} süre ýazyldy → {OUT}")
+    if skipped:
+        print(f"\nDoly terjime edilmedik {len(skipped)} süre geçildi:")
+        for sid, name, n_empty, total in skipped:
+            print(f"  {sid:>3} {name:<12} {total - n_empty}/{total} aýat taýýar")
 
 
 if __name__ == "__main__":

@@ -1,95 +1,798 @@
 {
-  "1": { "name": "Fatiha", "ayahs": [
-    "Rahman we Rahym bolan Allahyň ady bilen.",
-    "Hamd (ähli öwgi) älemleriň Rabby bolan Allaha mahsusdyr.",
-    "Ol Rahmandyr, Rahymdyr.",
-    "Ol jeza gününiň (Kyýamat gününiň) Eýesidir.",
-    "Diňe Saňa ybadat edýäris we diňe Senden kömek soraýarys.",
-    "Bizi dogry ýola sala.",
-    "Özüň nygmat beren adamlaryňyň ýoluna; gazabyňa duçar bolanlaryň we azaşanlaryň ýoluna däl."
-  ]},
-  "103": { "name": "Asr", "ayahs": [
-    "Asra (zamana) ant bolsun!",
-    "Hakykatdan-da, ynsan zyýandadyr.",
-    "Diňe iman getirip, salih amallar edenler, biri-birine hakykaty we sabyrly bolmagy wesýet edenler muňa girmez."
-  ]},
-  "104": { "name": "Hümeze", "ayahs": [
-    "Adamlary arkasyndan gybat edip, ýüzüne kemsidýän her bir kişä wah bolsun!",
-    "Ol mal ýygnap, ony gaýta-gaýta sanap oturýandyr.",
-    "Ol öz malynyň özüni baky ýaşatjakdygyny pikir edýär.",
-    "Ýok, beýle däl! Ol hökman Hutama zyňlar.",
-    "Hutamanyň näme ekenini saňa näme bildirdi?",
-    "Ol Allahyň tutaşdyrylan odudyr,",
-    "Ol ýüreklere çenli ýetýändir.",
-    "Hakykatdan-da, ol olaryň üstüni gapap alandyr,",
-    "Uzyn sütünlerde (baglanan ýagdaýda)."
-  ]},
-  "105": { "name": "Fil", "ayahs": [
-    "Rabbyňyň pil eýelerine näme edenini görmediňmi?",
-    "Olaryň hilesini puja çykarmadymy?",
-    "Olaryň üstüne topar-topar guşlary iberdi.",
-    "Ol guşlar olara bişen palçykdan (sijjilden) daşlary atýardylar.",
-    "Netijede, Ol olary iýlip taşlanan ekin ýapraklary ýaly etdi."
-  ]},
-  "106": { "name": "Kureýş", "ayahs": [
-    "Kureýşiň ülfetligi (ynjalykly endigi) sebäpli,",
-    "Gyşky we tomusky kerwen syýahatlaryna bolan ülfetligi sebäpli,",
-    "Goý, olar şu Öýüň (Kagbanyň) Rabbyna ybadat etsinler!",
-    "Ol olary açlykdan doýurdy we gorkudan amanda etdi."
-  ]},
-  "107": { "name": "Maun", "ayahs": [
-    "Dini (jeza gününi) ýalan saýýan kişini gördüňmi?",
-    "Ine, ol ýetimi itekläp kowýan kişidir,",
-    "Miskini doýurmaga hem höweslendirmeýändir.",
-    "Wah bolsun şeýle namaz okaýanlara,",
-    "Olar namazlaryndan gaflatdadyrlar,",
-    "Olar (her işi) görkezmek üçin edýärler,",
-    "Ownuk ýardamy (gündelik zerur zatlary) hem gaýgyrýarlar."
-  ]},
-  "108": { "name": "Kewser", "ayahs": [
-    "Hakykatdan-da, Biz saňa Kewseri berdik.",
-    "Şonuň üçin Rabbyň üçin namaz oka we gurban çal.",
-    "Hakykatdan-da, saňa duşmançylyk edýäniň özi yzsyzdyr (nesilsizdir)."
-  ]},
-  "109": { "name": "Kafirun", "ayahs": [
-    "Aýt: «Eý, kapyrlar!",
-    "Men siziň ybadat edýän zatlaryňyza ybadat etmerin.",
-    "Siz hem meniň ybadat edýänime ybadat ediji dälsiňiz.",
-    "Men siziň ybadat eden zatlaryňyza ybadat ediji däldirin.",
-    "Siz hem meniň ybadat edýänime ybadat ediji dälsiňiz.",
-    "Size siziň diniňiz, maňa bolsa meniň dinim»."
-  ]},
-  "110": { "name": "Nasr", "ayahs": [
-    "Allahyň kömegi we ýeňiş gelende,",
-    "Adamlaryň topar-topar bolup Allahyň dinine girýändiklerini göreniňde,",
-    "Rabbyňy hamd bilen tesbih et we Ondan bagyşlanma sora. Hakykatdan-da, Ol tobalary köp kabul edijidir."
-  ]},
-  "111": { "name": "Mesed", "ayahs": [
-    "Ebu Lehebiň iki eli gurasyn, gurady hem!",
-    "Oňa ne maly, ne-de gazanan zatlary peýda berdi.",
-    "Ol ýakyn wagtda ýalynly oda girer.",
-    "Odun göterip ýören aýaly hem (girer).",
-    "Onuň boýnunda hurma süýüminden örülen ýüp bardyr."
-  ]},
-  "112": { "name": "Yhlas", "ayahs": [
-    "Aýt: «Ol Allah ýeke-täkdir.",
-    "Allah Samaddyr (hiç zada mätäç däl, ähli zat Oňa mätäçdir).",
-    "Ol dogurmady we dogulmady.",
-    "Hiç kim Oňa deň däldir»."
-  ]},
-  "113": { "name": "Felak", "ayahs": [
-    "Aýt: «Daňyň Rabbyna sygynýaryn,",
-    "Ol ýaradan zatlarynyň şerinden,",
-    "Garaňkylygy çöken gijäniň şerinden,",
-    "Düwünlere üflüýän jadygöýleriň şerinden,",
-    "Hasyt edende hasydyň şerinden»."
-  ]},
-  "114": { "name": "Nas", "ayahs": [
-    "Aýt: «Adamlaryň Rabbyna sygynýaryn,",
-    "Adamlaryň Patyşasyna,",
-    "Adamlaryň Ilahyna,",
-    "Gizlenip-gizlenip weswese berýäniň şerinden,",
-    "Ol adamlaryň göwüslerine weswese salýandyr,",
-    "Ol jynlardan hem, adamlardan hem bolýandyr»."
-  ]}
+  "1": {
+    "name": "Fatiha",
+    "ayahs": [
+      "Rahman we Rahym bolan Allahyň ady bilen.",
+      "Hamd (ähli öwgi) älemleriň Rabby bolan Allaha mahsusdyr.",
+      "Ol Rahmandyr, Rahymdyr.",
+      "Ol jeza gününiň (Kyýamat gününiň) Eýesidir.",
+      "Diňe Saňa ybadat edýäris we diňe Senden kömek soraýarys.",
+      "Bizi dogry ýola sala.",
+      "Özüň nygmat beren adamlaryňyň ýoluna; gazabyňa duçar bolanlaryň we azaşanlaryň ýoluna däl."
+    ]
+  },
+  "67": {
+    "name": "Mülk",
+    "ayahs": [
+      "Ähli mülk (hökümdarlyk) elinde bolan Allah mukaddesdir we beýikdir. Ol ähli zada Kadyrdyr.",
+      "Ol haýsyňyzyň has ýagşy amal etjekdigiňizi synamak üçin ölümi we ýaşaýşy ýaratdy. Ol Ezizdir (ýeňilmez güýç eýesidir), Gafurdyr (köp bagyşlaýjydyr).",
+      "Ol ýedi gat asmany gatba-gat edip ýaratdy. Rahmanyň ýaradyşynda hiç hili kemçilik we näsazlyk görmersiň. Gözüňi aýlap ýene bir seret, haýsydyr bir jaýryk (kemçilik) görýärsiňmi?",
+      "Soňra gözüňi ýene iki gezek aýlap seret; gözüň (hiç bir kemçilik tapman) ýadap we hor bolup özüňe dolanar.",
+      "Kasam bolsun, Biz iň ýakyn asmany çyralar (ýyldyzlar) bilen bezedik we olary şeýtanlara atylýan daşlar etdik. Biz olar üçin ýakyp-ýandyryjy ot azabyny taýýarladyk.",
+      "Rabblaryny inkär edenler üçin jähennem azaby bardyr. Ol nähili erbet barylýan ýerdir!",
+      "Olar onuň içine taşlanan wagtlary, onuň gaýnap duran wagtyndaky elhenç sesini (kükreýşini) eşiderler.",
+      "Ol gaharyndan ýaña tas ýarylýar. Her gezek onuň içine bir topar taşlananda, onuň sakçylary olardan: «Size (bu azapdan) duýduryjy bir pygamber gelmedimi?» diýip sorarlar.",
+      "Olar diýerler: «Hawa, kasam bolsun, bize duýduryjy geldi, emma biz ony ýalan saýdyk we: Allah hiç zat indermändir, siz diňe uly bir azaşmanyň içindesiňiz diýdik».",
+      "Olar ýene diýerler: «Eger biz diňlän bolsak ýa-da akyl ýetiren bolsak, bu ýalynly ot eýeleriniň arasynda bolmazdyk!»",
+      "Şeýlelikde, olar öz günälerini boýun alarlar. Ýalynly ot eýeleri (Allahyň rahmetinden) uzak bolsunlar!",
+      "Hakykatdan-da, Rabblaryny görmän Ondan gorkýanlar üçin bagyşlanma we uly bir sylag bardyr.",
+      "Sözüňizi gizleseňiz-de, ony äşgär aýtsaňyz-da (tapawudy ýokdur). Çünki Ol ýüreklerdäki ähli syrlary bilýändir.",
+      "Ýaradan (öz ýaradan zadyny) bilmezmi? Ol Latyfdyr (ähli inçelikleri bilýändir), Habirdir (ähli zatdan habardardyr).",
+      "Ol ýeri siziň üçin boýun egdirip, ýaşamaga amatly etdi. Onuň gerşinde (üstünde) geziň we Allahyň ryzkyndan iýiň. Direlip barylýan ýer diňe Onuň huzurydyr.",
+      "Asmandakynyň (Allahyň) sizi ýere ýuwutdyrmajakdygyndan (ýer bilen ýegsan etmejekdiginden) arkaýynmysyňyz? Şol wagt ol (ýer) birden sarsyp başlar.",
+      "Ýa-da Asmandakynyň üstüňize daş ýagdyrýan bir harasat ibermejekdiginden arkaýynmysyňyz? Şonda Meniň duýduryşymyň nähilidigini bilersiňiz!",
+      "Kasam bolsun, olardan öňküler hem (hakykaty) ýalan saýypdylar. Meniň olara beren jezam gör nähili bolupdy!",
+      "Olar üstlerinde ganatlaryny ýaýyp we ýygnap uçup ýören guşlara seretmeýärlermi? Olary (howada) Rahmandan başga hiç kim saklamaýar. Şübhesiz, Ol ähli zady görýändir.",
+      "Rahmandan özge size ýardam berjek goşunyňyz kimkä? Kapyrlar diňe aldawyň içindedirler.",
+      "Eger Ol öz ryzkyny kesäýse, size ryzk berjek kimkä? Ýok, olar azgynlykda we hakykatdan gaçmakda erjellik görkezýärler.",
+      "Ýüzin ýykyljak ýagdaýda (ýeriňize seredip) ýöreýän kişi has dogry ýoldamydyr, ýa-da göni ýolda dik ýöräp barýan kişi?",
+      "Aýt: «Ol sizi ýaradan, size gulak, göz we ýürekler berendir. Siz nähili az şükür edýärsiňiz!»",
+      "Aýt: «Ol sizi ýer ýüzünde ýaýradandyr we siz Onuň huzurynda jemlenersiňiz».",
+      "Olar: «Eger dogry sözlülerden bolsaňyz, bu wada haçan amala aşar?» diýýärler.",
+      "Aýt: «(Onuň wagty baradaky) ylym diňe Allahyň ýanyndadyr. Men bolsa diňe açyk duýduryjydyryn».",
+      "Olar ony (azaby) ýakyndan görenlerinde, kapyrlaryň ýüzleri garaört bolar we olara: «Ine, siziň (tizleşdirmegini) islän zadyňyz şudur!» diýler.",
+      "Aýt: «Aýdyň bakaly, eger Allah meni we ýanymdakylary heläk etse ýa-da bize rehim etse, kapyrlary elhenç azapdan kim halas eder?»",
+      "Aýt: «Ol Rahmandyr; biz Oňa iman getirdik we diňe Oňa bil bagladyk. Kimiň açyk azaşmada dygyny tiz wagtda bilersiňiz!»",
+      "Aýt: «Aýdyň bakaly, eger suwuňyz ýeriň düýbüne çekilip gitse, size kim akar suw getirip biler?»"
+    ]
+  },
+  "78": {
+    "name": "Nebe",
+    "ayahs": [
+      "Olar biri-birinden näme barada soraşýarlar?",
+      "Ol uly habar (Kyýamat) barada,",
+      "Olaryň öz aralarynda jedelleşýän zady barada.",
+      "Ýok! Olar tiz wagtda bilerler!",
+      "Ýene-de ýok! Olar tiz wagtda bilerler!",
+      "Biz ýeri bir düşek etmedikmi?",
+      "Daglary hem (ýeri saklaýan) gazyklar etmedikmi?",
+      "Biz sizi jübüt-jübüt (erkek we aýal) edip ýaratdyk.",
+      "Ukyňyzy dynç alyş etdik.",
+      "Gijäni örtgi etdik.",
+      "Gündizi bolsa gazanç (dirilik) wagty etdik.",
+      "Üstüňizde ýedi sany berk (asmany) bina etdik.",
+      "Ýagtylyk we ýylylyk saçýan bir çyra (Güni) ýaratdyk.",
+      "Sykylyp çykýan bulutlardan bol suw inderdik,",
+      "Onuň bilen däneleri we ot-çöpleri ösdürip ýetişdirmek üçin,",
+      "Hem-de gür bag-bakjalary.",
+      "Şübhesiz, Aýrylyşyk (Höküm) gününiň wagty bellidir.",
+      "Sur çalynjak gün siz topar-topar bolup gelersiňiz.",
+      "Asman açylar we köp gapyly bolar.",
+      "Daglar ýerinden gozgalyp, sagyma (seraba) döner.",
+      "Şübhesiz, jähennem bukuda garaşyp durandyr,",
+      "Azgynlaryň gaýdyp barjak mesgeni hökmünde.",
+      "Olar ol ýerde ençeme asyrlar boýy galarlar.",
+      "Olar ol ýerde ne bir salkynlyk dadarlar, ne-de (içer ýaly) bir içgi,",
+      "Diňe gaýnag suw we irin (içerler).",
+      "(Bu olaryň) eden işlerine laýyk jezadyr.",
+      "Çünki olar hasaba çekiljekdiklerine garaşmaýardylar.",
+      "Aýatlarymyzy hem düýpli ýalan saýýardylar.",
+      "Biz bolsa ähli zady ýazyp, hasaba alandyrys.",
+      "Onda (azaby) dadyň! Indi size azapdan başga hiç zady artdyrmarys.",
+      "Şübhesiz, takwalar üçin halas bolmak we üstünlik bardyr:",
+      "Bag-bakjalar we üzümzarlyklar,",
+      "Deň-duş, päkize gyzlar,",
+      "Doly jamlar (käşeler).",
+      "Olar ol ýerde ne boş gürrüň eşiderler, ne-de ýalan söz.",
+      "Rabbyňdan bir sylag, ýeterlik bir sowgat hökmünde!",
+      "Ol gökleriň, ýeriň we olaryň arasyndakylaryň Rabbydyr, Rahmandyr. Olar Onuň huzurynda (rugsatsyz) söz aýtmaga milt edip bilmezler.",
+      "Ruh (Jebraýyl) we perişdeler hatar-hatar bolup durjak güni, Rahmanyň rugsat berenlerinden we dogry söz aýdanlardan başga hiç kim gürläp bilmez.",
+      "Ine, bu hak gündür. Kim islese, öz Rabbyna tarap (eltýän) bir ýol tutunsyn.",
+      "Hakykatdan-da, Biz sizi ýakyn bolan bir azapdan ägä etdik. Şol gün kişi öz elleriniň öňünden iberen işlerine sereder we kapyr: «Wah, käşgä men toprak bolup galaýsadym!» diýer."
+    ]
+  },
+  "79": {
+    "name": "Naziat",
+    "ayahs": [
+      "(Kapyrlaryň janlaryny) güýç bilen sogrup alýanlara ant bolsun!",
+      "(Müminleriň janlaryny) ýuwaşlyk bilen ýeňil alýanlara,",
+      "(Asmanda) ýüzüp gidýänlere,",
+      "Öňe geçip ýaryşýanlara,",
+      "We (Allahyň buýrugy bilen) işleri dolandyrýan (perişdelere) ant bolsun!",
+      "Olar sarsdyryjy (birinji Sur) sarsdyran güni,",
+      "Onuň yzyndan ikinjisi (ikinji Sur) gelende,",
+      "Şol gün ýürekler gorkudan titrär,",
+      "Olaryň gözleri aşak egiler.",
+      "Olar: «Biz, dogrudan hem, öňki halymyza (dirilige) gaýtarylarysmy?",
+      "Çüýräp giden süňkler bolanymyzdan soňmy?» diýerler.",
+      "Olar: «Beýle bolsa, bu zyýanly bir gaýdyş bolar!» diýdiler.",
+      "Ol diňe ýeke-täk elhenç sesdir (gykylykdyr).",
+      "Şol bada olar ýeriň ýüzünde (direlip) peýda bolarlar.",
+      "Musanyň habary saňa ýetdimi?",
+      "Rabby oňa mukaddes Tuwa jülgesinde şeýle seslenipdi:",
+      "«Fyrgawnyň ýanyna git! Çünki ol hetden aşdy.",
+      "Oňa aýt: Päklenmäge islegiň barmy?",
+      "Seni Rabbyňa gönükdireýin, şeýlelikde Ondan gorkarsyň!»",
+      "Soňra (Musa) oňa ol uly mugjyzany görkezdi.",
+      "Emma ol ýalan saýdy we boýun egmedi.",
+      "Soňra arka öwrüp, (Musa garşy) hyjuw bilen işe girişdi.",
+      "Adamlary ýygnap, (olara) seslendi.",
+      "We: «Men siziň iň beýik rabbyňyzdyryn!» diýdi.",
+      "Allah hem ony dünýä we ahyret azaby bilen jezalandyrdy.",
+      "Şübhesiz, munda (Allahdan) gorkýan kişi üçin uly bir sapak (ybrat) bardyr.",
+      "Ýaradylyş taýdan siz has kynmy ýa-da asman? Ony (Allah) bina etdi.",
+      "Onuň gümmezini belent etdi we ony kämil şekile saldy.",
+      "Gijesini garaňky edip, gündizini (ýagtysyny) çykardy.",
+      "Mundan soň ýeri hem ýaýyp düşedi.",
+      "Ondan suwuny we öri meýdanlaryny (ot-çöplerini) çykardy.",
+      "Daglary hem berk dikdi;",
+      "Siziň we mallaryňyzyň peýdalanmagy üçin.",
+      "Iň uly betbagtçylyk (Kyýamat) gelende,",
+      "Şol gün ynsan öz eden ähli işlerini ýadyna salar.",
+      "Jähennem hem görýän her bir kişä äşgär görkeziler.",
+      "Kim azgynlyk edip hetden aşan bolsa,",
+      "We dünýä ýaşaýşyny ileri tutan bolsa,",
+      "Şübhesiz, onuň barjak ýeri jähennemdir.",
+      "Emma kim Rabbynyň huzurynda durmakdan gorkup, nefsini erbet isleglerden saklan bolsa,",
+      "Şübhesiz, onuň barjak ýeri jennetdir.",
+      "Senden Kyýamat barada: «Ol haçan gopar?» diýip soraýarlar.",
+      "Sen ony nireden aýdyp bilersiň?!",
+      "Onuň gutarnykly bilimi diňe Rabbyňa degişlidir.",
+      "Sen diňe ondan gorkýanlar üçin bir duýduryjysyň.",
+      "Olar ony gören güni, hamala dünýäde diňe bir agşam ýa-da onuň säheri ýaşan ýaly bolarlar."
+    ]
+  },
+  "80": {
+    "name": "Abese",
+    "ayahs": [
+      "Ol ýüzüni çytdy we nusgasyny üýtgedip öwrüldi,",
+      "Ýanyna kör (Abdullah ibn Ümmü Mektum) geleni üçin.",
+      "Sen näme bilýärsiň, belkem ol (günälerden) päklener,",
+      "Ýa-da öwüt alar-da, ol öwüt oňa peýda berer.",
+      "Özüni hiç zada mätäç däl hasaplaýan kişä gelsek,",
+      "Sen ünsüňi oňa berýärsiň.",
+      "Halbuki, onuň päklenmezliginden saňa hiç hili jogapkärçilik ýokdur.",
+      "Emma yhlas bilen ylgap ýanyňa gelene,",
+      "(Allahdan) gorkup gelene welin,",
+      "Sen oňa üns bermeýärsiň.",
+      "Ýok! Hakykatdan-da, bu (aýatlar) bir ýatlatmadyr (öwütdir).",
+      "Kim islese, ondan öwüt alar.",
+      "Ol gymmatly sahypalardadyr,",
+      "Belent tutulan we päkize sahypalarda;",
+      "Ýazyjylaryň (perişdeleriň) ellerindedir,",
+      "Hormatly we (Allaha) mydama boýun egýän (perişdeleriň).",
+      "Kahyr bolsun (nebsine aldanyp inkär eden) ynsana! Ol nähili gadyrbilmezdir!",
+      "(Allah) ony nämeden ýaratdy?",
+      "Bir damja suwdan (nutfeden) ýaratdy we oňa ölçeg-biçim berdi.",
+      "Soňra oňa ýoly aňsatlaşdyrdy.",
+      "Soňra ony öldürdi we gabra saldy.",
+      "Soňra islän wagty ony täzeden direlder.",
+      "Ýok! Ol entek (Allahyň) özüne buýran zadyny berjaý etmedi.",
+      "Ynsan öz iýýän iýmitine bir seretsin!",
+      "Biz suwy bol-elin guýduk.",
+      "Soňra ýeri ýaryp açdyk.",
+      "Onda däneleri ösdürdik,",
+      "Üzümleri we gök otlary,",
+      "Zeýtunlary we hurmalary,",
+      "Gür agaçly baglary,",
+      "Miweleri we ot-çöpleri;",
+      "Siziň we mallaryňyzyň peýdalanmagy üçin.",
+      "Gulaklary ker ediji ol elhenç ses (Kyýamat) gelende,",
+      "Şol gün kişi öz doganyndan gaçar,",
+      "Enesinden we atasyndan,",
+      "Aýalyndan we çagalaryndan.",
+      "Şol gün olaryň her biriniň özüne ýeterlik (başagaý ediji) gaýgysy bolar.",
+      "Şol gün käbir ýüzler ýagtylyp lowurdar,",
+      "Güler we şatlanar.",
+      "Şol gün käbir ýüzleriň üstünde bolsa tozan bolar,",
+      "Olary garaňkylyk (garalyk) bürär.",
+      "Ine, şolar kapyrlardyr, günäkärlerdir."
+    ]
+  },
+  "81": {
+    "name": "Tekwir",
+    "ayahs": [
+      "Gün düýrülip (ýagtysy öçürilende),",
+      "Ýyldyzlar dökülip darganda,",
+      "Daglar ýerinden gozgalyp ýöredilende,",
+      "On aýlyk bogaz düýeler eýesiz taşlananda,",
+      "Ýabany haýwanlar bir ýere ýygnalanda,",
+      "Deňizler gaýnadylyp oda öwrülende,",
+      "Janlar (bedenler bilen) birleşdirilende,",
+      "Diriligine gömlen gyz çagasyndan soralanda:",
+      "«Haýsy günäsi üçin öldürildi?» diýlip;",
+      "Amal depderleri açylanda,",
+      "Asman sypyrylyp aýrylanda,",
+      "Jähennem güýçli tutaşdyrylanda,",
+      "We jennet ýakynlaşdyrylanda,",
+      "Her bir jan öz getiren (eden) zadyny biler.",
+      "Ýok! Gündiz gizlenip,",
+      "Gije peýda bolup ýöreýän we ýerine girýän ýyldyzlara ant edýärin!",
+      "Garaňkylygy bilen gelýän gijä ant bolsun!",
+      "Dem alyp ýagtylyp başlan daňa ant bolsun!",
+      "Hakykatdan-da, ol (Gurhan) hormatly bir ilçiniň (Jebraýylyň) getiren sözüdir.",
+      "Ol güýç-kuwwat eýesidir, Arşyň Eýesiniň ýanynda mertebesi belentdir.",
+      "Ol ýerde oňa boýun egilýändir, ol ynamdardyr.",
+      "Siziň ýoldaşyňyz (Muhammet) däli däldir.",
+      "Kasam bolsun, ol ony (Jebraýyly) açyk gözýetimde gördi.",
+      "Ol gaýyp habarlaryna (wahyýa) garşy gysganç däldir.",
+      "Ol (Gurhan) daşlanan şeýtanyň sözi däldir.",
+      "Onda siz nirä barýarsyňyz?",
+      "Ol diňe älemler üçin bir öwüt-ündewdir;",
+      "Aranyzdan dogry ýolda ýöremek isleýänler üçin.",
+      "Älemleriň Rabby bolan Allah islemese, siz isläp bilmersiňiz!"
+    ]
+  },
+  "82": {
+    "name": "Infitar",
+    "ayahs": [
+      "Asman ýarylanda,",
+      "Ýyldyzlar dargap dökülende,",
+      "Deňizler biri-birine goşulyp akdyrylanda,",
+      "Gabyrlaryň içi agdarylyp açylanda,",
+      "Her bir jan öňünden iberen we yzynda goýan işlerini biler.",
+      "Eý, ynsan! Keremli Rabbyňa garşy seni näme aldatdy?",
+      "Ol seni ýaratdy, süňňüňi düzdi we saňa deňagramly şekil berdi.",
+      "Islän görnüşinde seni terkip etdi (birleşdirdi).",
+      "Ýok! Gaýtam, siz jeza (Kyýamat) gününi ýalan saýýarsyňyz.",
+      "Halbuki, siziň üstüňizde gözegçiler bardyr;",
+      "Hormatly ýazyjy (perişdeler).",
+      "Olar siziň ähli edýän işleriňizi bilýärler.",
+      "Şübhesiz, ýagşylar (ebrar) nygmat (jennet) içindedirler.",
+      "Günäkärler (füjjar) bolsa, şübhesiz, jähennemdedirler.",
+      "Olar jeza güni oňa girerler.",
+      "Olar ol ýerden hiç wagt gaýyp bolup (gutulyp) bilmezler.",
+      "Jeza gününiň nämedigini saňa näme bildirdi?",
+      "Ýene-de, jeza gününiň nämedigini saňa näme bildirdi?",
+      "Şol gün hiç bir jan başga bir jana hiç hili peýda berip bilmez. Şol gün ähli buýruk (höküm) diňe Allaha degişlidir."
+    ]
+  },
+  "83": {
+    "name": "Mutaffifin",
+    "ayahs": [
+      "Ölçegde we çekimde kemçilik edýänlere (hilä ýüz urýanlara) wah bolsun!",
+      "Olar adamlardan ölçeýän wagtlary doly alarlar,",
+      "Emma olara ölçäp ýa-da çekip berenlerinde kemelderler.",
+      "Olar direldiljekdiklerini pikir etmeýärlermi,",
+      "Ol uly günde?",
+      "Şol gün adamlar älemleriň Rabbynyň huzurynda durarlar.",
+      "Ýok! Şübhesiz, günäkärleriň ýazgysy Sijjindedir.",
+      "Sijjiniň nämedigini saňa näme bildirdi?",
+      "Ol ýazylan (möhürlenen) bir kitapdyr.",
+      "Ýalan saýýanlara şol gün wah bolsun!",
+      "Olar jeza (Kyýamat) gününi ýalan saýýanlardyr.",
+      "Ony diňe hetden aşan her bir günäkär ýalan saýar.",
+      "Oňa aýatlarymyz okalanda: «Öňküleriň ertekileri!» diýer.",
+      "Ýok! Gaýtam, olaryň gazanan (erbet) işleri ýüreklerini poslatdy.",
+      "Ýok! Şübhesiz, olar şol gün Rabblaryny (görmekden) mahrum edilerler.",
+      "Soňra olar, elbetde, jähenneme girerler.",
+      "Soňra olara: «Ine, siziň ýalan saýyp ýören zadyňyz şudur!» diýler.",
+      "Ýok! Şübhesiz, ýagşylaryň ýazgysy Ylliýýundadyr.",
+      "Ylliýýunyň nämedigini saňa näme bildirdi?",
+      "Ol ýazylan bir kitapdyr.",
+      "Oňa (Allaha) ýakynlaşdyrylan (perişdeler) şaýat bolarlar.",
+      "Şübhesiz, ýagşylar nygmat (jennet) içindedirler.",
+      "Tagtlaryň üstünde (etraplaryna) syn ederler.",
+      "Olaryň ýüzlerinde nygmatyň (bagtyýarlygyň) öwüşginini görersiň.",
+      "Olara möhürlenen arassa içgiden içiriler.",
+      "Onuň soňy müşkdir. Ýaryşýanlar şonuň üçin ýaryşsynlar!",
+      "Onuň garyndysy Tesnimdendir.",
+      "Ol bir çeşmedir, ondan (Allaha) ýakynlaşdyrylanlar içerler.",
+      "Şübhesiz, günäkärler (dünýäde) iman getirenleriň üstünden gülýärdiler.",
+      "Olaryň ýanyndan geçenlerinde biri-birine göz gypýardylar.",
+      "Maşgalalarynyň ýanyna dolananlarynda bolsa, (eden işlerine) keýp çekip dolanýardylar.",
+      "Olary (müminleri) görenlerinde: «Şübhesiz, bular azaşanlardyr!» diýýärdiler.",
+      "Halbuki, olar (müminleriň) üstüne gözegçi edip iberilmändiler.",
+      "Şu gün (Kyýamatda) bolsa iman getirenler kapyrlaryň üstünden gülerler.",
+      "Tagtlaryň üstünde syn ederler.",
+      "Görýärsiňizmi, kapyrlara eden işleriniň öwezi doly berildimi?!"
+    ]
+  },
+  "84": {
+    "name": "Inşikak",
+    "ayahs": [
+      "Asman ýarylanda,",
+      "Rabbyna gulak asyp boýun egende — aslynda ol şeýle hem etmelidir —,",
+      "Ýer ýaýylyp tekizlenende,",
+      "Içindäki zatlary daşyna zyňyp boşanda,",
+      "We Rabbyna gulak asyp boýun egende — aslynda ol şeýle hem etmelidir —,",
+      "Eý, ynsan! Şübhesiz, sen Rabbyňa tarap (barýan ýolda) yhlas bilen zähmet çekýärsiň we ahyry Oňa gowşarsyň.",
+      "Kime amal depderi sag elinden berilse,",
+      "Ol aňsat bir hasap bilen hasaba çekiler,",
+      "We maşgalasynyň (ýakynlarynyň) ýanyna şatlyk bilen dolanar.",
+      "Emma kime amal depderi arkasyndan (çep elinden) berilse,",
+      "Ol: «Wah, ölüm!» diýip perýat eder,",
+      "We ýalynly oda (jähenneme) girer.",
+      "Çünki ol (dünýäde) maşgalasynyň arasynda (ahyreti unudyp) şady-horram ýaşaýardy.",
+      "Ol hiç wagt (Rabbynyň huzuryna) dolanmaryn öýdýärdi.",
+      "Ýok! Hakykatdan-da, Rabby ony görýärdi.",
+      "Men şefaga (günüň batýan wagtyndaky gyzyllyga) kasam edýärin,",
+      "Gijä we onuň jemlän zatlaryna,",
+      "Doly (on dört gijelik) bolan Aýa kasam edýärin:",
+      "Siz, elbetde, haldan-hala geçersiňiz!",
+      "Beýle bolsa, olara näme bolýar, iman getirmeýärler?",
+      "Olara Gurhan okalanda sejde etmeýärler?",
+      "Gaýtam, kapyrlar (ony) ýalan saýýarlar.",
+      "Allah bolsa olaryň ýüreklerinde gizleýän zatlaryny has gowy bilýändir.",
+      "Onda olara agyr bir azaby buşla!",
+      "Diňe iman getirip, salih amallar edenler muňa girmez. Olar üçin üzülmez (tükeniksiz) sylag bardyr."
+    ]
+  },
+  "85": {
+    "name": "Buruj",
+    "ayahs": [
+      "Ýyldyzlar toplumlary (burçlar) bolan asmana ant bolsun!",
+      "Wada edilen ol güne (Kyýamata) ant bolsun!",
+      "Şaýat bolana we şaýatlyk edilene ant bolsun!",
+      "Uhdud (otly çukur) eýeleri näletlendi (heläk edildi)!",
+      "Ol tutaşdyrylyp ýakylan ot,",
+      "Şol wagt olar onuň daşynda otyrdylar.",
+      "Müminlere edýän (zulumlaryny) bolsa synlaýardylar.",
+      "Olar olardan (müminlerden) diňe Eziz we öwgä mynasyp bolan Allaha iman getirendikleri üçin öç alýardylar.",
+      "Gökleriň we ýeriň hökümdarlygy Oňa degişlidir. Allah ähli zada Şaýatdyr.",
+      "Mümin erkeklere we mümin aýallara ezýet berip, soňra toba etmedikler bar-a, olar üçin jähennem azaby we ýandyryjy ot azaby bardyr.",
+      "Iman getirip, salih amallar edenler üçin bolsa, şübhesiz, aşagyndan derýalar akýan jennetler bardyr. Ine, uly üstünlik şudur!",
+      "Hakykatdan-da, Rabbyňyň tutuşy (jezasy) gaty güýçlüdir.",
+      "Şübhesiz, Ol ilki başdan ýaradýandyr we (ölenden soň) täzeden direldýändir.",
+      "Ol köp bagyşlaýjydyr, (bendelerini) köp söýüjidir.",
+      "Arşyň Eýesidir, beýik mertebelidir.",
+      "Ol islän zadyny hökman amala aşyryjydyr.",
+      "Goşunlaryň habary saňa ýetdimi?",
+      "Fyrgawnyň we Semudyň?",
+      "Emma kapyrlar heniz hem ýalan saýmakdadyrlar.",
+      "Allah bolsa olary arkasyndan (her tarapdan) gurşap alandyr.",
+      "Ýok, ol şöhratly bir Gurhandyr,",
+      "Ol Lewhi-Mahfuzdadyr (goralýan tagtadadyr)."
+    ]
+  },
+  "86": {
+    "name": "Taryk",
+    "ayahs": [
+      "Asmana we Taryka ant bolsun!",
+      "Tarykyň nämedigini saňa näme bildirdi?",
+      "Ol (garaňkylygy) deşip geçýän ýagty ýyldyzdyr.",
+      "Üstünde gözegçi (goraýjy perişde) bolmadyk hiç bir jan ýokdur.",
+      "Onda ynsan nämeden ýaradylandygyna bir seretsin!",
+      "Ol atylyp çykýan bir suwdan ýaradyldy.",
+      "Ol (suw) bil we döş süňkleriniň arasyndan çykýar.",
+      "Şübhesiz, Ol (Allah) ony täzeden direltmäge hem Kadyrdyr.",
+      "Syrlaryň äşgär ediljek güni,",
+      "Onuň ne bir güýji bolar, ne-de bir ýardamçysy.",
+      "Ýagyşly asmana ant bolsun!",
+      "(Ösümlikleri bilen) ýarylýan ýere ant bolsun!",
+      "Şübhesiz, ol (Gurhan) hak bilen batyly aýyl-saýyl edýän anyk sözdür.",
+      "Ol degişme (boş söz) däldir.",
+      "Hakykatdan-da, olar bir hile gurýarlar.",
+      "Men hem olaryň hilesini puja çykarjak meýilnama gurýaryn.",
+      "Onda kapyrlara möhlet ber, olara azajyk wagt ber!"
+    ]
+  },
+  "87": {
+    "name": "Ala",
+    "ayahs": [
+      "Iň Beýik Rabbyňyň adyny tesbih et (ulula)!",
+      "Ol ýaratdy we kämil şekile saldy.",
+      "Ol ölçeg-biçim berdi we ýol görkezdi.",
+      "Ol ýaşyl ot-çöpleri çykardy.",
+      "Soňra bolsa ony gap-gara gury çöpe öwürdi.",
+      "Biz saňa (Gurhany) okadarys we sen ony ýatdan çykarmarsyň,",
+      "Diňe Allahyň islän zady muňa girmez. Şübhesiz, Ol äşgär bolany hem, gizlin bolany hem bilýändir.",
+      "Biz seni iň aňsat ýola ugrukdyrarys.",
+      "Peýda berse, öwüt-nesihat et!",
+      "(Allahdan) gorkýan kişi öwüt alar.",
+      "Iň betbagt kişi bolsa ondan gaçar.",
+      "Ol iň uly oda (jähenneme) girer.",
+      "Soňra ol ýerde ne öler, ne-de diriler (rahat ýaşar).",
+      "(Günälerden) päklenen kişi, şübhesiz, halas bolandyr;",
+      "Rabbynyň adyny ýatlap, namaz okan kişi.",
+      "Emma siz dünýä ýaşaýşyny ileri tutýarsyňyz.",
+      "Halbuki, ahyret has haýyrlydyr we has bakydyr.",
+      "Şübhesiz, bu (aýdylanlar) öňki sahypalarda hem bardyr;",
+      "Ybraýymyň we Musanyň sahypalarynda."
+    ]
+  },
+  "88": {
+    "name": "Gaşiýe",
+    "ayahs": [
+      "Ähli zady büräp alýan (Kyýamatyň) habary saňa ýetdimi?",
+      "Şol gün käbir ýüzler aşak egiler,",
+      "Işlär, ýadar (hor bolar).",
+      "Gyzgyn oda girer.",
+      "Gaýnap duran çeşmeden suw içiriler.",
+      "Olara tikenli gury otdan (darydan) başga iýmit ýokdur.",
+      "Ol ne semreder, ne-de açlygy gandyryp doýurar.",
+      "Şol gün käbir ýüzler bolsa şadyýandyr.",
+      "(Dünýäde) eden tagallalaryndan hoşaldyr.",
+      "Belent jennetdedir.",
+      "Ol ýerde boş gürrüň eşitmezler.",
+      "Ol ýerde akyp duran çeşme bardyr.",
+      "Ol ýerde belent tagtlar bardyr,",
+      "Goýlan käşeler,",
+      "Hatara düzülen ýassyklar,",
+      "We düşelen nepis halyçalar bardyr.",
+      "Olar düýäniň nähili ýaradylandygyna seretmeýärlermi?",
+      "Asmanyň nähili beýgeldilendigine?",
+      "Daglaryň nähili dikeldilendigine?",
+      "Ýeriň nähili ýaýylyp düşelendigine?",
+      "Onda sen öwüt-nesihat et! Sen diňe öwüt berijisiň.",
+      "Sen olaryň üstünde zor bilen boýun egdiriji dälsiň.",
+      "Emma kim ýüz öwrüp, kapyr bolsa,",
+      "Allah ony iň uly azap bilen jezalandyrar.",
+      "Şübhesiz, olaryň dolanyp gelýän ýeri Biziň huzurymyzdyr.",
+      "Soňra olary hasaba çekmek hem, elbetde, Bize degişlidir."
+    ]
+  },
+  "89": {
+    "name": "Fejr",
+    "ayahs": [
+      "Daňa ant bolsun!",
+      "On gijä ant bolsun!",
+      "Jübüte we täge ant bolsun!",
+      "Geçip barýan wagty gijä ant bolsun!",
+      "Bularda akyl eýesi üçin ýeterlik kasam ýokmudyr?",
+      "Rabbyňyň Ad kowmuna näme edenini görmediňmi?",
+      "Belent sütünli Ireme?",
+      "Ýurtlarda (ýer ýüzünde) onuň ýalysy ýaradylmandy.",
+      "Jülgede gaýalary ýonup (öý edinen) Semud kowmuna?",
+      "Kazylar (goşunlar) eýesi Fyrgawna?",
+      "Olar ýurtlarda azgynlyk edip, hetden aşypdylar.",
+      "Ol ýerde bozgaklygy köpeldipdiler.",
+      "Şonuň üçin Rabbyň olaryň üstüne azap gamçysyny ýagdyrdy.",
+      "Şübhesiz, Rabbyň mydama gözegçilikdedir.",
+      "Ynsana gelsek, Rabby ony synamak üçin oňa hormat we nygmat berende, ol: «Rabbym meni hormatlady» diýer.",
+      "Emma ony synamak üçin ryzkyny daraldanda bolsa: «Rabbym meni kemsitdi (horlady)» diýer.",
+      "Ýok, beýle däl! Gaýtam, siz ýetime hormat goýmaýarsyňyz.",
+      "Garyby (miskini) doýurmaga biri-biriňizi höweslendirmeýärsiňiz.",
+      "Mirasy (halal-haram diýmän) açgözlük bilen iýýärsiňiz.",
+      "Mal-dünýäni hem aşa gowy görýärsiňiz.",
+      "Ýok! Ýer sarsdyrylyp, kül-uşak edilende,",
+      "Rabbyň (emri) we perişdeler hatar-hatar gelende,",
+      "Şol gün jähennem getiriler. Şol gün ynsan (ähli zady) ýadyna salyp düşünýär, emma bu ýatlama oňa näme peýda berer?!",
+      "Ol: «Käşgä şu (ahyret) durmuşym üçin öňünden (ýagşy amallar) iberen bolsadym!» diýer.",
+      "Şol gün Onuň berjek azaby ýaly hiç kim azap berip bilmez.",
+      "Onuň daňyşy ýaly hiç kim daňyp bilmez.",
+      "Eý, parahatlyga ýeten (mutmainne) nefs (jan)!",
+      "Sen Ondan razy, Ol hem senden razy bolan halda Rabbyňa dolan!",
+      "Bendelerimiň arasyna goşul!",
+      "We jennetime gir!"
+    ]
+  },
+  "90": {
+    "name": "Beled",
+    "ayahs": [
+      "Şu şähere (Mekgä) kasam edýärin!",
+      "Sen hem şu şäherde ýaşaýarsyň (saňa ol ýerde halal kylynandyr).",
+      "Ata we onuň önelgesine (nesline) kasam bolsun!",
+      "Hakykatdan-da, Biz ynsany zähmet we kynçylyk içinde ýaratdyk.",
+      "Ol özüne hiç kimiň güýji ýetmez öýdýärmi?",
+      "Ol: «Men ummasyz baýlyk sowdum» diýýär.",
+      "Ol özüni hiç kim görmändir öýdýärmi?",
+      "Biz oňa iki göz bermedikmi?",
+      "Bir dil we iki dodak (bermedikmi)?",
+      "Biz oňa iki ýoly (ýagşylyk we ýamanlyk ýoluny) görkezdik.",
+      "Emma ol kyn geçelgäni aşmaga synanyşmady.",
+      "Kyn geçelgäniň nämedigini saňa näme bildirdi?",
+      "Ol bir guluň boýnuny azat etmekdir,",
+      "Ýa-da açlyk gününde nahar bermekdir,",
+      "Ýakyn garyndaş bolan ýetime,",
+      "Ýa-da topraga bulaşan garyp miskine.",
+      "Soňra bolsa iman getirenlerden we biri-birine sabyrlylygy hem-de mähribanlygy wesýet edenlerden bolmakdyr.",
+      "Ine, şolar sag tarap eýeleridir (bagtlylardyr).",
+      "Aýatlarymyzy inkär edenler bolsa, olar çep tarap eýeleridir (betbagtlardyr).",
+      "Olaryň üstünde gapylary ýapylgy ot bardyr."
+    ]
+  },
+  "91": {
+    "name": "Şems",
+    "ayahs": [
+      "Güne we onuň ýagtysyna ant bolsun!",
+      "Onuň yzyndan gelýän Aýa ant bolsun!",
+      "Ony (Güni) äşgär görkezen gündize ant bolsun!",
+      "Ony örten gijä ant bolsun!",
+      "Asmana we ony bina Edene ant bolsun!",
+      "Ýere we ony ýaýyp düşäne ant bolsun!",
+      "Nefse (jana) we ony kämil şekile salana,",
+      "Soňra hem oňa erbetligini we takwalygyny (ýagşylygyny) ylham edene ant bolsun!",
+      "Nefsini päklän kişi, şübhesiz, halas bolandyr.",
+      "Ony (günä bilen) hapalan kişi bolsa, şübhesiz, zyýana galandyr.",
+      "Semud kowmy azgynlygy sebäpli (pygamberi) ýalançy hasaplady.",
+      "Olaryň iň betbagty orta atylanda,",
+      "Allahyň ilçisi olara: «Allahyň düýesine we onuň suw içmek gezegine (degmekden ägä boluň)!» diýipdi.",
+      "Emma olar ony ýalançy hasapladylar we düýäniň damagyny çaldylar. Rabblary hem günäleri sebäpli olaryň üstüne jezany ýagdyryp, olary ýer bilen ýegsan etdi.",
+      "Ol (Allah) munuň yzyndan (netijesinden) çekinmez."
+    ]
+  },
+  "92": {
+    "name": "Leýl",
+    "ayahs": [
+      "Örtüp bürän wagty gijä ant bolsun!",
+      "Ýagtylyp açylan wagty gündize ant bolsun!",
+      "Erkegi we urkaçyny Ýaradana ant bolsun!",
+      "Hakykatdan-da, siziň tagallalaryňyz dürli-dürlüdir.",
+      "Kim (Allahyň ýolunda malyny) berse we günäden saklansa,",
+      "Iň gözel sözi (kelimeýi-şahadaty we jenneti) tassyk etse (dogry diýip kabul etse),",
+      "Biz hem ony iň aňsat ýola ugrukdyrarys.",
+      "Emma kim gysgançlyk etse we özüni mätäç däl hasaplasa,",
+      "Iň gözel sözi hem ýalan saýsa,",
+      "Biz ony iň kyn ýola (dowzaha) ugrukdyrarys.",
+      "Ol heläkçilige gaçan wagty, maly oňa hiç hili peýda bermez.",
+      "Dogry ýoly görkezmek, elbetde, Bize degişlidir.",
+      "Ahyret hem, dünýä hem, şübhesiz, Biziňkidir.",
+      "Men sizi lowlap ýanýan otdan ägä etdim (gorkuzdym).",
+      "Oňa diňe iň betbagt kişi girer.",
+      "Ol (hakykaty) ýalan saýyp, ýüz öwrendir.",
+      "Iň takwa (Allahdan gorkýan) kişi bolsa ondan uzaklaşdyrylar.",
+      "Ol öz malyny päklenmek üçin berýändir.",
+      "Onuň ýanynda hiç kimiň öwezi gaýtarylmaly nygmaty (minneti) ýokdur;",
+      "Ol diňe Beýik Rabbynyň razylygyny gözleýändir.",
+      "Elbetde, ol tiz wagtda razy bolar."
+    ]
+  },
+  "93": {
+    "name": "Duha",
+    "ayahs": [
+      "Guşluk wagtyna ant bolsun!",
+      "Ümsümlik çöken wagty gijä ant bolsun!",
+      "Rabbyň seni terk etmedi we saňa gaharlanmady.",
+      "Elbetde, ahyret seniň üçin dünýäden has haýyrlydyr.",
+      "Rabbyň saňa (köp nygmatlar) berer we sen hoşal bolarsyň.",
+      "Ol seni ýetim tapyp, penasyna almadymy?",
+      "Ol seni ýol bilmez ýagdaýda tapyp, dogry ýola gönükdirmedimi?",
+      "Ol seni mätäç ýagdaýda tapyp, baý etmedimi?",
+      "Onda ýetime azar berme!",
+      "Dilegçini hem kowma!",
+      "Rabbyňyň nygmatyny bolsa (şükür bilen) ýatlap dur!"
+    ]
+  },
+  "94": {
+    "name": "Inşirah",
+    "ayahs": [
+      "Biz seniň göwsüňi giňeltmedikmi?",
+      "Seniň üstüňdäki ýüküňi aýyrmadykmy?",
+      "Ol seniň biliňi büküpdi.",
+      "Seniň adyňy (abraýyňy) belende götermedikmi?",
+      "Diýmek, hakykatdan-da, her kynçylygyň ýanynda bir ýeňillik bardyr.",
+      "Hakykatdan-da, kynçylygyň ýanynda bir ýeňillik bardyr.",
+      "Şonuň üçin bir işden boşanyňdan soň, (başga bir haýyrly işe) yhlas bilen ýapyş!",
+      "We diňe Rabbyňa ýüzlen!"
+    ]
+  },
+  "95": {
+    "name": "Tin",
+    "ayahs": [
+      "Injire we zeýtuna ant bolsun!",
+      "Sina dagyna ant bolsun!",
+      "We şu asuda şähere (Mekgä) ant bolsun!",
+      "Hakykatdan-da, Biz ynsany iň gözel görnüşde ýaratdyk.",
+      "Soňra ony aşaklaryň iň aşagyna gaýtardyk.",
+      "Diňe iman getirip, salih amallar edenler muňa girmez. Olar üçin üzülmez (tükeniksiz) sylag bardyr.",
+      "Beýle bolsa, mundan soň saňa jeza (Kyýamat) gününi näme ýalan saýdyrýar?",
+      "Allah höküm çykarýanlaryň iň beýigi (iň adyl Hökümdary) dälmidir?"
+    ]
+  },
+  "96": {
+    "name": "Alak",
+    "ayahs": [
+      "Ýaradan Rabbyňyň ady bilen oka!",
+      "Ol ynsany lagtalanan gandam ýaratdy.",
+      "Oka! Rabbyň iň beýik kerem Eýesidir.",
+      "Ol galam bilen (ýazmagy) öwretdi.",
+      "Ol ynsana bilmedik zatlaryny öwretdi.",
+      "Ýok! Hakykatdan-da, ynsan hetden aşýar,",
+      "Özüniň baýlygyny (hiç zada mätäç däldigini) görýänligi sebäpli.",
+      "Şübhesiz, dolanyp baryljak ýer Rabbyňyň huzurydyr.",
+      "Gördüňmi ol gadagan edýän kişini,",
+      "Bir bendäni namaz okaýan wagtynda (namazdan saklaýany)?",
+      "Aýt bakaly, eger ol (bende) dogry ýolda bolsa,",
+      "Ýa-da takwalygy (Allahdan gorkmagy) buýurýan bolsa (näme bolar)?",
+      "Aýt bakaly, eger ol (gadagan edýän) hakykaty ýalan saýyp, ýüz öwürýän bolsa,",
+      "Ol Allahyň (ähli zady) görýändigini bilmeýärmi?",
+      "Ýok! Eger ol (bu erbet işinden) el çekmese, Biz ony hökman maňlaý saçyndan tutarys;",
+      "Ol ýalançy we günäkär maňlaýdan!",
+      "Goý, ol öz tarapdarlaryny çagyrsyn.",
+      "Biz hem zebanilary (dowzah perişdelerini) çagyrarys.",
+      "Ýok! Sen oňa boýun egme, sejde et we (Allaha) ýakynlaş!"
+    ]
+  },
+  "97": {
+    "name": "Kadr",
+    "ayahs": [
+      "Hakykatdan-da, Biz ony (Gurhany) Kadr gijesinde inderdik.",
+      "Kadr gijesiniň nämedigini saňa näme bildirdi?",
+      "Kadr gijesi müň aýdan has haýyrlydyr.",
+      "Perişdeler we Ruh (Jebraýyl) ol gijede Rabblarynyň rugsady bilen her bir iş üçin inerler.",
+      "Ol gije tä daň atýança parahatçylykdyr (salamdyr)."
+    ]
+  },
+  "98": {
+    "name": "Beýýine",
+    "ayahs": [
+      "Kitap eýelerinden we müşriklerden bolan kapyrlar özlerine açyk delil gelýänçä (küpürlerinden) el çekjek däldiler.",
+      "Ol (delil) Allah tarapyndan iberilen, päk sahypalary okaýan bir Ilçidir.",
+      "Ol sahypalarda dogry we gymmatly ýazgylar (hökümler) bardyr.",
+      "Kitap berlenler diňe özlerine açyk delil gelenden soň agzalalyga düşdüler.",
+      "Halbuki, olara diňe dini Allaha mahsus kylyp, Oňa päk ýürek bilen ybadat etmek, namazy berjaý etmek we zekaty bermek buýrulypdy. Ine, dogry din şudur.",
+      "Şübhesiz, Kitap eýelerinden we müşriklerden bolan kapyrlar jähennem odundadyrlar we ol ýerde ebedi galarlar. Olar ýaradylanlaryň iň erbetleridir.",
+      "Iman getirip, salih amallar edenler bolsa, şübhesiz, olar ýaradylanlaryň iň haýyrlylarydyr.",
+      "Olaryň Rabblarynyň ýanyndaky sylagy — aşagyndan derýalar akýan, içinde ebedi galjak Adn jennetleridir. Allah olardan razy bolandyr, olar hem Ondan razy bolandyrlar. Bu diňe Rabbyndan gorkýan kişi üçindir."
+    ]
+  },
+  "99": {
+    "name": "Zilzal",
+    "ayahs": [
+      "Ýer özüniň (elhenç) sarsgyny bilen sarsdyrylan wagty,",
+      "Ýer öz içindäki agyr ýüklerini (ölüleri we hazynalary) daşyna çykaran wagty,",
+      "Ynsan: «Muňa näme boldy?» diýen wagty,",
+      "Şol gün ol (ýer) öz habarlaryny gürrüň berer.",
+      "Çünki Rabbyň oňa wahyý (buýruk) edendir.",
+      "Şol gün adamlar öz amallarynyň görkezilmegi üçin topar-topar bolup (gabyrlaryndan) çykarlar.",
+      "Kim zerre mysaly ýagşylyk eden bolsa, ony görer.",
+      "Kim zerre mysaly ýamanlyk eden bolsa, ony hem görer."
+    ]
+  },
+  "100": {
+    "name": "Adiýat",
+    "ayahs": [
+      "Hars urup dem alýan (çapyp barýan) atlara ant bolsun!",
+      "(Toýnaklaryny daşa urup) ot çykarýanlara,",
+      "Daň bilen hüjüme geçýänlere,",
+      "Şol wagt tozan turuzýanlara,",
+      "We şol tozan bilen duşman toparynyň ortasyna kürsäp girýänlere ant bolsun!",
+      "Hakykatdan-da, ynsan öz Rabbyna garşy gaty gadyrbilmezdir.",
+      "Şübhesiz, onuň özi hem muňa şaýatdyr.",
+      "Hakykatdan-da, ol mal-dünýäni aşa gowy görýändir.",
+      "Ol bilmeýärmi, gabyrlardaky (ölüler) direldilip çykarylanda,",
+      "We ýüreklerdäki (syrlar) äşgär edilende,",
+      "Şübhesiz, şol gün Rabblary olaryň (ähli işlerinden) habardardyr!"
+    ]
+  },
+  "101": {
+    "name": "Karia",
+    "ayahs": [
+      "Elhenç ses bilen ýürekleri ýarýan apy-tupan (Karia)!",
+      "Nämedir ol Karia?",
+      "Karianyň nämedigini saňa näme bildirdi?",
+      "Şol gün adamlar dargap ýören perwanalar ýaly bolarlar.",
+      "Daglar bolsa tüýdülen reňkli ýüň ýaly bolarlar.",
+      "Kimiň (ýagşylyk) terezisi agyr gelse,",
+      "Ol hoşal boljak (bagtly) durmuşda bolar.",
+      "Emma kimiň terezisi ýeňil gelse,",
+      "Onuň mesgeni Hawiýedir.",
+      "Ony (Hawiýäniň nämedigini) saňa näme bildirdi?",
+      "Ol gyzgynlygy aşa güýçli bolan otdur!"
+    ]
+  },
+  "102": {
+    "name": "Tekasür",
+    "ayahs": [
+      "Köpeltmek (mal-dünýä we san taýdan öwünmek) höwesi sizi güýmedi,",
+      "Tä gabyrlara barýançaňyz (ölýänçäňiz).",
+      "Ýok, beýle däl! Tiz wagtda bilersiňiz!",
+      "Ýene-de ýok! Tiz wagtda bilersiňiz!",
+      "Ýok! Eger siz anyk ylym bilen bilsediňiz (beýle etmezdiňiz).",
+      "Kasam bolsun, siz ol jähennemi hökman görersiňiz!",
+      "Ýene kasam bolsun, ony gözüňiz bilen anyk görersiňiz!",
+      "Soňra şol gün size berlen ähli nygmatlardan hökman soraga çekilersiňiz!"
+    ]
+  },
+  "103": {
+    "name": "Asr",
+    "ayahs": [
+      "Asra (zamana) ant bolsun!",
+      "Hakykatdan-da, ynsan zyýandadyr.",
+      "Diňe iman getirip, salih amallar edenler, biri-birine hakykaty we sabyrly bolmagy wesýet edenler muňa girmez."
+    ]
+  },
+  "104": {
+    "name": "Hümeze",
+    "ayahs": [
+      "Adamlary arkasyndan gybat edip, ýüzüne kemsidýän her bir kişä wah bolsun!",
+      "Ol mal ýygnap, ony gaýta-gaýta sanap oturýandyr.",
+      "Ol öz malynyň özüni baky ýaşatjakdygyny pikir edýär.",
+      "Ýok, beýle däl! Ol hökman Hutama zyňlar.",
+      "Hutamanyň näme ekenini saňa näme bildirdi?",
+      "Ol Allahyň tutaşdyrylan odudyr,",
+      "Ol ýüreklere çenli ýetýändir.",
+      "Hakykatdan-da, ol olaryň üstüni gapap alandyr,",
+      "Uzyn sütünlerde (baglanan ýagdaýda)."
+    ]
+  },
+  "105": {
+    "name": "Fil",
+    "ayahs": [
+      "Rabbyňyň pil eýelerine näme edenini görmediňmi?",
+      "Olaryň hilesini puja çykarmadymy?",
+      "Olaryň üstüne topar-topar guşlary iberdi.",
+      "Ol guşlar olara bişen palçykdan (sijjilden) daşlary atýardylar.",
+      "Netijede, Ol olary iýlip taşlanan ekin ýapraklary ýaly etdi."
+    ]
+  },
+  "106": {
+    "name": "Kureýş",
+    "ayahs": [
+      "Kureýşiň ülfetligi (ynjalykly endigi) sebäpli,",
+      "Gyşky we tomusky kerwen syýahatlaryna bolan ülfetligi sebäpli,",
+      "Goý, olar şu Öýüň (Kagbanyň) Rabbyna ybadat etsinler!",
+      "Ol olary açlykdan doýurdy we gorkudan amanda etdi."
+    ]
+  },
+  "107": {
+    "name": "Maun",
+    "ayahs": [
+      "Dini (jeza gününi) ýalan saýýan kişini gördüňmi?",
+      "Ine, ol ýetimi itekläp kowýan kişidir,",
+      "Miskini doýurmaga hem höweslendirmeýändir.",
+      "Wah bolsun şeýle namaz okaýanlara,",
+      "Olar namazlaryndan gaflatdadyrlar,",
+      "Olar (her işi) görkezmek üçin edýärler,",
+      "Ownuk ýardamy (gündelik zerur zatlary) hem gaýgyrýarlar."
+    ]
+  },
+  "108": {
+    "name": "Kewser",
+    "ayahs": [
+      "Hakykatdan-da, Biz saňa Kewseri berdik.",
+      "Şonuň üçin Rabbyň üçin namaz oka we gurban çal.",
+      "Hakykatdan-da, saňa duşmançylyk edýäniň özi yzsyzdyr (nesilsizdir)."
+    ]
+  },
+  "109": {
+    "name": "Kafirun",
+    "ayahs": [
+      "Aýt: «Eý, kapyrlar!",
+      "Men siziň ybadat edýän zatlaryňyza ybadat etmerin.",
+      "Siz hem meniň ybadat edýänime ybadat ediji dälsiňiz.",
+      "Men siziň ybadat eden zatlaryňyza ybadat ediji däldirin.",
+      "Siz hem meniň ybadat edýänime ybadat ediji dälsiňiz.",
+      "Size siziň diniňiz, maňa bolsa meniň dinim»."
+    ]
+  },
+  "110": {
+    "name": "Nasr",
+    "ayahs": [
+      "Allahyň kömegi we ýeňiş gelende,",
+      "Adamlaryň topar-topar bolup Allahyň dinine girýändiklerini göreniňde,",
+      "Rabbyňy hamd bilen tesbih et we Ondan bagyşlanma sora. Hakykatdan-da, Ol tobalary köp kabul edijidir."
+    ]
+  },
+  "111": {
+    "name": "Mesed",
+    "ayahs": [
+      "Ebu Lehebiň iki eli gurasyn, gurady hem!",
+      "Oňa ne maly, ne-de gazanan zatlary peýda berdi.",
+      "Ol ýakyn wagtda ýalynly oda girer.",
+      "Odun göterip ýören aýaly hem (girer).",
+      "Onuň boýnunda hurma süýüminden örülen ýüp bardyr."
+    ]
+  },
+  "112": {
+    "name": "Yhlas",
+    "ayahs": [
+      "Aýt: «Ol Allah ýeke-täkdir.",
+      "Allah Samaddyr (hiç zada mätäç däl, ähli zat Oňa mätäçdir).",
+      "Ol dogurmady we dogulmady.",
+      "Hiç kim Oňa deň däldir»."
+    ]
+  },
+  "113": {
+    "name": "Felak",
+    "ayahs": [
+      "Aýt: «Daňyň Rabbyna sygynýaryn,",
+      "Ol ýaradan zatlarynyň şerinden,",
+      "Garaňkylygy çöken gijäniň şerinden,",
+      "Düwünlere üflüýän jadygöýleriň şerinden,",
+      "Hasyt edende hasydyň şerinden»."
+    ]
+  },
+  "114": {
+    "name": "Nas",
+    "ayahs": [
+      "Aýt: «Adamlaryň Rabbyna sygynýaryn,",
+      "Adamlaryň Patyşasyna,",
+      "Adamlaryň Ilahyna,",
+      "Gizlenip-gizlenip weswese berýäniň şerinden,",
+      "Ol adamlaryň göwüslerine weswese salýandyr,",
+      "Ol jynlardan hem, adamlardan hem bolýandyr»."
+    ]
+  }
 }

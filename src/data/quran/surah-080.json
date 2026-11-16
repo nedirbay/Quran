@@ -1,0 +1,220 @@
+{
+  "id": 80,
+  "nameArabic": "عبس",
+  "nameTranslit": "'Abasa",
+  "nameTurkmen": "Abese",
+  "revelation": "mekke",
+  "totalAyahs": 42,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "عَبَسَ وَتَوَلَّىٰٓ",
+      "turkmen": "Ol ýüzüni çytdy we nusgasyny üýtgedip öwrüldi,"
+    },
+    {
+      "number": 2,
+      "arabic": "أَن جَآءَهُ ٱلۡأَعۡمَىٰ",
+      "turkmen": "Ýanyna kör (Abdullah ibn Ümmü Mektum) geleni üçin."
+    },
+    {
+      "number": 3,
+      "arabic": "وَمَا يُدۡرِيكَ لَعَلَّهُۥ يَزَّكَّىٰٓ",
+      "turkmen": "Sen näme bilýärsiň, belkem ol (günälerden) päklener,"
+    },
+    {
+      "number": 4,
+      "arabic": "أَوۡ يَذَّكَّرُ فَتَنفَعَهُ ٱلذِّكۡرَىٰٓ",
+      "turkmen": "Ýa-da öwüt alar-da, ol öwüt oňa peýda berer."
+    },
+    {
+      "number": 5,
+      "arabic": "أَمَّا مَنِ ٱسۡتَغۡنَىٰ",
+      "turkmen": "Özüni hiç zada mätäç däl hasaplaýan kişä gelsek,"
+    },
+    {
+      "number": 6,
+      "arabic": "فَأَنتَ لَهُۥ تَصَدَّىٰ",
+      "turkmen": "Sen ünsüňi oňa berýärsiň."
+    },
+    {
+      "number": 7,
+      "arabic": "وَمَا عَلَيۡكَ أَلَّا يَزَّكَّىٰ",
+      "turkmen": "Halbuki, onuň päklenmezliginden saňa hiç hili jogapkärçilik ýokdur."
+    },
+    {
+      "number": 8,
+      "arabic": "وَأَمَّا مَن جَآءَكَ يَسۡعَىٰ",
+      "turkmen": "Emma yhlas bilen ylgap ýanyňa gelene,"
+    },
+    {
+      "number": 9,
+      "arabic": "وَهُوَ يَخۡشَىٰ",
+      "turkmen": "(Allahdan) gorkup gelene welin,"
+    },
+    {
+      "number": 10,
+      "arabic": "فَأَنتَ عَنۡهُ تَلَهَّىٰ",
+      "turkmen": "Sen oňa üns bermeýärsiň."
+    },
+    {
+      "number": 11,
+      "arabic": "كَلَّآ إِنَّهَا تَذۡكِرَةٞ",
+      "turkmen": "Ýok! Hakykatdan-da, bu (aýatlar) bir ýatlatmadyr (öwütdir)."
+    },
+    {
+      "number": 12,
+      "arabic": "فَمَن شَآءَ ذَكَرَهُۥ",
+      "turkmen": "Kim islese, ondan öwüt alar."
+    },
+    {
+      "number": 13,
+      "arabic": "فِي صُحُفٖ مُّكَرَّمَةٖ",
+      "turkmen": "Ol gymmatly sahypalardadyr,"
+    },
+    {
+      "number": 14,
+      "arabic": "مَّرۡفُوعَةٖ مُّطَهَّرَةِۭ",
+      "turkmen": "Belent tutulan we päkize sahypalarda;"
+    },
+    {
+      "number": 15,
+      "arabic": "بِأَيۡدِي سَفَرَةٖ",
+      "turkmen": "Ýazyjylaryň (perişdeleriň) ellerindedir,"
+    },
+    {
+      "number": 16,
+      "arabic": "كِرَامِۭ بَرَرَةٖ",
+      "turkmen": "Hormatly we (Allaha) mydama boýun egýän (perişdeleriň)."
+    },
+    {
+      "number": 17,
+      "arabic": "قُتِلَ ٱلۡإِنسَٰنُ مَآ أَكۡفَرَهُۥ",
+      "turkmen": "Kahyr bolsun (nebsine aldanyp inkär eden) ynsana! Ol nähili gadyrbilmezdir!"
+    },
+    {
+      "number": 18,
+      "arabic": "مِنۡ أَيِّ شَيۡءٍ خَلَقَهُۥ",
+      "turkmen": "(Allah) ony nämeden ýaratdy?"
+    },
+    {
+      "number": 19,
+      "arabic": "مِن نُّطۡفَةٍ خَلَقَهُۥ فَقَدَّرَهُۥ",
+      "turkmen": "Bir damja suwdan (nutfeden) ýaratdy we oňa ölçeg-biçim berdi."
+    },
+    {
+      "number": 20,
+      "arabic": "ثُمَّ ٱلسَّبِيلَ يَسَّرَهُۥ",
+      "turkmen": "Soňra oňa ýoly aňsatlaşdyrdy."
+    },
+    {
+      "number": 21,
+      "arabic": "ثُمَّ أَمَاتَهُۥ فَأَقۡبَرَهُۥ",
+      "turkmen": "Soňra ony öldürdi we gabra saldy."
+    },
+    {
+      "number": 22,
+      "arabic": "ثُمَّ إِذَا شَآءَ أَنشَرَهُۥ",
+      "turkmen": "Soňra islän wagty ony täzeden direlder."
+    },
+    {
+      "number": 23,
+      "arabic": "كَلَّا لَمَّا يَقۡضِ مَآ أَمَرَهُۥ",
+      "turkmen": "Ýok! Ol entek (Allahyň) özüne buýran zadyny berjaý etmedi."
+    },
+    {
+      "number": 24,
+      "arabic": "فَلۡيَنظُرِ ٱلۡإِنسَٰنُ إِلَىٰ طَعَامِهِۦٓ",
+      "turkmen": "Ynsan öz iýýän iýmitine bir seretsin!"
+    },
+    {
+      "number": 25,
+      "arabic": "أَنَّا صَبَبۡنَا ٱلۡمَآءَ صَبّٗا",
+      "turkmen": "Biz suwy bol-elin guýduk."
+    },
+    {
+      "number": 26,
+      "arabic": "ثُمَّ شَقَقۡنَا ٱلۡأَرۡضَ شَقّٗا",
+      "turkmen": "Soňra ýeri ýaryp açdyk."
+    },
+    {
+      "number": 27,
+      "arabic": "فَأَنۢبَتۡنَا فِيهَا حَبّٗا",
+      "turkmen": "Onda däneleri ösdürdik,"
+    },
+    {
+      "number": 28,
+      "arabic": "وَعِنَبٗا وَقَضۡبٗا",
+      "turkmen": "Üzümleri we gök otlary,"
+    },
+    {
+      "number": 29,
+      "arabic": "وَزَيۡتُونٗا وَنَخۡلٗا",
+      "turkmen": "Zeýtunlary we hurmalary,"
+    },
+    {
+      "number": 30,
+      "arabic": "وَحَدَآئِقَ غُلۡبٗا",
+      "turkmen": "Gür agaçly baglary,"
+    },
+    {
+      "number": 31,
+      "arabic": "وَفَٰكِهَةٗ وَأَبّٗا",
+      "turkmen": "Miweleri we ot-çöpleri;"
+    },
+    {
+      "number": 32,
+      "arabic": "مَّتَٰعٗا لَّكُمۡ وَلِأَنۡعَٰمِكُمۡ",
+      "turkmen": "Siziň we mallaryňyzyň peýdalanmagy üçin."
+    },
+    {
+      "number": 33,
+      "arabic": "فَإِذَا جَآءَتِ ٱلصَّآخَّةُ",
+      "turkmen": "Gulaklary ker ediji ol elhenç ses (Kyýamat) gelende,"
+    },
+    {
+      "number": 34,
+      "arabic": "يَوۡمَ يَفِرُّ ٱلۡمَرۡءُ مِنۡ أَخِيهِ",
+      "turkmen": "Şol gün kişi öz doganyndan gaçar,"
+    },
+    {
+      "number": 35,
+      "arabic": "وَأُمِّهِۦ وَأَبِيهِ",
+      "turkmen": "Enesinden we atasyndan,"
+    },
+    {
+      "number": 36,
+      "arabic": "وَصَٰحِبَتِهِۦ وَبَنِيهِ",
+      "turkmen": "Aýalyndan we çagalaryndan."
+    },
+    {
+      "number": 37,
+      "arabic": "لِكُلِّ ٱمۡرِيٕٖ مِّنۡهُمۡ يَوۡمَئِذٖ شَأۡنٞ يُغۡنِيهِ",
+      "turkmen": "Şol gün olaryň her biriniň özüne ýeterlik (başagaý ediji) gaýgysy bolar."
+    },
+    {
+      "number": 38,
+      "arabic": "وُجُوهٞ يَوۡمَئِذٖ مُّسۡفِرَةٞ",
+      "turkmen": "Şol gün käbir ýüzler ýagtylyp lowurdar,"
+    },
+    {
+      "number": 39,
+      "arabic": "ضَاحِكَةٞ مُّسۡتَبۡشِرَةٞ",
+      "turkmen": "Güler we şatlanar."
+    },
+    {
+      "number": 40,
+      "arabic": "وَوُجُوهٞ يَوۡمَئِذٍ عَلَيۡهَا غَبَرَةٞ",
+      "turkmen": "Şol gün käbir ýüzleriň üstünde bolsa tozan bolar,"
+    },
+    {
+      "number": 41,
+      "arabic": "تَرۡهَقُهَا قَتَرَةٌ",
+      "turkmen": "Olary garaňkylyk (garalyk) bürär."
+    },
+    {
+      "number": 42,
+      "arabic": "أُوْلَـٰٓئِكَ هُمُ ٱلۡكَفَرَةُ ٱلۡفَجَرَةُ",
+      "turkmen": "Ine, şolar kapyrlardyr, günäkärlerdir."
+    }
+  ]
+}

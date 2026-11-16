@@ -1,0 +1,140 @@
+{
+  "id": 88,
+  "nameArabic": "الغاشية",
+  "nameTranslit": "Al-Ghashiyah",
+  "nameTurkmen": "Gaşiýe",
+  "revelation": "mekke",
+  "totalAyahs": 26,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "هَلۡ أَتَىٰكَ حَدِيثُ ٱلۡغَٰشِيَةِ",
+      "turkmen": "Ähli zady büräp alýan (Kyýamatyň) habary saňa ýetdimi?"
+    },
+    {
+      "number": 2,
+      "arabic": "وُجُوهٞ يَوۡمَئِذٍ خَٰشِعَةٌ",
+      "turkmen": "Şol gün käbir ýüzler aşak egiler,"
+    },
+    {
+      "number": 3,
+      "arabic": "عَامِلَةٞ نَّاصِبَةٞ",
+      "turkmen": "Işlär, ýadar (hor bolar)."
+    },
+    {
+      "number": 4,
+      "arabic": "تَصۡلَىٰ نَارًا حَامِيَةٗ",
+      "turkmen": "Gyzgyn oda girer."
+    },
+    {
+      "number": 5,
+      "arabic": "تُسۡقَىٰ مِنۡ عَيۡنٍ ءَانِيَةٖ",
+      "turkmen": "Gaýnap duran çeşmeden suw içiriler."
+    },
+    {
+      "number": 6,
+      "arabic": "لَّيۡسَ لَهُمۡ طَعَامٌ إِلَّا مِن ضَرِيعٖ",
+      "turkmen": "Olara tikenli gury otdan (darydan) başga iýmit ýokdur."
+    },
+    {
+      "number": 7,
+      "arabic": "لَّا يُسۡمِنُ وَلَا يُغۡنِي مِن جُوعٖ",
+      "turkmen": "Ol ne semreder, ne-de açlygy gandyryp doýurar."
+    },
+    {
+      "number": 8,
+      "arabic": "وُجُوهٞ يَوۡمَئِذٖ نَّاعِمَةٞ",
+      "turkmen": "Şol gün käbir ýüzler bolsa şadyýandyr."
+    },
+    {
+      "number": 9,
+      "arabic": "لِّسَعۡيِهَا رَاضِيَةٞ",
+      "turkmen": "(Dünýäde) eden tagallalaryndan hoşaldyr."
+    },
+    {
+      "number": 10,
+      "arabic": "فِي جَنَّةٍ عَالِيَةٖ",
+      "turkmen": "Belent jennetdedir."
+    },
+    {
+      "number": 11,
+      "arabic": "لَّا تَسۡمَعُ فِيهَا لَٰغِيَةٗ",
+      "turkmen": "Ol ýerde boş gürrüň eşitmezler."
+    },
+    {
+      "number": 12,
+      "arabic": "فِيهَا عَيۡنٞ جَارِيَةٞ",
+      "turkmen": "Ol ýerde akyp duran çeşme bardyr."
+    },
+    {
+      "number": 13,
+      "arabic": "فِيهَا سُرُرٞ مَّرۡفُوعَةٞ",
+      "turkmen": "Ol ýerde belent tagtlar bardyr,"
+    },
+    {
+      "number": 14,
+      "arabic": "وَأَكۡوَابٞ مَّوۡضُوعَةٞ",
+      "turkmen": "Goýlan käşeler,"
+    },
+    {
+      "number": 15,
+      "arabic": "وَنَمَارِقُ مَصۡفُوفَةٞ",
+      "turkmen": "Hatara düzülen ýassyklar,"
+    },
+    {
+      "number": 16,
+      "arabic": "وَزَرَابِيُّ مَبۡثُوثَةٌ",
+      "turkmen": "We düşelen nepis halyçalar bardyr."
+    },
+    {
+      "number": 17,
+      "arabic": "أَفَلَا يَنظُرُونَ إِلَى ٱلۡإِبِلِ كَيۡفَ خُلِقَتۡ",
+      "turkmen": "Olar düýäniň nähili ýaradylandygyna seretmeýärlermi?"
+    },
+    {
+      "number": 18,
+      "arabic": "وَإِلَى ٱلسَّمَآءِ كَيۡفَ رُفِعَتۡ",
+      "turkmen": "Asmanyň nähili beýgeldilendigine?"
+    },
+    {
+      "number": 19,
+      "arabic": "وَإِلَى ٱلۡجِبَالِ كَيۡفَ نُصِبَتۡ",
+      "turkmen": "Daglaryň nähili dikeldilendigine?"
+    },
+    {
+      "number": 20,
+      "arabic": "وَإِلَى ٱلۡأَرۡضِ كَيۡفَ سُطِحَتۡ",
+      "turkmen": "Ýeriň nähili ýaýylyp düşelendigine?"
+    },
+    {
+      "number": 21,
+      "arabic": "فَذَكِّرۡ إِنَّمَآ أَنتَ مُذَكِّرٞ",
+      "turkmen": "Onda sen öwüt-nesihat et! Sen diňe öwüt berijisiň."
+    },
+    {
+      "number": 22,
+      "arabic": "لَّسۡتَ عَلَيۡهِم بِمُصَيۡطِرٍ",
+      "turkmen": "Sen olaryň üstünde zor bilen boýun egdiriji dälsiň."
+    },
+    {
+      "number": 23,
+      "arabic": "إِلَّا مَن تَوَلَّىٰ وَكَفَرَ",
+      "turkmen": "Emma kim ýüz öwrüp, kapyr bolsa,"
+    },
+    {
+      "number": 24,
+      "arabic": "فَيُعَذِّبُهُ ٱللَّهُ ٱلۡعَذَابَ ٱلۡأَكۡبَرَ",
+      "turkmen": "Allah ony iň uly azap bilen jezalandyrar."
+    },
+    {
+      "number": 25,
+      "arabic": "إِنَّ إِلَيۡنَآ إِيَابَهُمۡ",
+      "turkmen": "Şübhesiz, olaryň dolanyp gelýän ýeri Biziň huzurymyzdyr."
+    },
+    {
+      "number": 26,
+      "arabic": "ثُمَّ إِنَّ عَلَيۡنَا حِسَابَهُم",
+      "turkmen": "Soňra olary hasaba çekmek hem, elbetde, Bize degişlidir."
+    }
+  ]
+}

@@ -122,7 +122,7 @@ iň köp ýalňyşýanlarym). Hasabatda ýalňyş analizi we “Gaýtalama goş�
 Kalkala. Her düzgünde düşündiriş, sesli mysallar, ýatlatma we synag; umumy synag we
 “gowşak düzgünler” boýunça synag. Hasabat: dogry/ýalňyş sany, düzgünler boýunça bökdençlik.
 
-**3. Kuran okamak** — Fatiha we 103–114-nji süreler. Ekran ikä bölünen: ýokarda arapça aýat,
+**3. Kuran okamak** — Fatiha, Mülk we 30-njy jüz (78–114), jemi 39 süre. Ekran ikä bölünen: ýokarda arapça aýat,
 aşakda türkmençe manysy. Islendik söze basylanda şol sözüň okalyşy ýaňlanýar. Öňe/yza
 (düwme, ← → klawiša, barmak bilen süýşürmek), aýat sanawy, okalan aýatlaryň hasaby,
 soňky ýeri ýatda saklamak, şrift ölçegi, kary saýlamak.
@@ -185,8 +185,12 @@ npm run audio:tts -- --dry-run                     # näme dörediljegini görme
 
 ## Täze süre goşmak
 
-1. `scripts/translations-tk.json` — süräniň türkmençe manysyny goşuň.
-2. `python3 scripts/build-quran-data.py <quran-json/dist>` — süre JSON faýly döreýär.
+1. `scripts/translations-tk.json` — süräniň türkmençe manysyny goşuň (her aýat üçin bir setir,
+   aýat sany çeşme bilen deň bolmaly). Boş setirli (doly terjime edilmedik) süreler programma
+   goşulmaýar — skript olary geçip, näçe aýatyň taýýardygyny görkezýär.
+2. `python3 scripts/build-quran-data.py <quran-json/dist>` — süre JSON faýllaryny döredýär.
+   `quran-json` paketini almak: `mkdir -p /tmp/qj && curl -sL https://registry.npmjs.org/quran-json/-/quran-json-3.1.2.tgz | tar xz -C /tmp/qj`
+   → ýoly `/tmp/qj/package/dist`.
 3. `npm run audio` — täze süräniň aýat we söz sesleri awtomatiki tapylyp ýüklenýär (bar faýllar geçilýär).
    Işledilmese hem programma täze süräniň sesini internetden alýar.
 

@@ -1,0 +1,65 @@
+{
+  "id": 100,
+  "nameArabic": "العاديات",
+  "nameTranslit": "Al-'Adiyat",
+  "nameTurkmen": "Adiýat",
+  "revelation": "mekke",
+  "totalAyahs": 11,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "وَٱلۡعَٰدِيَٰتِ ضَبۡحٗا",
+      "turkmen": "Hars urup dem alýan (çapyp barýan) atlara ant bolsun!"
+    },
+    {
+      "number": 2,
+      "arabic": "فَٱلۡمُورِيَٰتِ قَدۡحٗا",
+      "turkmen": "(Toýnaklaryny daşa urup) ot çykarýanlara,"
+    },
+    {
+      "number": 3,
+      "arabic": "فَٱلۡمُغِيرَٰتِ صُبۡحٗا",
+      "turkmen": "Daň bilen hüjüme geçýänlere,"
+    },
+    {
+      "number": 4,
+      "arabic": "فَأَثَرۡنَ بِهِۦ نَقۡعٗا",
+      "turkmen": "Şol wagt tozan turuzýanlara,"
+    },
+    {
+      "number": 5,
+      "arabic": "فَوَسَطۡنَ بِهِۦ جَمۡعًا",
+      "turkmen": "We şol tozan bilen duşman toparynyň ortasyna kürsäp girýänlere ant bolsun!"
+    },
+    {
+      "number": 6,
+      "arabic": "إِنَّ ٱلۡإِنسَٰنَ لِرَبِّهِۦ لَكَنُودٞ",
+      "turkmen": "Hakykatdan-da, ynsan öz Rabbyna garşy gaty gadyrbilmezdir."
+    },
+    {
+      "number": 7,
+      "arabic": "وَإِنَّهُۥ عَلَىٰ ذَٰلِكَ لَشَهِيدٞ",
+      "turkmen": "Şübhesiz, onuň özi hem muňa şaýatdyr."
+    },
+    {
+      "number": 8,
+      "arabic": "وَإِنَّهُۥ لِحُبِّ ٱلۡخَيۡرِ لَشَدِيدٌ",
+      "turkmen": "Hakykatdan-da, ol mal-dünýäni aşa gowy görýändir."
+    },
+    {
+      "number": 9,
+      "arabic": "۞أَفَلَا يَعۡلَمُ إِذَا بُعۡثِرَ مَا فِي ٱلۡقُبُورِ",
+      "turkmen": "Ol bilmeýärmi, gabyrlardaky (ölüler) direldilip çykarylanda,"
+    },
+    {
+      "number": 10,
+      "arabic": "وَحُصِّلَ مَا فِي ٱلصُّدُورِ",
+      "turkmen": "We ýüreklerdäki (syrlar) äşgär edilende,"
+    },
+    {
+      "number": 11,
+      "arabic": "إِنَّ رَبَّهُم بِهِمۡ يَوۡمَئِذٖ لَّخَبِيرُۢ",
+      "turkmen": "Şübhesiz, şol gün Rabblary olaryň (ähli işlerinden) habardardyr!"
+    }
+  ]
+}

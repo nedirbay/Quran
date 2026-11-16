@@ -8,6 +8,214 @@
     "totalAyahs": 7
   },
   {
+    "id": 67,
+    "nameArabic": "الملك",
+    "nameTranslit": "Al-Mulk",
+    "nameTurkmen": "Mülk",
+    "revelation": "mekke",
+    "totalAyahs": 30
+  },
+  {
+    "id": 78,
+    "nameArabic": "النبإ",
+    "nameTranslit": "An-Naba",
+    "nameTurkmen": "Nebe",
+    "revelation": "mekke",
+    "totalAyahs": 40
+  },
+  {
+    "id": 79,
+    "nameArabic": "النازعات",
+    "nameTranslit": "An-Nazi'at",
+    "nameTurkmen": "Naziat",
+    "revelation": "mekke",
+    "totalAyahs": 46
+  },
+  {
+    "id": 80,
+    "nameArabic": "عبس",
+    "nameTranslit": "'Abasa",
+    "nameTurkmen": "Abese",
+    "revelation": "mekke",
+    "totalAyahs": 42
+  },
+  {
+    "id": 81,
+    "nameArabic": "التكوير",
+    "nameTranslit": "At-Takwir",
+    "nameTurkmen": "Tekwir",
+    "revelation": "mekke",
+    "totalAyahs": 29
+  },
+  {
+    "id": 82,
+    "nameArabic": "الإنفطار",
+    "nameTranslit": "Al-Infitar",
+    "nameTurkmen": "Infitar",
+    "revelation": "mekke",
+    "totalAyahs": 19
+  },
+  {
+    "id": 83,
+    "nameArabic": "المطففين",
+    "nameTranslit": "Al-Mutaffifin",
+    "nameTurkmen": "Mutaffifin",
+    "revelation": "mekke",
+    "totalAyahs": 36
+  },
+  {
+    "id": 84,
+    "nameArabic": "الإنشقاق",
+    "nameTranslit": "Al-Inshiqaq",
+    "nameTurkmen": "Inşikak",
+    "revelation": "mekke",
+    "totalAyahs": 25
+  },
+  {
+    "id": 85,
+    "nameArabic": "البروج",
+    "nameTranslit": "Al-Buruj",
+    "nameTurkmen": "Buruj",
+    "revelation": "mekke",
+    "totalAyahs": 22
+  },
+  {
+    "id": 86,
+    "nameArabic": "الطارق",
+    "nameTranslit": "At-Tariq",
+    "nameTurkmen": "Taryk",
+    "revelation": "mekke",
+    "totalAyahs": 17
+  },
+  {
+    "id": 87,
+    "nameArabic": "الأعلى",
+    "nameTranslit": "Al-A'la",
+    "nameTurkmen": "Ala",
+    "revelation": "mekke",
+    "totalAyahs": 19
+  },
+  {
+    "id": 88,
+    "nameArabic": "الغاشية",
+    "nameTranslit": "Al-Ghashiyah",
+    "nameTurkmen": "Gaşiýe",
+    "revelation": "mekke",
+    "totalAyahs": 26
+  },
+  {
+    "id": 89,
+    "nameArabic": "الفجر",
+    "nameTranslit": "Al-Fajr",
+    "nameTurkmen": "Fejr",
+    "revelation": "mekke",
+    "totalAyahs": 30
+  },
+  {
+    "id": 90,
+    "nameArabic": "البلد",
+    "nameTranslit": "Al-Balad",
+    "nameTurkmen": "Beled",
+    "revelation": "mekke",
+    "totalAyahs": 20
+  },
+  {
+    "id": 91,
+    "nameArabic": "الشمس",
+    "nameTranslit": "Ash-Shams",
+    "nameTurkmen": "Şems",
+    "revelation": "mekke",
+    "totalAyahs": 15
+  },
+  {
+    "id": 92,
+    "nameArabic": "الليل",
+    "nameTranslit": "Al-Layl",
+    "nameTurkmen": "Leýl",
+    "revelation": "mekke",
+    "totalAyahs": 21
+  },
+  {
+    "id": 93,
+    "nameArabic": "الضحى",
+    "nameTranslit": "Ad-Duhaa",
+    "nameTurkmen": "Duha",
+    "revelation": "mekke",
+    "totalAyahs": 11
+  },
+  {
+    "id": 94,
+    "nameArabic": "الشرح",
+    "nameTranslit": "Ash-Sharh",
+    "nameTurkmen": "Inşirah",
+    "revelation": "mekke",
+    "totalAyahs": 8
+  },
+  {
+    "id": 95,
+    "nameArabic": "التين",
+    "nameTranslit": "At-Tin",
+    "nameTurkmen": "Tin",
+    "revelation": "mekke",
+    "totalAyahs": 8
+  },
+  {
+    "id": 96,
+    "nameArabic": "العلق",
+    "nameTranslit": "Al-'Alaq",
+    "nameTurkmen": "Alak",
+    "revelation": "mekke",
+    "totalAyahs": 19
+  },
+  {
+    "id": 97,
+    "nameArabic": "القدر",
+    "nameTranslit": "Al-Qadr",
+    "nameTurkmen": "Kadr",
+    "revelation": "mekke",
+    "totalAyahs": 5
+  },
+  {
+    "id": 98,
+    "nameArabic": "البينة",
+    "nameTranslit": "Al-Bayyinah",
+    "nameTurkmen": "Beýýine",
+    "revelation": "medine",
+    "totalAyahs": 8
+  },
+  {
+    "id": 99,
+    "nameArabic": "الزلزلة",
+    "nameTranslit": "Az-Zalzalah",
+    "nameTurkmen": "Zilzal",
+    "revelation": "medine",
+    "totalAyahs": 8
+  },
+  {
+    "id": 100,
+    "nameArabic": "العاديات",
+    "nameTranslit": "Al-'Adiyat",
+    "nameTurkmen": "Adiýat",
+    "revelation": "mekke",
+    "totalAyahs": 11
+  },
+  {
+    "id": 101,
+    "nameArabic": "القارعة",
+    "nameTranslit": "Al-Qari'ah",
+    "nameTurkmen": "Karia",
+    "revelation": "mekke",
+    "totalAyahs": 11
+  },
+  {
+    "id": 102,
+    "nameArabic": "التكاثر",
+    "nameTranslit": "At-Takathur",
+    "nameTurkmen": "Tekasür",
+    "revelation": "mekke",
+    "totalAyahs": 8
+  },
+  {
     "id": 103,
     "nameArabic": "العصر",
     "nameTranslit": "Al-'Asr",

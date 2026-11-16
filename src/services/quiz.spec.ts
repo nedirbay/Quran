@@ -128,3 +128,24 @@ describe('letterSyllables', () => {
     expect(s.map((x) => x.translit)).toEqual(['a', 'i', 'u'])
   })
 })
+
+describe('Kuran maglumatlary', () => {
+  it('her sürede aýat sany dogry, belgiler yzygiderli, arapça we türkmençe tekst boş däl', async () => {
+    const index: { id: number; totalAyahs: number }[] = (await import('@/data/quran/index.json')).default
+    const files = import.meta.glob<{ default: { id: number; ayahs: { number: number; arabic: string; turkmen: string }[] } }>(
+      '../data/quran/surah-*.json',
+    )
+    expect(Object.keys(files)).toHaveLength(index.length)
+    for (const meta of index) {
+      const key = Object.keys(files).find((k) => k.endsWith(`surah-${String(meta.id).padStart(3, '0')}.json`))!
+      const surah = (await files[key]!()).default
+      expect(surah.ayahs, `süre ${meta.id}`).toHaveLength(meta.totalAyahs)
+      surah.ayahs.forEach((a, i) => {
+        expect(a.number).toBe(i + 1)
+        expect(a.arabic.trim(), `${meta.id}:${a.number} arapça`).not.toBe('')
+        expect(a.turkmen.trim(), `${meta.id}:${a.number} türkmençe`).not.toBe('')
+        expect(a.turkmen, `${meta.id}:${a.number} türkmençede arap harpy`).not.toMatch(/[؀-ۿ]/)
+      })
+    }
+  })
+})

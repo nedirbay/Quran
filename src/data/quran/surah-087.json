@@ -1,0 +1,105 @@
+{
+  "id": 87,
+  "nameArabic": "الأعلى",
+  "nameTranslit": "Al-A'la",
+  "nameTurkmen": "Ala",
+  "revelation": "mekke",
+  "totalAyahs": 19,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "سَبِّحِ ٱسۡمَ رَبِّكَ ٱلۡأَعۡلَى",
+      "turkmen": "Iň Beýik Rabbyňyň adyny tesbih et (ulula)!"
+    },
+    {
+      "number": 2,
+      "arabic": "ٱلَّذِي خَلَقَ فَسَوَّىٰ",
+      "turkmen": "Ol ýaratdy we kämil şekile saldy."
+    },
+    {
+      "number": 3,
+      "arabic": "وَٱلَّذِي قَدَّرَ فَهَدَىٰ",
+      "turkmen": "Ol ölçeg-biçim berdi we ýol görkezdi."
+    },
+    {
+      "number": 4,
+      "arabic": "وَٱلَّذِيٓ أَخۡرَجَ ٱلۡمَرۡعَىٰ",
+      "turkmen": "Ol ýaşyl ot-çöpleri çykardy."
+    },
+    {
+      "number": 5,
+      "arabic": "فَجَعَلَهُۥ غُثَآءً أَحۡوَىٰ",
+      "turkmen": "Soňra bolsa ony gap-gara gury çöpe öwürdi."
+    },
+    {
+      "number": 6,
+      "arabic": "سَنُقۡرِئُكَ فَلَا تَنسَىٰٓ",
+      "turkmen": "Biz saňa (Gurhany) okadarys we sen ony ýatdan çykarmarsyň,"
+    },
+    {
+      "number": 7,
+      "arabic": "إِلَّا مَا شَآءَ ٱللَّهُۚ إِنَّهُۥ يَعۡلَمُ ٱلۡجَهۡرَ وَمَا يَخۡفَىٰ",
+      "turkmen": "Diňe Allahyň islän zady muňa girmez. Şübhesiz, Ol äşgär bolany hem, gizlin bolany hem bilýändir."
+    },
+    {
+      "number": 8,
+      "arabic": "وَنُيَسِّرُكَ لِلۡيُسۡرَىٰ",
+      "turkmen": "Biz seni iň aňsat ýola ugrukdyrarys."
+    },
+    {
+      "number": 9,
+      "arabic": "فَذَكِّرۡ إِن نَّفَعَتِ ٱلذِّكۡرَىٰ",
+      "turkmen": "Peýda berse, öwüt-nesihat et!"
+    },
+    {
+      "number": 10,
+      "arabic": "سَيَذَّكَّرُ مَن يَخۡشَىٰ",
+      "turkmen": "(Allahdan) gorkýan kişi öwüt alar."
+    },
+    {
+      "number": 11,
+      "arabic": "وَيَتَجَنَّبُهَا ٱلۡأَشۡقَى",
+      "turkmen": "Iň betbagt kişi bolsa ondan gaçar."
+    },
+    {
+      "number": 12,
+      "arabic": "ٱلَّذِي يَصۡلَى ٱلنَّارَ ٱلۡكُبۡرَىٰ",
+      "turkmen": "Ol iň uly oda (jähenneme) girer."
+    },
+    {
+      "number": 13,
+      "arabic": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحۡيَىٰ",
+      "turkmen": "Soňra ol ýerde ne öler, ne-de diriler (rahat ýaşar)."
+    },
+    {
+      "number": 14,
+      "arabic": "قَدۡ أَفۡلَحَ مَن تَزَكَّىٰ",
+      "turkmen": "(Günälerden) päklenen kişi, şübhesiz, halas bolandyr;"
+    },
+    {
+      "number": 15,
+      "arabic": "وَذَكَرَ ٱسۡمَ رَبِّهِۦ فَصَلَّىٰ",
+      "turkmen": "Rabbynyň adyny ýatlap, namaz okan kişi."
+    },
+    {
+      "number": 16,
+      "arabic": "بَلۡ تُؤۡثِرُونَ ٱلۡحَيَوٰةَ ٱلدُّنۡيَا",
+      "turkmen": "Emma siz dünýä ýaşaýşyny ileri tutýarsyňyz."
+    },
+    {
+      "number": 17,
+      "arabic": "وَٱلۡأٓخِرَةُ خَيۡرٞ وَأَبۡقَىٰٓ",
+      "turkmen": "Halbuki, ahyret has haýyrlydyr we has bakydyr."
+    },
+    {
+      "number": 18,
+      "arabic": "إِنَّ هَٰذَا لَفِي ٱلصُّحُفِ ٱلۡأُولَىٰ",
+      "turkmen": "Şübhesiz, bu (aýdylanlar) öňki sahypalarda hem bardyr;"
+    },
+    {
+      "number": 19,
+      "arabic": "صُحُفِ إِبۡرَٰهِيمَ وَمُوسَىٰ",
+      "turkmen": "Ybraýymyň we Musanyň sahypalarynda."
+    }
+  ]
+}

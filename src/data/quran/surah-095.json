@@ -1,0 +1,50 @@
+{
+  "id": 95,
+  "nameArabic": "التين",
+  "nameTranslit": "At-Tin",
+  "nameTurkmen": "Tin",
+  "revelation": "mekke",
+  "totalAyahs": 8,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "وَٱلتِّينِ وَٱلزَّيۡتُونِ",
+      "turkmen": "Injire we zeýtuna ant bolsun!"
+    },
+    {
+      "number": 2,
+      "arabic": "وَطُورِ سِينِينَ",
+      "turkmen": "Sina dagyna ant bolsun!"
+    },
+    {
+      "number": 3,
+      "arabic": "وَهَٰذَا ٱلۡبَلَدِ ٱلۡأَمِينِ",
+      "turkmen": "We şu asuda şähere (Mekgä) ant bolsun!"
+    },
+    {
+      "number": 4,
+      "arabic": "لَقَدۡ خَلَقۡنَا ٱلۡإِنسَٰنَ فِيٓ أَحۡسَنِ تَقۡوِيمٖ",
+      "turkmen": "Hakykatdan-da, Biz ynsany iň gözel görnüşde ýaratdyk."
+    },
+    {
+      "number": 5,
+      "arabic": "ثُمَّ رَدَدۡنَٰهُ أَسۡفَلَ سَٰفِلِينَ",
+      "turkmen": "Soňra ony aşaklaryň iň aşagyna gaýtardyk."
+    },
+    {
+      "number": 6,
+      "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُواْ وَعَمِلُواْ ٱلصَّـٰلِحَٰتِ فَلَهُمۡ أَجۡرٌ غَيۡرُ مَمۡنُونٖ",
+      "turkmen": "Diňe iman getirip, salih amallar edenler muňa girmez. Olar üçin üzülmez (tükeniksiz) sylag bardyr."
+    },
+    {
+      "number": 7,
+      "arabic": "فَمَا يُكَذِّبُكَ بَعۡدُ بِٱلدِّينِ",
+      "turkmen": "Beýle bolsa, mundan soň saňa jeza (Kyýamat) gününi näme ýalan saýdyrýar?"
+    },
+    {
+      "number": 8,
+      "arabic": "أَلَيۡسَ ٱللَّهُ بِأَحۡكَمِ ٱلۡحَٰكِمِينَ",
+      "turkmen": "Allah höküm çykarýanlaryň iň beýigi (iň adyl Hökümdary) dälmidir?"
+    }
+  ]
+}

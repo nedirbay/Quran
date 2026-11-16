@@ -1,0 +1,85 @@
+{
+  "id": 91,
+  "nameArabic": "الشمس",
+  "nameTranslit": "Ash-Shams",
+  "nameTurkmen": "Şems",
+  "revelation": "mekke",
+  "totalAyahs": 15,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "وَٱلشَّمۡسِ وَضُحَىٰهَا",
+      "turkmen": "Güne we onuň ýagtysyna ant bolsun!"
+    },
+    {
+      "number": 2,
+      "arabic": "وَٱلۡقَمَرِ إِذَا تَلَىٰهَا",
+      "turkmen": "Onuň yzyndan gelýän Aýa ant bolsun!"
+    },
+    {
+      "number": 3,
+      "arabic": "وَٱلنَّهَارِ إِذَا جَلَّىٰهَا",
+      "turkmen": "Ony (Güni) äşgär görkezen gündize ant bolsun!"
+    },
+    {
+      "number": 4,
+      "arabic": "وَٱلَّيۡلِ إِذَا يَغۡشَىٰهَا",
+      "turkmen": "Ony örten gijä ant bolsun!"
+    },
+    {
+      "number": 5,
+      "arabic": "وَٱلسَّمَآءِ وَمَا بَنَىٰهَا",
+      "turkmen": "Asmana we ony bina Edene ant bolsun!"
+    },
+    {
+      "number": 6,
+      "arabic": "وَٱلۡأَرۡضِ وَمَا طَحَىٰهَا",
+      "turkmen": "Ýere we ony ýaýyp düşäne ant bolsun!"
+    },
+    {
+      "number": 7,
+      "arabic": "وَنَفۡسٖ وَمَا سَوَّىٰهَا",
+      "turkmen": "Nefse (jana) we ony kämil şekile salana,"
+    },
+    {
+      "number": 8,
+      "arabic": "فَأَلۡهَمَهَا فُجُورَهَا وَتَقۡوَىٰهَا",
+      "turkmen": "Soňra hem oňa erbetligini we takwalygyny (ýagşylygyny) ylham edene ant bolsun!"
+    },
+    {
+      "number": 9,
+      "arabic": "قَدۡ أَفۡلَحَ مَن زَكَّىٰهَا",
+      "turkmen": "Nefsini päklän kişi, şübhesiz, halas bolandyr."
+    },
+    {
+      "number": 10,
+      "arabic": "وَقَدۡ خَابَ مَن دَسَّىٰهَا",
+      "turkmen": "Ony (günä bilen) hapalan kişi bolsa, şübhesiz, zyýana galandyr."
+    },
+    {
+      "number": 11,
+      "arabic": "كَذَّبَتۡ ثَمُودُ بِطَغۡوَىٰهَآ",
+      "turkmen": "Semud kowmy azgynlygy sebäpli (pygamberi) ýalançy hasaplady."
+    },
+    {
+      "number": 12,
+      "arabic": "إِذِ ٱنۢبَعَثَ أَشۡقَىٰهَا",
+      "turkmen": "Olaryň iň betbagty orta atylanda,"
+    },
+    {
+      "number": 13,
+      "arabic": "فَقَالَ لَهُمۡ رَسُولُ ٱللَّهِ نَاقَةَ ٱللَّهِ وَسُقۡيَٰهَا",
+      "turkmen": "Allahyň ilçisi olara: «Allahyň düýesine we onuň suw içmek gezegine (degmekden ägä boluň)!» diýipdi."
+    },
+    {
+      "number": 14,
+      "arabic": "فَكَذَّبُوهُ فَعَقَرُوهَا فَدَمۡدَمَ عَلَيۡهِمۡ رَبُّهُم بِذَنۢبِهِمۡ فَسَوَّىٰهَا",
+      "turkmen": "Emma olar ony ýalançy hasapladylar we düýäniň damagyny çaldylar. Rabblary hem günäleri sebäpli olaryň üstüne jezany ýagdyryp, olary ýer bilen ýegsan etdi."
+    },
+    {
+      "number": 15,
+      "arabic": "وَلَا يَخَافُ عُقۡبَٰهَا",
+      "turkmen": "Ol (Allah) munuň yzyndan (netijesinden) çekinmez."
+    }
+  ]
+}

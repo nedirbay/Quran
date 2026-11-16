@@ -1,0 +1,160 @@
+{
+  "id": 89,
+  "nameArabic": "الفجر",
+  "nameTranslit": "Al-Fajr",
+  "nameTurkmen": "Fejr",
+  "revelation": "mekke",
+  "totalAyahs": 30,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "وَٱلۡفَجۡرِ",
+      "turkmen": "Daňa ant bolsun!"
+    },
+    {
+      "number": 2,
+      "arabic": "وَلَيَالٍ عَشۡرٖ",
+      "turkmen": "On gijä ant bolsun!"
+    },
+    {
+      "number": 3,
+      "arabic": "وَٱلشَّفۡعِ وَٱلۡوَتۡرِ",
+      "turkmen": "Jübüte we täge ant bolsun!"
+    },
+    {
+      "number": 4,
+      "arabic": "وَٱلَّيۡلِ إِذَا يَسۡرِ",
+      "turkmen": "Geçip barýan wagty gijä ant bolsun!"
+    },
+    {
+      "number": 5,
+      "arabic": "هَلۡ فِي ذَٰلِكَ قَسَمٞ لِّذِي حِجۡرٍ",
+      "turkmen": "Bularda akyl eýesi üçin ýeterlik kasam ýokmudyr?"
+    },
+    {
+      "number": 6,
+      "arabic": "أَلَمۡ تَرَ كَيۡفَ فَعَلَ رَبُّكَ بِعَادٍ",
+      "turkmen": "Rabbyňyň Ad kowmuna näme edenini görmediňmi?"
+    },
+    {
+      "number": 7,
+      "arabic": "إِرَمَ ذَاتِ ٱلۡعِمَادِ",
+      "turkmen": "Belent sütünli Ireme?"
+    },
+    {
+      "number": 8,
+      "arabic": "ٱلَّتِي لَمۡ يُخۡلَقۡ مِثۡلُهَا فِي ٱلۡبِلَٰدِ",
+      "turkmen": "Ýurtlarda (ýer ýüzünde) onuň ýalysy ýaradylmandy."
+    },
+    {
+      "number": 9,
+      "arabic": "وَثَمُودَ ٱلَّذِينَ جَابُواْ ٱلصَّخۡرَ بِٱلۡوَادِ",
+      "turkmen": "Jülgede gaýalary ýonup (öý edinen) Semud kowmuna?"
+    },
+    {
+      "number": 10,
+      "arabic": "وَفِرۡعَوۡنَ ذِي ٱلۡأَوۡتَادِ",
+      "turkmen": "Kazylar (goşunlar) eýesi Fyrgawna?"
+    },
+    {
+      "number": 11,
+      "arabic": "ٱلَّذِينَ طَغَوۡاْ فِي ٱلۡبِلَٰدِ",
+      "turkmen": "Olar ýurtlarda azgynlyk edip, hetden aşypdylar."
+    },
+    {
+      "number": 12,
+      "arabic": "فَأَكۡثَرُواْ فِيهَا ٱلۡفَسَادَ",
+      "turkmen": "Ol ýerde bozgaklygy köpeldipdiler."
+    },
+    {
+      "number": 13,
+      "arabic": "فَصَبَّ عَلَيۡهِمۡ رَبُّكَ سَوۡطَ عَذَابٍ",
+      "turkmen": "Şonuň üçin Rabbyň olaryň üstüne azap gamçysyny ýagdyrdy."
+    },
+    {
+      "number": 14,
+      "arabic": "إِنَّ رَبَّكَ لَبِٱلۡمِرۡصَادِ",
+      "turkmen": "Şübhesiz, Rabbyň mydama gözegçilikdedir."
+    },
+    {
+      "number": 15,
+      "arabic": "فَأَمَّا ٱلۡإِنسَٰنُ إِذَا مَا ٱبۡتَلَىٰهُ رَبُّهُۥ فَأَكۡرَمَهُۥ وَنَعَّمَهُۥ فَيَقُولُ رَبِّيٓ أَكۡرَمَنِ",
+      "turkmen": "Ynsana gelsek, Rabby ony synamak üçin oňa hormat we nygmat berende, ol: «Rabbym meni hormatlady» diýer."
+    },
+    {
+      "number": 16,
+      "arabic": "وَأَمَّآ إِذَا مَا ٱبۡتَلَىٰهُ فَقَدَرَ عَلَيۡهِ رِزۡقَهُۥ فَيَقُولُ رَبِّيٓ أَهَٰنَنِ",
+      "turkmen": "Emma ony synamak üçin ryzkyny daraldanda bolsa: «Rabbym meni kemsitdi (horlady)» diýer."
+    },
+    {
+      "number": 17,
+      "arabic": "كَلَّاۖ بَل لَّا تُكۡرِمُونَ ٱلۡيَتِيمَ",
+      "turkmen": "Ýok, beýle däl! Gaýtam, siz ýetime hormat goýmaýarsyňyz."
+    },
+    {
+      "number": 18,
+      "arabic": "وَلَا تَحَـٰٓضُّونَ عَلَىٰ طَعَامِ ٱلۡمِسۡكِينِ",
+      "turkmen": "Garyby (miskini) doýurmaga biri-biriňizi höweslendirmeýärsiňiz."
+    },
+    {
+      "number": 19,
+      "arabic": "وَتَأۡكُلُونَ ٱلتُّرَاثَ أَكۡلٗا لَّمّٗا",
+      "turkmen": "Mirasy (halal-haram diýmän) açgözlük bilen iýýärsiňiz."
+    },
+    {
+      "number": 20,
+      "arabic": "وَتُحِبُّونَ ٱلۡمَالَ حُبّٗا جَمّٗا",
+      "turkmen": "Mal-dünýäni hem aşa gowy görýärsiňiz."
+    },
+    {
+      "number": 21,
+      "arabic": "كَلَّآۖ إِذَا دُكَّتِ ٱلۡأَرۡضُ دَكّٗا دَكّٗا",
+      "turkmen": "Ýok! Ýer sarsdyrylyp, kül-uşak edilende,"
+    },
+    {
+      "number": 22,
+      "arabic": "وَجَآءَ رَبُّكَ وَٱلۡمَلَكُ صَفّٗا صَفّٗا",
+      "turkmen": "Rabbyň (emri) we perişdeler hatar-hatar gelende,"
+    },
+    {
+      "number": 23,
+      "arabic": "وَجِاْيٓءَ يَوۡمَئِذِۭ بِجَهَنَّمَۚ يَوۡمَئِذٖ يَتَذَكَّرُ ٱلۡإِنسَٰنُ وَأَنَّىٰ لَهُ ٱلذِّكۡرَىٰ",
+      "turkmen": "Şol gün jähennem getiriler. Şol gün ynsan (ähli zady) ýadyna salyp düşünýär, emma bu ýatlama oňa näme peýda berer?!"
+    },
+    {
+      "number": 24,
+      "arabic": "يَقُولُ يَٰلَيۡتَنِي قَدَّمۡتُ لِحَيَاتِي",
+      "turkmen": "Ol: «Käşgä şu (ahyret) durmuşym üçin öňünden (ýagşy amallar) iberen bolsadym!» diýer."
+    },
+    {
+      "number": 25,
+      "arabic": "فَيَوۡمَئِذٖ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٞ",
+      "turkmen": "Şol gün Onuň berjek azaby ýaly hiç kim azap berip bilmez."
+    },
+    {
+      "number": 26,
+      "arabic": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٞ",
+      "turkmen": "Onuň daňyşy ýaly hiç kim daňyp bilmez."
+    },
+    {
+      "number": 27,
+      "arabic": "يَـٰٓأَيَّتُهَا ٱلنَّفۡسُ ٱلۡمُطۡمَئِنَّةُ",
+      "turkmen": "Eý, parahatlyga ýeten (mutmainne) nefs (jan)!"
+    },
+    {
+      "number": 28,
+      "arabic": "ٱرۡجِعِيٓ إِلَىٰ رَبِّكِ رَاضِيَةٗ مَّرۡضِيَّةٗ",
+      "turkmen": "Sen Ondan razy, Ol hem senden razy bolan halda Rabbyňa dolan!"
+    },
+    {
+      "number": 29,
+      "arabic": "فَٱدۡخُلِي فِي عِبَٰدِي",
+      "turkmen": "Bendelerimiň arasyna goşul!"
+    },
+    {
+      "number": 30,
+      "arabic": "وَٱدۡخُلِي جَنَّتِي",
+      "turkmen": "We jennetime gir!"
+    }
+  ]
+}

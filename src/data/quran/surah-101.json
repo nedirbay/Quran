@@ -1,0 +1,65 @@
+{
+  "id": 101,
+  "nameArabic": "القارعة",
+  "nameTranslit": "Al-Qari'ah",
+  "nameTurkmen": "Karia",
+  "revelation": "mekke",
+  "totalAyahs": 11,
+  "ayahs": [
+    {
+      "number": 1,
+      "arabic": "ٱلۡقَارِعَةُ",
+      "turkmen": "Elhenç ses bilen ýürekleri ýarýan apy-tupan (Karia)!"
+    },
+    {
+      "number": 2,
+      "arabic": "مَا ٱلۡقَارِعَةُ",
+      "turkmen": "Nämedir ol Karia?"
+    },
+    {
+      "number": 3,
+      "arabic": "وَمَآ أَدۡرَىٰكَ مَا ٱلۡقَارِعَةُ",
+      "turkmen": "Karianyň nämedigini saňa näme bildirdi?"
+    },
+    {
+      "number": 4,
+      "arabic": "يَوۡمَ يَكُونُ ٱلنَّاسُ كَٱلۡفَرَاشِ ٱلۡمَبۡثُوثِ",
+      "turkmen": "Şol gün adamlar dargap ýören perwanalar ýaly bolarlar."
+    },
+    {
+      "number": 5,
+      "arabic": "وَتَكُونُ ٱلۡجِبَالُ كَٱلۡعِهۡنِ ٱلۡمَنفُوشِ",
+      "turkmen": "Daglar bolsa tüýdülen reňkli ýüň ýaly bolarlar."
+    },
+    {
+      "number": 6,
+      "arabic": "فَأَمَّا مَن ثَقُلَتۡ مَوَٰزِينُهُۥ",
+      "turkmen": "Kimiň (ýagşylyk) terezisi agyr gelse,"
+    },
+    {
+      "number": 7,
+      "arabic": "فَهُوَ فِي عِيشَةٖ رَّاضِيَةٖ",
+      "turkmen": "Ol hoşal boljak (bagtly) durmuşda bolar."
+    },
+    {
+      "number": 8,
+      "arabic": "وَأَمَّا مَنۡ خَفَّتۡ مَوَٰزِينُهُۥ",
+      "turkmen": "Emma kimiň terezisi ýeňil gelse,"
+    },
+    {
+      "number": 9,
+      "arabic": "فَأُمُّهُۥ هَاوِيَةٞ",
+      "turkmen": "Onuň mesgeni Hawiýedir."
+    },
+    {
+      "number": 10,
+      "arabic": "وَمَآ أَدۡرَىٰكَ مَا هِيَهۡ",
+      "turkmen": "Ony (Hawiýäniň nämedigini) saňa näme bildirdi?"
+    },
+    {
+      "number": 11,
+      "arabic": "نَارٌ حَامِيَةُۢ",
+      "turkmen": "Ol gyzgynlygy aşa güýçli bolan otdur!"
+    }
+  ]
+}
