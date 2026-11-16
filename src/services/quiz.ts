@@ -1,10 +1,10 @@
 import type {
   ArabicLetter,
+  AuthoredQuestion,
   LetterForm,
   QuizAnswer,
   QuizQuestion,
   QuizResult,
-  TajweedRule,
   TagReport,
 } from '@/types'
 import { audioUrls } from '@/config'
@@ -146,10 +146,19 @@ export function buildLetterQuiz(
   return questions
 }
 
-/** Tejwid düzgünleri boýunça quiz — awtorlyk soraglaryndan, jogaplar garyşdyrylýar */
-export function buildRuleQuiz(rules: TajweedRule[], rng: Rng = Math.random): QuizQuestion[] {
+/** Öňünden ýazylan soraglary bolan islendik bölüm (tejwid düzgüni, kitap, pygamber) */
+export interface QuizSource {
+  id: string
+  questions: AuthoredQuestion[]
+}
+
+/**
+ * Ýazylan soraglardan quiz: `tag` — çeşmäniň id-si (ýalňyş analizi üçin),
+ * jogaplar we soraglaryň tertibi garyşdyrylýar.
+ */
+export function buildAuthoredQuiz(sources: QuizSource[], rng: Rng = Math.random): QuizQuestion[] {
   const questions: QuizQuestion[] = []
-  for (const rule of rules) {
+  for (const rule of sources) {
     rule.questions.forEach((q, qi) => {
       const options = q.options.map((label, oi) => ({
         id: `${rule.id}-${qi}-${oi}`,

@@ -145,3 +145,62 @@ export interface ReadingPosition {
   ayah: number
   updatedAt: number
 }
+
+/* ---------------------- Kitaplar we pygamberler ----------------------- */
+
+/** Kuran salgysy: süre + aýat(lar), mysal: { surah: 21, ayahs: '51–70' } */
+export interface QuranRef {
+  surah: number
+  ayahs: string
+  note?: string
+}
+
+/** Esasy aýat: arapça tekst `history-ayahs.json`-dan alynýar */
+export interface KeyAyah {
+  /** "21:69" ýa-da "20:25-28" */
+  ref: string
+  turkmen: string
+}
+
+export interface StorySection {
+  title: string
+  paragraphs: string[]
+}
+
+export interface ScriptureBook {
+  id: string
+  order: number
+  name: string
+  arabicName: string
+  /** Inderilen pygamber(ler)iň id-leri */
+  prophetIds: string[]
+  language: string
+  period: string
+  summary: string
+  sections: StorySection[]
+  keyAyah: KeyAyah
+  refs: QuranRef[]
+  questions: AuthoredQuestion[]
+}
+
+export interface Prophet {
+  id: string
+  /** Takmynan taryhy tertip */
+  order: number
+  name: string
+  arabicName: string
+  title: string
+  sentTo: string
+  period?: string
+  /** Garyndaşlyk gatnaşyklary */
+  family?: string
+  /** Ulul-azm (iň uly kararly) pygamberlerden */
+  ululAzm?: boolean
+  bookId?: string
+  summary: string
+  sections: StorySection[]
+  lessons: string[]
+  keyAyah: KeyAyah
+  refs: QuranRef[]
+  questions: AuthoredQuestion[]
+}

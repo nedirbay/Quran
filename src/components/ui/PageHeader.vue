@@ -13,7 +13,7 @@ defineProps<{ title: string; subtitle?: string; eyebrow?: string; back?: RouteLo
     </RouterLink>
     <div class="min-w-0 flex-1">
       <p v-if="eyebrow" class="eyebrow mb-1">{{ eyebrow }}</p>
-      <h1 class="text-2xl leading-tight font-bold text-ink sm:text-3xl">{{ title }}</h1>
+      <h1 class="text-2xl leading-tight font-bold text-ink sm:text-3xl"><RichText :text="title" /></h1>
       <p v-if="subtitle" class="mt-1.5 text-[15px] text-muted"><RichText :text="subtitle" /></p>
     </div>
     <div class="flex shrink-0 items-center gap-2"><slot name="actions" /></div>

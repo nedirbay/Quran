@@ -240,7 +240,7 @@ onBeforeUnmount(() => {
 
     <!-- Dolandyryş paneli -->
     <nav
-      class="sticky bottom-20 z-20 mt-4 flex items-center gap-2 rounded-2xl border border-line bg-surface/95 p-2 shadow-lg backdrop-blur md:bottom-4"
+      class="sticky bottom-20 z-20 mt-4 flex items-center gap-2 rounded-2xl border border-line bg-surface/95 p-2 shadow-lg backdrop-blur xl:bottom-4"
       aria-label="Aýatlar boýunça geçiş"
     >
       <button

@@ -6,7 +6,7 @@ import QuizRunner from '@/components/quiz/QuizRunner.vue'
 import AppIcon from '@/components/ui/AppIcon.vue'
 import PageHeader from '@/components/ui/PageHeader.vue'
 import { RULE_BY_ID, TAJWEED_RULES } from '@/data/tajweed'
-import { buildRuleQuiz, scoreQuiz } from '@/services/quiz'
+import { buildAuthoredQuiz, scoreQuiz } from '@/services/quiz'
 import { useTajweedStore } from '@/stores/tajweed'
 import type { QuizAnswer, QuizQuestion, QuizResult } from '@/types'
 
@@ -28,7 +28,7 @@ const result = ref<QuizResult | null>(null)
 const runId = ref(0)
 
 function start(ids = ruleIds.value) {
-  questions.value = buildRuleQuiz(ids.map((id) => RULE_BY_ID[id]!))
+  questions.value = buildAuthoredQuiz(ids.map((id) => RULE_BY_ID[id]!))
   result.value = null
   runId.value++
 }

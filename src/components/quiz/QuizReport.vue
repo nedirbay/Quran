@@ -92,12 +92,12 @@ const wrongAnswers = computed(() =>
           <span
             v-if="tagArabic?.(t.tag)"
             lang="ar"
-            class="flex size-12 shrink-0 items-center justify-center rounded-xl bg-danger-soft font-arabic text-2xl text-danger"
+            class="flex h-12 min-w-12 shrink-0 items-center justify-center rounded-xl bg-danger-soft px-2 font-arabic text-2xl whitespace-nowrap text-danger"
             >{{ tagArabic(t.tag) }}</span
           >
           <div class="min-w-0 flex-1">
             <div class="flex items-baseline justify-between gap-2">
-              <p class="truncate font-semibold text-ink">{{ tagLabel(t.tag) }}</p>
+              <p class="truncate font-semibold text-ink"><RichText :text="tagLabel(t.tag)" /></p>
               <p class="shrink-0 text-sm text-danger">{{ t.wrong }} / {{ t.total }} ýalňyş</p>
             </div>
             <ProgressBar class="mt-2" :value="(t.wrong / t.total) * 100" tone="danger" />
@@ -114,7 +114,7 @@ const wrongAnswers = computed(() =>
       <div class="flex flex-wrap gap-2">
         <span v-for="t in strong" :key="t.tag" class="chip bg-success-soft py-1.5 text-sm text-success">
           <span v-if="tagArabic?.(t.tag)" lang="ar" class="font-arabic text-lg leading-none">{{ tagArabic(t.tag) }}</span>
-          {{ tagLabel(t.tag) }}
+          <RichText :text="tagLabel(t.tag)" />
         </span>
       </div>
     </div>

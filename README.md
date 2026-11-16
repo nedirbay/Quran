@@ -1,7 +1,8 @@
 # Kurany öwren — Kurany Kerim okamagy öwreniş programmasy
 
 Türkmen dilinde, häzirki zaman, ykjam we göz ýadatmaýan web programma:
-arap elipbiýi → okalyş düzgünleri (tejwid esaslary) → aýatlary interaktiw okamak.
+arap elipbiýi → okalyş düzgünleri (tejwid esaslary) → aýatlary interaktiw okamak →
+ylahy kitaplar we pygamberleriň kyssalary.
 
 **Tehnologiýalar:** Vue 3 (Composition API, `<script setup>`, TypeScript) · Pinia · Vue Router ·
 Tailwind CSS v4 · Vite · Vitest. Maglumatlar brauzeriň LocalStorage-ynda saklanýar.
@@ -64,6 +65,7 @@ hash-routing we nispi `base` ulanylýar.
 │   └── audio/letters/            # islege görä harp ýazgylary (*.mp3)
 ├── scripts/
 │   ├── build-quran-data.py       # süre JSON-laryny döredýär
+│   ├── build-history-ayahs.py    # kitap/pygamber esasy aýatlarynyň arapça teksti
 │   └── translations-tk.json      # türkmençe many (çeşme)
 └── src/
     ├── main.ts                   # giriş: Pinia, Router, şriftler
@@ -74,6 +76,10 @@ hash-routing we nispi `base` ulanylýar.
     ├── data/
     │   ├── letters.ts            # 28 harp: ady, sesi, mahraj, mysal
     │   ├── tajweed.ts            # 9 düzgün: düşündiriş, mysal, soraglar
+    │   ├── books.ts              # 5 ylahy kitap: taryhy, aýatlar, soraglar
+    │   ├── prophets.ts           # 25 pygamber: başdan geçirmeler, sapaklar, soraglar
+    │   ├── history-ayahs.json    # esasy aýatlaryň arapça teksti (skript bilen)
+    │   ├── surahNames.ts         # 114 süräniň türkmençe ady
     │   └── quran/                # index.json + surah-XXX.json
     ├── services/
     │   ├── storage.ts            # LocalStorage örtügi + usePersistentRef
@@ -84,7 +90,8 @@ hash-routing we nispi `base` ulanylýar.
     │   ├── settings.ts           # tema, şrift, kary, awto-goşmak...
     │   ├── letters.ts            # öwrenilen / gaýtalamaly / statistika
     │   ├── tajweed.ts            # öwrenilen düzgünler / netijeler
-    │   └── reader.ts             # soňky ýer / okalan aýatlar / günler
+    │   ├── reader.ts             # soňky ýer / okalan aýatlar / günler
+    │   └── stories.ts            # okalan kitaplar/pygamberler, synag statistikasy
     ├── router/index.ts
     ├── utils/arabic.ts           # harp görnüşleri (ZWJ), sözlere bölmek, TTS
     ├── components/
@@ -93,12 +100,14 @@ hash-routing we nispi `base` ulanylýar.
     │   │                         # SegmentedControl, PageHeader, RichText
     │   ├── letters/              # LetterTile, LetterForms
     │   ├── quiz/                 # QuizRunner, QuizReport
-    │   └── reader/               # AyahText (basylýan sözler), AyahPicker
+    │   ├── reader/               # AyahText (basylýan sözler), AyahPicker
+    │   └── history/              # KeyAyahCard, StorySections, RefList, StoryAside
     └── views/
         ├── HomeView.vue · SettingsView.vue
         ├── letters/              # LettersView, LetterDetailView, LettersQuizView
         ├── tajweed/              # TajweedView, TajweedRuleView, TajweedQuizView
-        └── reader/               # SurahListView, ReaderView
+        ├── reader/               # SurahListView, ReaderView
+        └── history/              # HistoryView, BookView, ProphetView, HistoryQuizView
 ```
 
 ## 3. Bölümler
@@ -117,6 +126,13 @@ Kalkala. Her düzgünde düşündiriş, sesli mysallar, ýatlatma we synag; umum
 aşakda türkmençe manysy. Islendik söze basylanda şol sözüň okalyşy ýaňlanýar. Öňe/yza
 (düwme, ← → klawiša, barmak bilen süýşürmek), aýat sanawy, okalan aýatlaryň hasaby,
 soňky ýeri ýatda saklamak, şrift ölçegi, kary saýlamak.
+
+**4. Kitaplar we pygamberler** — Sahyfalar, Tewrat, Zebur, Injil we Kurany Kerim: kime,
+haçan, haýsy dilde inderilendigi we soňky taryhy. Kuranda ady geçýän 25 pygamber (takmynan
+taryhy tertipde): başdan geçirmeleri, alynýan sapaklar, esasy aýat (arapça + many + ses) we
+Kurandaky salgylar. “Okadym” belligi, ýalňyş analizi bilen synag. Wakalar Kuran aýatlaryna
+esaslanýar; aýatlarda bolmadyk jikme-jiklikler “rowaýatlara görä” diýip bellenýär. Pygamberleriň
+şekilleri ulanylmaýar — diňe adlarynyň arap ýazgysy.
 
 ## 4. Goldaw (GitHub Sponsors)
 

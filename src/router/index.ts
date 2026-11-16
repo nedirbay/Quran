@@ -67,6 +67,34 @@ const routes: RouteRecordRaw[] = [
     meta: { title: 'Okamak', resumable: true },
   },
 
+  // 4-nji bölüm: Kitaplar we pygamberler
+  {
+    path: '/taryh',
+    name: 'history',
+    component: () => import('@/views/history/HistoryView.vue'),
+    meta: { title: 'Kitaplar we pygamberler', resumable: true },
+  },
+  {
+    path: '/taryh/synag',
+    name: 'history-quiz',
+    component: () => import('@/views/history/HistoryQuizView.vue'),
+    meta: { title: 'Kitaplar we pygamberler synagy' },
+  },
+  {
+    path: '/taryh/kitap/:id',
+    name: 'book',
+    component: () => import('@/views/history/BookView.vue'),
+    props: true,
+    meta: { title: 'Kitap', resumable: true },
+  },
+  {
+    path: '/taryh/pygamber/:id',
+    name: 'prophet',
+    component: () => import('@/views/history/ProphetView.vue'),
+    props: true,
+    meta: { title: 'Pygamber', resumable: true },
+  },
+
   {
     path: '/sazlamalar',
     name: 'settings',

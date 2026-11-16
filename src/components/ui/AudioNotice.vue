@@ -11,7 +11,7 @@ const audio = useAudio()
     <div
       v-if="audio.notice.value === 'no-arabic-voice'"
       role="alert"
-      class="fixed inset-x-3 bottom-20 z-40 mx-auto max-w-lg rounded-2xl border border-gold/50 bg-surface p-4 shadow-xl md:bottom-6"
+      class="fixed inset-x-3 bottom-20 z-40 mx-auto max-w-lg rounded-2xl border border-gold/50 bg-surface p-4 shadow-xl xl:bottom-6"
     >
       <div class="flex items-start gap-3">
         <span class="flex size-9 shrink-0 items-center justify-center rounded-full bg-gold-soft text-gold">

@@ -1,7 +1,9 @@
 import { describe, expect, it } from 'vitest'
 import { LETTERS } from '@/data/letters'
 import { TAJWEED_RULES } from '@/data/tajweed'
-import { buildLetterQuiz, buildRuleQuiz, scoreQuiz, shuffle } from './quiz'
+import { BOOKS } from '@/data/books'
+import { PROPHETS } from '@/data/prophets'
+import { buildAuthoredQuiz, buildLetterQuiz, scoreQuiz, shuffle } from './quiz'
 
 /** Deterministik RNG — testler gaýtalanýar */
 function seeded(seed = 42) {
@@ -41,9 +43,9 @@ describe('buildLetterQuiz', () => {
   })
 })
 
-describe('buildRuleQuiz', () => {
+describe('buildAuthoredQuiz', () => {
   it('her düzgüniň ähli soraglaryny goşýar we dogry jogaby saklaýar', () => {
-    const qs = buildRuleQuiz(TAJWEED_RULES, seeded())
+    const qs = buildAuthoredQuiz(TAJWEED_RULES, seeded())
     const expected = TAJWEED_RULES.reduce((n, r) => n + r.questions.length, 0)
     expect(qs).toHaveLength(expected)
     for (const q of qs) {
@@ -76,12 +78,37 @@ describe('maglumatlaryň bitewiligi', () => {
     LETTERS.forEach((l, i) => expect(l.order).toBe(i + 1))
   })
 
-  it('tejwid soraglarynda dogry jogabyň indeksi çäkde', () => {
-    for (const r of TAJWEED_RULES)
+  it('ähli ýazylan soraglarda dogry jogabyň indeksi çäkde, jogaplar gaýtalanmaýar', () => {
+    for (const r of [...TAJWEED_RULES, ...BOOKS, ...PROPHETS])
       for (const q of r.questions) {
         expect(q.answer).toBeGreaterThanOrEqual(0)
         expect(q.answer).toBeLessThan(q.options.length)
         expect(new Set(q.options).size).toBe(q.options.length)
       }
+  })
+})
+
+describe('kitaplar we pygamberler', () => {
+  it('Kuranda ady geçýän 25 pygamber, tertip yzygiderli, id-ler kitaplar bilen çaknyşmaýar', () => {
+    expect(PROPHETS).toHaveLength(25)
+    PROPHETS.forEach((p, i) => expect(p.order).toBe(i + 1))
+    const ids = [...PROPHETS, ...BOOKS].map((x) => x.id)
+    expect(new Set(ids).size).toBe(ids.length)
+  })
+
+  it('kitap ↔ pygamber baglanyşyklary dogry', () => {
+    const prophetIds = new Set(PROPHETS.map((p) => p.id))
+    const bookIds = new Set(BOOKS.map((b) => b.id))
+    for (const b of BOOKS) b.prophetIds.forEach((id) => expect(prophetIds.has(id)).toBe(true))
+    for (const p of PROPHETS) if (p.bookId) expect(bookIds.has(p.bookId)).toBe(true)
+  })
+
+  it('her esasy aýatyň arapça teksti bar', async () => {
+    const ayahs: Record<string, string> = (await import('@/data/history-ayahs.json')).default
+    for (const item of [...BOOKS, ...PROPHETS]) {
+      const [s, range] = item.keyAyah.ref.split(':') as [string, string]
+      const [a, b = a] = range.split('-')
+      for (let n = Number(a); n <= Number(b); n++) expect(ayahs[`${s}:${n}`], `${s}:${n}`).toBeTruthy()
+    }
   })
 })

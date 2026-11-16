@@ -6,11 +6,13 @@ import SponsorButton from '@/components/ui/SponsorButton.vue'
 import { getSurahMeta } from '@/services/quran'
 import { useLettersStore } from '@/stores/letters'
 import { useReaderStore } from '@/stores/reader'
+import { useStoriesStore } from '@/stores/stories'
 import { useTajweedStore } from '@/stores/tajweed'
 
 const letters = useLettersStore()
 const tajweed = useTajweedStore()
 const reader = useReaderStore()
+const stories = useStoriesStore()
 
 const lastRead = computed(() => {
   const l = reader.state.last
@@ -59,6 +61,16 @@ const modules = computed<ModuleCard[]>(() => [
     to: '/kuran',
     percent: reader.progress.percent,
     stat: `${reader.progress.read}/${reader.progress.total} aýat`,
+  },
+  {
+    step: '4-nji bölüm',
+    title: 'Kitaplar we pygamberler',
+    text: 'Ylahy kitaplaryň taryhy we 25 pygamberiň başdan geçirmeleri — Kuran aýatlary we synag bilen.',
+    arabic: 'الأَنْبِيَاء',
+    icon: 'history',
+    to: '/taryh',
+    percent: stories.progress.percent,
+    stat: `${stories.progress.read}/${stories.progress.total} kyssa`,
   },
 ])
 
@@ -126,7 +138,7 @@ const lastQuiz = computed(() => letters.state.history[0])
     <!-- Modullar -->
     <section>
       <h2 class="mb-4 text-xl font-bold text-ink">Okuw bölümleri</h2>
-      <div class="grid gap-4 md:grid-cols-3">
+      <div class="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
         <RouterLink
           v-for="m in modules"
           :key="m.to"
@@ -154,7 +166,7 @@ const lastQuiz = computed(() => letters.state.history[0])
     </section>
 
     <!-- Gysga statistika -->
-    <section class="grid grid-cols-2 gap-3 sm:grid-cols-4">
+    <section class="grid grid-cols-2 gap-3 sm:grid-cols-5">
       <div class="card p-4">
         <p class="text-xs text-muted">Öwrenilen harplar</p>
         <p class="mt-1 text-2xl font-bold text-ink">{{ letters.progress.learned }}</p>
@@ -162,6 +174,10 @@ const lastQuiz = computed(() => letters.state.history[0])
       <div class="card p-4">
         <p class="text-xs text-muted">Öwrenilen düzgünler</p>
         <p class="mt-1 text-2xl font-bold text-ink">{{ tajweed.progress.studied }}</p>
+      </div>
+      <div class="card p-4">
+        <p class="text-xs text-muted">Okalan kyssalar</p>
+        <p class="mt-1 text-2xl font-bold text-ink">{{ stories.progress.read }}</p>
       </div>
       <div class="card p-4">
         <p class="text-xs text-muted">Okalan aýatlar</p>

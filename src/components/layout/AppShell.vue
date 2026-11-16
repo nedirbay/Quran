@@ -7,6 +7,7 @@ import { useSettingsStore } from '@/stores/settings'
 import { NAV_ITEMS } from './navItems'
 
 const route = useRoute()
+const MOBILE_ITEMS = NAV_ITEMS.filter((i) => !i.desktopOnly)
 const settings = useSettingsStore()
 
 const isActive = (match: string) => (match === '/' ? route.path === '/' : route.path.startsWith(match))
@@ -30,16 +31,16 @@ function toggleTheme() {
           >
           <span class="leading-tight">
             <span class="block text-[15px] font-bold text-ink">Kurany öwren</span>
-            <span class="block text-xs text-muted">Elipbiý · Tejwid · Okamak</span>
+            <span class="hidden text-xs text-muted sm:block">Elipbiý · Tejwid · Okamak · Taryh</span>
           </span>
         </RouterLink>
 
-        <nav class="ml-auto hidden items-center gap-1 md:flex" aria-label="Esasy menýu">
+        <nav class="ml-auto hidden items-center gap-1 xl:flex" aria-label="Esasy menýu">
           <RouterLink
             v-for="item in NAV_ITEMS"
             :key="item.to"
             :to="item.to"
-            class="flex h-10 items-center gap-2 rounded-xl px-3.5 text-sm font-semibold transition-colors"
+            class="flex h-10 items-center gap-2 rounded-xl px-3 text-sm font-semibold transition-colors"
             :class="isActive(item.match) ? 'bg-primary-soft text-primary' : 'text-muted hover:text-ink'"
           >
             <AppIcon :name="item.icon" :size="18" />
@@ -47,7 +48,16 @@ function toggleTheme() {
           </RouterLink>
         </nav>
 
-        <SponsorButton class="ml-auto md:ml-2" />
+        <SponsorButton class="ml-auto xl:ml-2" />
+
+        <RouterLink
+          to="/sazlamalar"
+          class="btn-icon xl:hidden"
+          :class="isActive('/sazlamalar') && 'bg-primary-soft text-primary'"
+          aria-label="Sazlamalar"
+        >
+          <AppIcon name="settings" />
+        </RouterLink>
 
         <button
           type="button"
@@ -60,7 +70,7 @@ function toggleTheme() {
       </div>
     </header>
 
-    <main class="mx-auto w-full max-w-6xl flex-1 px-4 pt-6 pb-28 sm:px-6 md:pb-12">
+    <main class="mx-auto w-full max-w-6xl flex-1 px-4 pt-6 pb-28 sm:px-6 xl:pb-12">
       <slot />
     </main>
 
@@ -68,12 +78,12 @@ function toggleTheme() {
 
     <!-- Mobil aşaky menýu -->
     <nav
-      class="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur-md md:hidden"
+      class="fixed inset-x-0 bottom-0 z-30 border-t border-line bg-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur-md xl:hidden"
       aria-label="Esasy menýu"
     >
       <div class="grid grid-cols-5">
         <RouterLink
-          v-for="item in NAV_ITEMS"
+          v-for="item in MOBILE_ITEMS"
           :key="item.to"
           :to="item.to"
           class="flex h-16 flex-col items-center justify-center gap-1 text-[11px] font-semibold transition-colors"
