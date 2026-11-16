@@ -27,3 +27,6 @@ dist-ssr
 public/audio/ayahs/
 public/audio/words/
 public/audio/manifest.json
+public/audio/letters/*.mp3
+public/audio/examples/
+public/audio/tts.json

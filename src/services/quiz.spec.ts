@@ -3,6 +3,7 @@ import { LETTERS } from '@/data/letters'
 import { TAJWEED_RULES } from '@/data/tajweed'
 import { BOOKS } from '@/data/books'
 import { PROPHETS } from '@/data/prophets'
+import { letterSyllables } from '@/utils/arabic'
 import { buildAuthoredQuiz, buildLetterQuiz, scoreQuiz, shuffle } from './quiz'
 
 /** Deterministik RNG — testler gaýtalanýar */
@@ -110,5 +111,20 @@ describe('kitaplar we pygamberler', () => {
       const [a, b = a] = range.split('-')
       for (let n = Number(a); n <= Number(b); n++) expect(ayahs[`${s}:${n}`], `${s}:${n}`).toBeTruthy()
     }
+  })
+})
+
+describe('letterSyllables', () => {
+  it('adaty harp: ba / bi / bu, faýl atlary <id>-a|i|u', () => {
+    const s = letterSyllables(LETTERS.find((l) => l.id === 'ba')!)
+    expect(s.map((x) => x.key)).toEqual(['ba-a', 'ba-i', 'ba-u'])
+    expect(s.map((x) => x.text)).toEqual(['بَ', 'بِ', 'بُ'])
+    expect(s.map((x) => x.translit)).toEqual(['ba', 'bi', 'bu'])
+  })
+
+  it('älif hemze görnüşinde: أَ إِ أُ', () => {
+    const s = letterSyllables(LETTERS[0]!)
+    expect(s.map((x) => x.text)).toEqual(['أَ', 'إِ', 'أُ'])
+    expect(s.map((x) => x.translit)).toEqual(['a', 'i', 'u'])
   })
 })

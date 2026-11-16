@@ -1,4 +1,4 @@
-import type { LetterForm } from '@/types'
+import type { ArabicLetter, LetterForm } from '@/types'
 
 const ZWJ = '‍'
 
@@ -57,4 +57,32 @@ export function toTtsText(text: string): string {
     .replace(/ۡ/g, 'ْ') // Uthmani sukun → adaty sukun
     .replace(/[ۖ-ۜ۞-۠ۢ-ۭ]/g, '') // waqf we beýleki belgiler
     .replace(/ـ/g, '') // tatweel
+}
+
+export interface LetterSyllable {
+  /** Ses faýlynyň ady: `<id>-a|i|u` (public/audio/letters/<key>.mp3) */
+  key: string
+  text: string
+  translit: string
+  name: string
+}
+
+/**
+ * Harp üç hereket bilen: üstün, astyn, ötre.
+ * Älif özbaşdak okalmaýar — hemze görnüşinde berilýär: أَ إِ أُ.
+ * LetterDetailView we scripts/generate-tts-audio.mjs şu funksiýany ulanýar.
+ */
+export function letterSyllables(l: Pick<ArabicLetter, 'id' | 'char' | 'translit'>): LetterSyllable[] {
+  const isAlif = l.id === 'alif'
+  const variants = [
+    { v: 'a', name: 'Üstün', mark: HARAKAT.ustun, carrier: isAlif ? 'أ' : l.char },
+    { v: 'i', name: 'Astyn', mark: HARAKAT.astyn, carrier: isAlif ? 'إ' : l.char },
+    { v: 'u', name: 'Ötre', mark: HARAKAT.otre, carrier: isAlif ? 'أ' : l.char },
+  ]
+  return variants.map((x) => ({
+    key: `${l.id}-${x.v}`,
+    text: x.carrier + x.mark,
+    name: x.name,
+    translit: isAlif ? x.v : l.translit + x.v,
+  }))
 }

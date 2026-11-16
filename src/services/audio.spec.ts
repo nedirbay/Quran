@@ -1,7 +1,7 @@
 import { afterEach, beforeEach, describe, expect, it } from 'vitest'
 import { audioUrls } from '@/config'
 import { useAudio } from './audio'
-import { applyLocalAudioManifest } from './localAudio'
+import { applyLocalAudioManifest, applyTtsManifest } from './localAudio'
 
 describe('ses çeşmeleriniň tertibi', () => {
   afterEach(() => applyLocalAudioManifest(null))
@@ -85,5 +85,19 @@ describe('audio.play — çeşmeden çeşmä geçmek', () => {
     failing = new Set()
     await useAudio().play({ url: 'single.mp3' }, 'k4')
     expect(played).toEqual(['single.mp3'])
+  })
+})
+
+describe('mysal sesleri (npm run audio:tts)', () => {
+  afterEach(() => applyTtsManifest(null))
+
+  it('döredilmedik bolsa boş — göni TTS, 404 ýok', () => {
+    applyTtsManifest(null)
+    expect(audioUrls.exampleSources('ex-ba')).toEqual([])
+  })
+
+  it('döredilen bolsa ýerli faýl', () => {
+    applyTtsManifest({ voice: 'ar-SA-HamedNeural', letters: 112, examples: 63 })
+    expect(audioUrls.exampleSources('rule-sedde-0')).toEqual(['/audio/examples/rule-sedde-0.mp3'])
   })
 })

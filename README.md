@@ -155,6 +155,41 @@ npm run audio -- --no-words                      # diňe aýatlar
 - Çeşmeler: aýatlar — [everyayah.com](https://everyayah.com), sözler — quran.com (`audio.qurancdn.com`).
   Programmany köpçülige ýa-da söwda maksady bilen paýlamazdan öň olaryň ulanyş şertlerini barlaň.
 
+## Harplaryň we mysallaryň sesi (`npm run audio:tts`)
+
+Harplaryň sesi adatça brauzeriň arapça TTS sesi bilen okalýar (Windows-daky Chrome-da ol ýok).
+Has ygtybarly bolmagy üçin sesleri bir gezek mp3 görnüşinde dörediň:
+
+```bash
+npm install                                        # msedge-tts paketi
+npm run audio:tts                                  # 175 faýl: harplar, bogunlar, mysallar
+npm run audio:tts -- --voice=ar-SA-ZariyahNeural   # aýal sesi
+npm run audio:tts -- --only=letters --rate=-25%    # diňe harplar, has haýal
+npm run audio:tts -- --force                       # bar faýllary täzeden döretmek
+npm run audio:tts -- --dry-run                     # näme dörediljegini görmek
+```
+
+| Faýl | Mazmuny |
+|---|---|
+| `public/audio/letters/<id>.mp3` | harpyň ady (بَاء) |
+| `public/audio/letters/<id>-a|i|u.mp3` | üstün / astyn / ötre bilen bogun (بَ بِ بُ) |
+| `public/audio/examples/ex-<id>.mp3` | harpyň mysal sözi |
+| `public/audio/examples/rule-<düzgün>-<n>.mp3` | tejwid mysallary |
+
+- Microsoft Edge “Read aloud” Neural sesleri ulanylýar (`msedge-tts`). Açar ýa-da hasap gerek däl,
+  **ýöne bu resmi API däl** — islendik wagt işlemezligi mümkin.
+- Neural ses harplaryň adyny gowy okaýar, emma ýeke bogunlarda we ح ع ق ض ýaly harplarda ýalňyşyp biler —
+  döredilen sesleri **bir mugallym diňläp barlasyn**. Gowy däl faýly öz ýazgyňyz bilen çalşyň:
+  şol at bilen goýlan faýl `--force` bolmasa üýtgedilmeýär.
+- Faýllar git-e goşulmaýar; `npm run build` olary `dist/`-e goşýar.
+
+## Täze süre goşmak
+
+1. `scripts/translations-tk.json` — süräniň türkmençe manysyny goşuň.
+2. `python3 scripts/build-quran-data.py <quran-json/dist>` — süre JSON faýly döreýär.
+3. `npm run audio` — täze süräniň aýat we söz sesleri awtomatiki tapylyp ýüklenýär (bar faýllar geçilýär).
+   Işledilmese hem programma täze süräniň sesini internetden alýar.
+
 ## 4. Goldaw (GitHub Sponsors)
 
 - `.github/FUNDING.yml` — GitHub-da repozitoriýanyň ýokarsynda **❤ Sponsor** düwmesini görkezýär.

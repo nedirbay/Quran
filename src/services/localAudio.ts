@@ -11,10 +11,20 @@ export interface LocalAudioManifest {
   words: boolean
 }
 
+/** scripts/generate-tts-audio.mjs döreden harp/mysal sesleri */
+export interface TtsManifest {
+  voice: string
+  letters: number
+  examples: number
+}
+
 export const localAudio = reactive({
   loaded: false,
   reciters: [] as string[],
   words: false,
+  ttsVoice: null as string | null,
+  ttsLetters: 0,
+  ttsExamples: 0,
 })
 
 export function applyLocalAudioManifest(m: Partial<LocalAudioManifest> | null) {
@@ -23,13 +33,28 @@ export function applyLocalAudioManifest(m: Partial<LocalAudioManifest> | null) {
   localAudio.loaded = true
 }
 
-export async function loadLocalAudioManifest(): Promise<void> {
+export function applyTtsManifest(m: Partial<TtsManifest> | null) {
+  localAudio.ttsVoice = m?.voice ?? null
+  localAudio.ttsLetters = m?.letters ?? 0
+  localAudio.ttsExamples = m?.examples ?? 0
+}
+
+/** JSON faýly okaýar; ýok bolsa null (dev serwer ýok faýlyň ýerine index.html gaýtarýar — ony hasaplamaýarys) */
+async function fetchJson<T>(path: string): Promise<T | null> {
   try {
-    const res = await fetch(`${import.meta.env.BASE_URL}audio/manifest.json`, { cache: 'no-cache' })
+    const res = await fetch(`${import.meta.env.BASE_URL}${path}`, { cache: 'no-cache' })
     const type = res.headers.get('content-type') ?? ''
-    // Dev serwer ýok faýlyň ýerine index.html gaýtarýar — ony manifest hasaplamaýarys
-    applyLocalAudioManifest(res.ok && type.includes('json') ? await res.json() : null)
+    return res.ok && type.includes('json') ? ((await res.json()) as T) : null
   } catch {
-    applyLocalAudioManifest(null)
+    return null
   }
+}
+
+export async function loadLocalAudioManifest(): Promise<void> {
+  const [main, tts] = await Promise.all([
+    fetchJson<LocalAudioManifest>('audio/manifest.json'),
+    fetchJson<TtsManifest>('audio/tts.json'),
+  ])
+  applyTtsManifest(tts)
+  applyLocalAudioManifest(main)
 }

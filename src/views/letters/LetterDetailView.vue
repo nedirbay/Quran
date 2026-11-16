@@ -7,7 +7,7 @@ import PageHeader from '@/components/ui/PageHeader.vue'
 import { audioUrls } from '@/config'
 import { LETTER_BY_ID, LETTERS } from '@/data/letters'
 import { useLettersStore } from '@/stores/letters'
-import { HARAKAT } from '@/utils/arabic'
+import { letterSyllables } from '@/utils/arabic'
 
 const props = defineProps<{ id: string }>()
 const store = useLettersStore()
@@ -22,23 +22,8 @@ watchEffect(() => {
   if (letter.value) store.setLastLetter(letter.value.id)
 })
 
-/** Harp üç hereket bilen: üstün, astyn, ötre (älif hemze görnüşinde okalýar: أَ إِ أُ) */
-const syllables = computed(() => {
-  const l = letter.value
-  if (!l) return []
-  const isAlif = l.id === 'alif'
-  const variants = [
-    { v: 'a', name: 'Üstün', mark: HARAKAT.ustun, carrier: isAlif ? 'أ' : l.char },
-    { v: 'i', name: 'Astyn', mark: HARAKAT.astyn, carrier: isAlif ? 'إ' : l.char },
-    { v: 'u', name: 'Ötre', mark: HARAKAT.otre, carrier: isAlif ? 'أ' : l.char },
-  ]
-  return variants.map((x) => ({
-    key: `${l.id}-${x.v}`,
-    text: x.carrier + x.mark,
-    name: x.name,
-    translit: isAlif ? x.v : l.translit + x.v,
-  }))
-})
+/** Harp üç hereket bilen: üstün, astyn, ötre */
+const syllables = computed(() => (letter.value ? letterSyllables(letter.value) : []))
 </script>
 
 <template>
@@ -128,7 +113,7 @@ const syllables = computed(() => {
             </p>
           </div>
           <p lang="ar" dir="rtl" class="font-arabic text-5xl leading-[1.6] text-primary">{{ letter.example.arabic }}</p>
-          <AudioButton :audio-key="`ex-${letter.id}`" :request="{ ttsText: letter.example.arabic }" />
+          <AudioButton :audio-key="`ex-${letter.id}`" :request="{ url: audioUrls.exampleSources(`ex-${letter.id}`), ttsText: letter.example.arabic }" />
         </section>
       </div>
     </div>

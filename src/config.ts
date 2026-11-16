@@ -35,6 +35,14 @@ export const audioUrls = {
    */
   letter: (letterId: string) => `${BASE}audio/letters/${letterId}.mp3`,
 
+  /** Mysal sözler we tejwid mysallary (`npm run audio:tts`): ex-<letterId>, rule-<ruleId>-<i> */
+  example: (key: string) => `${BASE}audio/examples/${key}.mp3`,
+
+  /** Mysal sesi: döredilen bolsa ýerli faýl, ýogsa boş — göni TTS (artykmaç 404 ýok) */
+  exampleSources(key: string): string[] {
+    return localAudio.ttsExamples > 0 ? [audioUrls.example(key)] : []
+  },
+
   /** `npm run audio` bilen ýüklenen ýerli faýllar */
   ayahLocal: (reciter: string, surah: number, ayah: number) =>
     `${BASE}audio/ayahs/${reciter}/${pad3(surah)}${pad3(ayah)}.mp3`,

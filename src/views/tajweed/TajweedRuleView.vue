@@ -3,6 +3,7 @@ import { computed, watchEffect } from 'vue'
 import AppIcon from '@/components/ui/AppIcon.vue'
 import AudioButton from '@/components/ui/AudioButton.vue'
 import PageHeader from '@/components/ui/PageHeader.vue'
+import { audioUrls } from '@/config'
 import RichText from '@/components/ui/RichText.vue'
 import { RULE_BY_ID, TAJWEED_RULES } from '@/data/tajweed'
 import { useTajweedStore } from '@/stores/tajweed'
@@ -49,8 +50,12 @@ watchEffect(() => {
         <section class="card p-5 sm:p-6">
           <h2 class="mb-4 text-lg font-bold text-ink">Mysallar</h2>
           <ul class="grid gap-3 sm:grid-cols-2">
-            <li v-for="ex in rule.examples" :key="ex.arabic" class="flex items-center gap-3 rounded-xl bg-surface-2 p-4">
-              <AudioButton size="sm" :audio-key="`rule-${rule.id}-${ex.arabic}`" :request="{ ttsText: ex.arabic }" />
+            <li v-for="(ex, i) in rule.examples" :key="ex.arabic" class="flex items-center gap-3 rounded-xl bg-surface-2 p-4">
+              <AudioButton
+                size="sm"
+                :audio-key="`rule-${rule.id}-${i}`"
+                :request="{ url: audioUrls.exampleSources(`rule-${rule.id}-${i}`), ttsText: ex.arabic }"
+              />
               <div class="min-w-0 flex-1">
                 <p class="font-bold text-primary">{{ ex.translit }}</p>
                 <p v-if="ex.note" class="text-xs text-muted">{{ ex.note }}</p>

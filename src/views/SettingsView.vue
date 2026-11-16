@@ -161,26 +161,40 @@ function resetAll() {
           </span>
         </div>
 
+        <!-- Harplaryň we mysallaryň sesleri (npm run audio:tts) -->
         <p
+          v-if="localAudio.ttsLetters > 0"
+          class="mt-3 flex items-start gap-2 rounded-xl bg-success-soft p-3 text-sm text-success"
+        >
+          <AppIcon name="check" :size="18" class="mt-0.5" />
+          <span>
+            <b>Harplaryň sesleri taýýar</b> ({{ localAudio.ttsLetters }} harp/bogun<template v-if="localAudio.ttsExamples">,
+              {{ localAudio.ttsExamples }} mysal</template>; ses: {{ localAudio.ttsVoice }}). Brauzeriň TTS sesi gerek däl.
+          </span>
+        </p>
+        <p
+          v-else
           class="mt-3 flex items-start gap-2 rounded-xl p-3 text-sm"
           :class="audio.arabicVoice.value ? 'bg-success-soft text-success' : 'bg-gold-soft text-ink'"
         >
           <AppIcon :name="audio.arabicVoice.value ? 'check' : 'alert'" :size="18" class="mt-0.5" />
           <span v-if="audio.arabicVoice.value">
-            Enjamyňyzda arapça ses bar ({{ audio.arabicVoice.value.name }}). Onlaýn ýazgy elýeterli bolmasa, şu ses
-            ulanylar.
+            Enjamyňyzda arapça ses bar ({{ audio.arabicVoice.value.name }}). Harplaryň sesi şonuň bilen okalýar.
           </span>
           <span v-else>
             <b>Brauzeriňizde arapça okaýjy ses (TTS) tapylmady</b>, şonuň üçin harplaryň we mysallaryň sesi çykmaýar.
             Aýatlaryň we sözleriň sesi bolsa internetden ýüklenýär we işlemegi dowam edýär.
             <span class="mt-2 block font-semibold">Çözgütler:</span>
             <ul class="mt-1 list-disc space-y-1 pl-5">
+              <li>
+                Programmany özüňiz gurýan bolsaňyz — harplaryň sesini bir gezek dörediň:
+                <code class="rounded bg-surface px-1">npm run audio:tts</code>
+              </li>
               <li><b>Microsoft Edge</b> brauzerinde açyň — arapça sesler goşmaça gurnamazdan bar.</li>
               <li>
                 <b>Windows:</b> Sazlamalar → Wagt we dil → Gepleşik (Speech) → Ses goş → “Arabic” saýlaň,
                 soňra brauzeri täzeden açyň.
               </li>
-              <li><b>Android:</b> Sazlamalar → Ýöriteleşdirilen mümkinçilikler → Tekstden gepleşige → Google → arap dilini ýükläň.</li>
               <li>
                 Ýa-da öz ýazgylaryňyzy <code class="rounded bg-surface px-1">public/audio/letters/</code> papkasyna
                 goýuň (mysal: <code class="rounded bg-surface px-1">ba.mp3</code>).
